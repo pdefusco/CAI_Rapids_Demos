@@ -1,0 +1,28 @@
+2026-09-11 19:06:18 main INFO Qualification:60 - Threadpool size is 2
+2026-09-11 19:06:19 main INFO RuntimeUtil:60 - 
+RAPIDS Accelerator for Apache Spark's Build/Runtime Information
+-- listing properties --
+build.spark.version=3.5.7
+build.scala.version=2.12.15
+test.qual.generate.golden.dir=/home/jenkins/agent/workspace/spark-r...
+test.qual.keep.per_app.summary=false
+runtime.os.version=6.12.103-127.188.amzn2023.x86_64
+runtime.os.name=Linux
+runtime.jvm.name=OpenJDK 64-Bit Server VM
+build.java.version=1.8.0_442
+runtime.jvm.arg.gc.UseG1GC=
+runtime.jvm.version=1.8.0_452
+build.version=25.10.9
+runtime.spark.version=3.5.7
+build.hadoop.version=3.3.6
+runtime.jvm.arg.heap.min=8g
+test.tools.cleanup.tmp.dir=true
+test.qual.generate.golden.enable=false
+runtime.jvm.arg.heap.max=17g
+build.benchmarks.checkpoints=noOp
+
+2026-09-11 19:06:19 Qualification-0 INFO QualificationAppInfo:60 - Start Parsing Event Log: file:/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-804ba8c1909c4004bb53641858a61004
+2026-09-11 19:06:25 Qualification-0 WARN QualificationEventProcessor:72 - SQL execution id 1 had failures, skipping
+2026-09-11 19:06:29 Qualification-0 INFO QualificationAppInfo:60 - Events stats of file:/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-804ba8c1909c4004bb53641858a61004 (Total/Parsed/Skipped/Process-Percentage): (65181/33110/32071/50.80)
+2026-09-11 19:06:29 Qualification-0 WARN QualificationAppInfo:72 - Application spark-804ba8c1909c4004bb53641858a61004: Cluster with variable executor cores detected. Using maximum value.
+2026-09-11 19:06:32 Qualification-0 INFO SuccessAppResult:60 - [SUCCESS] File: file:/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-804ba8c1909c4004bb53641858a61004, appName: Spark-ETL-v3, appId: spark-804ba8c1909c4004bb53641858a61004, attemptId: 1

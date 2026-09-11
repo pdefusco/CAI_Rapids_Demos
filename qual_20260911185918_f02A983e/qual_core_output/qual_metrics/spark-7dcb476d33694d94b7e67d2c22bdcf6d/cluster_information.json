@@ -1,0 +1,31 @@
+{
+  "appName" : "Spark-ETL-v2",
+  "appId" : "spark-7dcb476d33694d94b7e67d2c22bdcf6d",
+  "eventLogPath" : "file:/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-7dcb476d33694d94b7e67d2c22bdcf6d",
+  "sourceClusterInfo" : {
+    "vendor" : "onprem",
+    "coresPerExecutor" : 4,
+    "numExecsPerNode" : -1,
+    "numExecutors" : 178,
+    "numWorkerNodes" : 178,
+    "executorHeapMemory" : 8192,
+    "dynamicAllocationEnabled" : true,
+    "dynamicAllocationMaxExecutors" : "249",
+    "dynamicAllocationMinExecutors" : "0",
+    "dynamicAllocationInitialExecutors" : "0",
+    "driverHost" : "100.100.27.173"
+  },
+  "recommendedClusterInfo" : {
+    "vendor" : "onprem",
+    "coresPerExecutor" : 16,
+    "numWorkerNodes" : -1,
+    "numGpusPerNode" : 1,
+    "numExecutors" : 45,
+    "gpuDevice" : "l4",
+    "dynamicAllocationEnabled" : true,
+    "dynamicAllocationMaxExecutors" : "249",
+    "dynamicAllocationMinExecutors" : "0",
+    "dynamicAllocationInitialExecutors" : "0",
+    "workerNodeType" : "N/A"
+  }
+}

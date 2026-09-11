@@ -1,0 +1,63 @@
+App ID,SQL ID,Operator,Count,Stage Task Exec Duration(s),Total SQL Task Duration(s),% of Total SQL Task Duration,Supported
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,AQEShuffleRead,16,10392.33,17854.25,58.21,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,AdaptiveSparkPlan,5,2968.20,17854.25,16.62,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,ColumnarToRow,6,3672.01,17854.25,20.57,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Exchange,17,14865.71,17854.25,83.26,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Execute InsertIntoHadoopFsRelationCommand parquet,1,447.99,17854.25,2.51,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Filter,9,4493.72,17854.25,25.17,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,HashAggregate,7,1258.74,17854.25,7.05,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,InMemoryTableScan,4,1269.70,17854.25,7.11,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Project,1,1278.33,17854.25,7.16,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Project,7,10357.90,17854.25,58.01,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Scan parquet,1,0.27,17854.25,0.00,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Scan parquet,5,3671.74,17854.25,20.57,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Sort,18,12878.12,17854.25,72.13,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,SortMergeJoin,7,10357.90,17854.25,58.01,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,Window,3,2500.18,17854.25,14.00,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,1,WriteFiles,1,447.99,17854.25,2.51,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,AQEShuffleRead,10,8660.83,15152.88,57.16,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,AdaptiveSparkPlan,3,2716.22,15152.88,17.93,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,ColumnarToRow,6,3672.01,15152.88,24.23,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Exchange,12,12436.66,15152.88,82.07,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Execute InsertIntoHadoopFsRelationCommand parquet,1,204.46,15152.88,1.35,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Filter,7,3775.83,15152.88,24.92,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Generate,1,103.82,15152.88,0.69,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,HashAggregate,2,115.40,15152.88,0.76,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,InMemoryTableScan,2,308.28,15152.88,2.03,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Project,1,1278.33,15152.88,8.44,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Project,5,8660.83,15152.88,57.16,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Scan parquet,1,0.27,15152.88,0.00,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Scan parquet,5,3671.74,15152.88,24.23,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Sort,11,11161.01,15152.88,73.66,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,SortMergeJoin,5,8660.83,15152.88,57.16,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,Window,1,2500.18,15152.88,16.50,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,3,WriteFiles,1,204.46,15152.88,1.35,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,AQEShuffleRead,16,10392.33,17420.52,59.66,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,AdaptiveSparkPlan,5,2520.29,17420.52,14.47,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,ColumnarToRow,6,3672.01,17420.52,21.08,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Exchange,18,14879.89,17420.52,85.42,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Filter,9,4493.72,17420.52,25.80,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,HashAggregate,9,1272.99,17420.52,7.31,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,InMemoryTableScan,4,835.89,17420.52,4.80,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Project,1,1278.33,17420.52,7.34,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Project,7,10357.90,17420.52,59.46,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Scan parquet,1,0.27,17420.52,0.00,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Scan parquet,5,3671.74,17420.52,21.08,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Sort,18,12878.12,17420.52,73.93,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,SortMergeJoin,7,10357.90,17420.52,59.46,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,4,Window,3,2500.18,17420.52,14.35,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,AQEShuffleRead,10,8660.83,14958.70,57.90,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,AdaptiveSparkPlan,3,2511.82,14958.70,16.79,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,ColumnarToRow,6,3672.01,14958.70,24.55,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Exchange,13,12446.88,14958.70,83.21,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Filter,7,3775.83,14958.70,25.24,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Generate,1,103.82,14958.70,0.69,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,HashAggregate,4,125.69,14958.70,0.84,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,InMemoryTableScan,2,114.04,14958.70,0.76,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Project,1,1278.33,14958.70,8.55,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Project,5,8660.83,14958.70,57.90,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Scan parquet,1,0.27,14958.70,0.00,False
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Scan parquet,5,3671.74,14958.70,24.55,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Sort,11,11161.01,14958.70,74.61,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,SortMergeJoin,5,8660.83,14958.70,57.90,True
+spark-eece07b5af704cc8a9beb729b9aff2c8,5,Window,1,2500.18,14958.70,16.71,True

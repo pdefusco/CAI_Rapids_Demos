@@ -1,0 +1,2 @@
+Event Log,Status,App ID,Attempt ID,App Name,Description
+"file:/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-adda5dda44384747b931d5b6d57d78bd","SUCCESS","spark-adda5dda44384747b931d5b6d57d78bd",1,"Spark-ETL-v5","appDuration(ms): 1083949"

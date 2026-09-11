@@ -1,0 +1,18 @@
+SQL ID,Stage ID,ExecId,Unsupported Type,Unsupported Operator,Details,Stage Duration,App Duration,Action
+0,-1,0,Exec,"Execute CreateDataSourceTableAsSelectCommand","Unsupported",0,651263,IgnorePerf
+1,92,1,Exec,"AdaptiveSparkPlan","Unsupported",56733,651263,IgnoreNoPerf
+1,0,2,Exec,"ColumnarToRow","Unsupported",214818,651263,IgnoreNoPerf
+1,1,3,Exec,"ColumnarToRow","Unsupported",218159,651263,IgnoreNoPerf
+1,2,4,Exec,"ColumnarToRow","Unsupported",219302,651263,IgnoreNoPerf
+1,3,5,Exec,"ColumnarToRow","Unsupported",220527,651263,IgnoreNoPerf
+1,4,6,Exec,"ColumnarToRow","Unsupported",216484,651263,IgnoreNoPerf
+1,5,7,Exec,"ColumnarToRow","Unsupported",203910,651263,IgnoreNoPerf
+1,5,8,ReadExec,"Scan parquet","Unsupported IO format",203910,651263,Triage
+2,158,9,Exec,"AdaptiveSparkPlan","Unsupported",44,651263,IgnoreNoPerf
+2,93,10,Exec,"ColumnarToRow","Unsupported",50166,651263,IgnoreNoPerf
+2,94,11,Exec,"ColumnarToRow","Unsupported",19983,651263,IgnoreNoPerf
+2,95,12,Exec,"ColumnarToRow","Unsupported",21152,651263,IgnoreNoPerf
+2,96,13,Exec,"ColumnarToRow","Unsupported",23181,651263,IgnoreNoPerf
+2,97,14,Exec,"ColumnarToRow","Unsupported",21090,651263,IgnoreNoPerf
+2,98,15,Exec,"ColumnarToRow","Unsupported",13259,651263,IgnoreNoPerf
+2,98,16,ReadExec,"Scan parquet","Unsupported IO format",13259,651263,Triage

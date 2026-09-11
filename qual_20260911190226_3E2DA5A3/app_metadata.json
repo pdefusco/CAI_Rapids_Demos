@@ -1,0 +1,16 @@
+[
+  {
+    "appId": "spark-9ace2e52775145128b44734c7cf2c280",
+    "appName": "Spark-ETL-v7",
+    "eventLog": "file:/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-9ace2e52775145128b44734c7cf2c280",
+    "clusterInfo": {
+      "platform": "onprem",
+      "sourceCluster": {},
+      "recommendedCluster": {}
+    },
+    "sparkRuntime": "SPARK",
+    "estimatedGpuSpeedupCategory": "Medium",
+    "fullClusterConfigRecommendations": "",
+    "gpuConfigRecommendationBreakdown": ""
+  }
+]

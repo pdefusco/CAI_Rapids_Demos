@@ -1,0 +1,55 @@
+SQL ID,Stage ID,ExecId,Unsupported Type,Unsupported Operator,Details,Stage Duration,App Duration,Action
+0,-1,0,Exec,"Execute CreateDataSourceTableAsSelectCommand","Unsupported",0,578976,IgnorePerf
+1,146,1,Exec,"AdaptiveSparkPlan","Unsupported",10976,578976,IgnoreNoPerf
+1,128,2,Exec,"AdaptiveSparkPlan","Unsupported",428,578976,IgnoreNoPerf
+1,52,3,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+1,40,4,Exec,"Project","Contains unsupported expr",45858,578976,Triage
+1,40,4,Expr,"CITY_","Unsupported",45858,578976,Triage
+1,0,5,Exec,"ColumnarToRow","Unsupported",69961,578976,IgnoreNoPerf
+1,1,6,Exec,"ColumnarToRow","Unsupported",71664,578976,IgnoreNoPerf
+1,2,7,Exec,"ColumnarToRow","Unsupported",74684,578976,IgnoreNoPerf
+1,3,8,Exec,"ColumnarToRow","Unsupported",77817,578976,IgnoreNoPerf
+1,4,9,Exec,"ColumnarToRow","Unsupported",75957,578976,IgnoreNoPerf
+1,5,10,Exec,"ColumnarToRow","Unsupported",75791,578976,IgnoreNoPerf
+1,5,11,ReadExec,"Scan parquet","Unsupported IO format",75791,578976,Triage
+1,52,12,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+1,52,13,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+2,-1,14,Exec,"Execute CreateDataSourceTableAsSelectCommand","Unsupported",0,578976,IgnorePerf
+3,184,15,Exec,"AdaptiveSparkPlan","Unsupported",4575,578976,IgnoreNoPerf
+3,171,16,Exec,"AdaptiveSparkPlan","Unsupported",312,578976,IgnoreNoPerf
+3,52,17,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+3,40,18,Exec,"Project","Contains unsupported expr",45858,578976,Triage
+3,40,18,Expr,"CITY_","Unsupported",45858,578976,Triage
+3,0,19,Exec,"ColumnarToRow","Unsupported",69961,578976,IgnoreNoPerf
+3,1,20,Exec,"ColumnarToRow","Unsupported",71664,578976,IgnoreNoPerf
+3,2,21,Exec,"ColumnarToRow","Unsupported",74684,578976,IgnoreNoPerf
+3,3,22,Exec,"ColumnarToRow","Unsupported",77817,578976,IgnoreNoPerf
+3,4,23,Exec,"ColumnarToRow","Unsupported",75957,578976,IgnoreNoPerf
+3,5,24,Exec,"ColumnarToRow","Unsupported",75791,578976,IgnoreNoPerf
+3,5,25,ReadExec,"Scan parquet","Unsupported IO format",75791,578976,Triage
+4,221,26,Exec,"AdaptiveSparkPlan","Unsupported",76,578976,IgnoreNoPerf
+4,128,27,Exec,"AdaptiveSparkPlan","Unsupported",428,578976,IgnoreNoPerf
+4,52,28,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+4,40,29,Exec,"Project","Contains unsupported expr",45858,578976,Triage
+4,40,29,Expr,"CITY_","Unsupported",45858,578976,Triage
+4,0,30,Exec,"ColumnarToRow","Unsupported",69961,578976,IgnoreNoPerf
+4,1,31,Exec,"ColumnarToRow","Unsupported",71664,578976,IgnoreNoPerf
+4,2,32,Exec,"ColumnarToRow","Unsupported",74684,578976,IgnoreNoPerf
+4,3,33,Exec,"ColumnarToRow","Unsupported",77817,578976,IgnoreNoPerf
+4,4,34,Exec,"ColumnarToRow","Unsupported",75957,578976,IgnoreNoPerf
+4,5,35,Exec,"ColumnarToRow","Unsupported",75791,578976,IgnoreNoPerf
+4,5,36,ReadExec,"Scan parquet","Unsupported IO format",75791,578976,Triage
+4,52,37,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+4,52,38,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+5,248,39,Exec,"AdaptiveSparkPlan","Unsupported",70,578976,IgnoreNoPerf
+5,171,40,Exec,"AdaptiveSparkPlan","Unsupported",312,578976,IgnoreNoPerf
+5,52,41,Exec,"AdaptiveSparkPlan","Unsupported",54057,578976,IgnoreNoPerf
+5,40,42,Exec,"Project","Contains unsupported expr",45858,578976,Triage
+5,40,42,Expr,"CITY_","Unsupported",45858,578976,Triage
+5,0,43,Exec,"ColumnarToRow","Unsupported",69961,578976,IgnoreNoPerf
+5,1,44,Exec,"ColumnarToRow","Unsupported",71664,578976,IgnoreNoPerf
+5,2,45,Exec,"ColumnarToRow","Unsupported",74684,578976,IgnoreNoPerf
+5,3,46,Exec,"ColumnarToRow","Unsupported",77817,578976,IgnoreNoPerf
+5,4,47,Exec,"ColumnarToRow","Unsupported",75957,578976,IgnoreNoPerf
+5,5,48,Exec,"ColumnarToRow","Unsupported",75791,578976,IgnoreNoPerf
+5,5,49,ReadExec,"Scan parquet","Unsupported IO format",75791,578976,Triage

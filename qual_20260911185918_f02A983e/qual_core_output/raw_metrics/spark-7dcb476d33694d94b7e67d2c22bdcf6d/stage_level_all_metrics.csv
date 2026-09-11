@@ -1,0 +1,2013 @@
+stageId,accumulatorId,name,min,median,max,total
+0,252,"number of output rows",2410100,2412956,3978300,2500000000
+0,253,"scan time",133,1608,12487,1945038
+0,972,"data size",134965600,135134952,222784800,140000000000
+0,991,"shuffle bytes written",77886442,77992833,128406630,80800839341
+0,992,"shuffle records written",2410100,2412956,3978300,2500000000
+0,993,"shuffle write time",37271946,61939399,785467633,64169493828
+0,994,"duration",134,2531,13653,2914589
+0,995,"number of output rows",2410100,2412956,3978300,2500000000
+0,996,"number of output rows",2410100,2412956,3978300,2500000000
+0,997,"number of input batches",589,589,972,610970
+0,1469,"internal.metrics.executorDeserializeTime",1,1,1060,140447
+0,1470,"internal.metrics.executorDeserializeCpuTime",1442708,61454077,665522893,64158324757
+0,1471,"internal.metrics.executorRunTime",157,4506,15956,4970816
+0,1472,"internal.metrics.executorCpuTime",57694659,3151285312,6953523314,3289942132263
+0,1473,"internal.metrics.resultSize",2723,2929,2985,3070373
+0,1474,"internal.metrics.jvmGCTime",22,55,847,230889
+0,1475,"internal.metrics.resultSerializationTime",1,1,14,202
+0,1478,"internal.metrics.peakExecutionMemory",32768,266507033,335544320,278233612288
+0,1497,"internal.metrics.shuffle.write.bytesWritten",77886442,77992833,128406630,80800839341
+0,1498,"internal.metrics.shuffle.write.recordsWritten",2410100,2412956,3978300,2500000000
+0,1499,"internal.metrics.shuffle.write.writeTime",37271946,61939399,785467633,64169493828
+0,1500,"internal.metrics.input.bytesRead",1005925,1028481,1044263,1074108889
+0,1501,"internal.metrics.input.recordsRead",2410100,2412956,3978300,2500000000
+1,283,"number of output rows",80000,80000,80000,2000000
+1,284,"scan time",6829,8035,17989,201048
+1,1001,"data size",2560000,2560000,2560000,64000000
+1,1020,"shuffle bytes written",794545,796162,797384,19904227
+1,1021,"shuffle records written",80000,80000,80000,2000000
+1,1022,"shuffle write time",3572317,4505618,5647502,112640584
+1,1023,"duration",6874,8094,18040,202500
+1,1024,"number of output rows",80000,80000,80000,2000000
+1,1025,"number of output rows",80000,80000,80000,2000000
+1,1026,"number of input batches",32,32,32,800
+1,1504,"internal.metrics.executorDeserializeTime",1,29,154,870
+1,1505,"internal.metrics.executorDeserializeCpuTime",1496380,8869193,15002888,221729956
+1,1506,"internal.metrics.executorRunTime",6966,8240,18348,206133
+1,1507,"internal.metrics.executorCpuTime",613604161,1065702803,1412397087,26642570217
+1,1508,"internal.metrics.resultSize",2897,2926,2942,73348
+1,1509,"internal.metrics.jvmGCTime",10,52,203,1225
+1,1513,"internal.metrics.peakExecutionMemory",69206016,69206016,69206016,1730150400
+1,1532,"internal.metrics.shuffle.write.bytesWritten",794545,796162,797384,19904227
+1,1533,"internal.metrics.shuffle.write.recordsWritten",80000,80000,80000,2000000
+1,1534,"internal.metrics.shuffle.write.writeTime",3572317,4505618,5647502,112640584
+1,1535,"internal.metrics.input.bytesRead",219968,220207,220224,5505296
+1,1536,"internal.metrics.input.recordsRead",80000,80000,80000,2000000
+2,314,"number of output rows",119980,119994,120023,3000000
+2,315,"scan time",6986,7507,11551,187839
+2,1030,"data size",3839360,3839994,3840736,96000000
+2,1049,"shuffle bytes written",939851,940632,941223,23515992
+2,1050,"shuffle records written",119980,119994,120023,3000000
+2,1051,"shuffle write time",3689057,5280418,10767096,132010576
+2,1052,"duration",7043,7570,11604,189398
+2,1053,"number of output rows",119980,119994,120023,3000000
+2,1054,"number of output rows",119980,119994,120023,3000000
+2,1055,"number of input batches",32,32,32,800
+2,1539,"internal.metrics.executorDeserializeTime",2,17,75,545
+2,1540,"internal.metrics.executorDeserializeCpuTime",1934494,7205389,14488773,180134858
+2,1541,"internal.metrics.executorRunTime",7161,7958,18166,199061
+2,1542,"internal.metrics.executorCpuTime",683902994,1015379958,1204421177,25384499107
+2,1543,"internal.metrics.resultSize",2897,2935,2942,73464
+2,1544,"internal.metrics.jvmGCTime",7,22,120,659
+2,1548,"internal.metrics.peakExecutionMemory",69206016,69206016,69206016,1730150400
+2,1567,"internal.metrics.shuffle.write.bytesWritten",939851,940632,941223,23515992
+2,1568,"internal.metrics.shuffle.write.recordsWritten",119980,119994,120023,3000000
+2,1569,"internal.metrics.shuffle.write.writeTime",3689057,5280418,10767096,132010576
+2,1570,"internal.metrics.input.bytesRead",234462,234462,234464,5861590
+2,1571,"internal.metrics.input.recordsRead",119980,119994,120023,3000000
+3,345,"number of output rows",19980,19994,20012,500000
+3,346,"scan time",6238,6910,11060,172912
+3,1059,"data size",1099176,1101488,1102864,27537360
+3,1078,"shuffle bytes written",484235,485976,487175,12149531
+3,1079,"shuffle records written",19980,19994,20012,500000
+3,1080,"shuffle write time",3520484,4422441,7433129,110561165
+3,1081,"duration",6266,6942,11103,173707
+3,1082,"number of output rows",19980,19994,20012,500000
+3,1083,"number of output rows",19980,19994,20012,500000
+3,1084,"number of input batches",32,32,32,800
+3,1574,"internal.metrics.executorDeserializeTime",2,11,58,427
+3,1575,"internal.metrics.executorDeserializeCpuTime",2264805,6971770,12401270,174294382
+3,1576,"internal.metrics.executorRunTime",6354,7047,11217,176307
+3,1577,"internal.metrics.executorCpuTime",849665664,996471235,1315094619,24911781033
+3,1578,"internal.metrics.resultSize",2897,2929,2942,73375
+3,1579,"internal.metrics.jvmGCTime",7,35,202,839
+3,1583,"internal.metrics.peakExecutionMemory",67633152,67633152,67633152,1690828800
+3,1602,"internal.metrics.shuffle.write.bytesWritten",484235,485976,487175,12149531
+3,1603,"internal.metrics.shuffle.write.recordsWritten",19980,19994,20012,500000
+3,1604,"internal.metrics.shuffle.write.writeTime",3520484,4422441,7433129,110561165
+3,1605,"internal.metrics.input.bytesRead",221668,221890,222143,5547407
+3,1606,"internal.metrics.input.recordsRead",19980,19994,20012,500000
+4,376,"number of output rows",2500,2500,2500,5000
+4,377,"scan time",5490,8157,10825,16315
+4,1088,"data size",129944,130000,130056,260000
+4,1107,"shuffle bytes written",121502,121924,122346,243848
+4,1108,"shuffle records written",2500,2500,2500,5000
+4,1109,"shuffle write time",3170930,3841313,4511696,7682626
+4,1110,"duration",5511,8176,10842,16353
+4,1111,"number of output rows",2500,2500,2500,5000
+4,1112,"number of output rows",2500,2500,2500,5000
+4,1113,"number of input batches",25,25,25,50
+4,1609,"internal.metrics.executorDeserializeTime",26,32,38,64
+4,1610,"internal.metrics.executorDeserializeCpuTime",10218669,11058934,11899199,22117868
+4,1611,"internal.metrics.executorRunTime",5600,8279,10959,16559
+4,1612,"internal.metrics.executorCpuTime",971557034,973072347,974587661,1946144695
+4,1613,"internal.metrics.resultSize",2940,2940,2941,5881
+4,1614,"internal.metrics.jvmGCTime",87,87,88,175
+4,1618,"internal.metrics.peakExecutionMemory",67174400,67174400,67174400,134348800
+4,1637,"internal.metrics.shuffle.write.bytesWritten",121502,121924,122346,243848
+4,1638,"internal.metrics.shuffle.write.recordsWritten",2500,2500,2500,5000
+4,1639,"internal.metrics.shuffle.write.writeTime",3170930,3841313,4511696,7682626
+4,1640,"internal.metrics.input.bytesRead",190548,190551,190554,381102
+4,1641,"internal.metrics.input.recordsRead",2500,2500,2500,5000
+5,407,"number of output rows",731,731,731,731
+5,408,"scan time",257,257,257,257
+5,1117,"data size",29240,29240,29240,29240
+5,1136,"shuffle bytes written",47807,47807,47807,47807
+5,1137,"shuffle records written",731,731,731,731
+5,1138,"shuffle write time",2277798,2277798,2277798,2277798
+5,1139,"duration",288,288,288,288
+5,1140,"number of output rows",731,731,731,731
+5,1141,"number of output rows",731,731,731,731
+5,1142,"number of input batches",1,1,1,1
+5,1644,"internal.metrics.executorDeserializeTime",21,21,21,21
+5,1645,"internal.metrics.executorDeserializeCpuTime",10448710,10448710,10448710,10448710
+5,1646,"internal.metrics.executorRunTime",363,363,363,363
+5,1647,"internal.metrics.executorCpuTime",154348542,154348542,154348542,154348542
+5,1648,"internal.metrics.resultSize",2938,2938,2938,2938
+5,1649,"internal.metrics.jvmGCTime",20,20,20,20
+5,1653,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,67141632
+5,1672,"internal.metrics.shuffle.write.bytesWritten",47807,47807,47807,47807
+5,1673,"internal.metrics.shuffle.write.recordsWritten",731,731,731,731
+5,1674,"internal.metrics.shuffle.write.writeTime",2277798,2277798,2277798,2277798
+5,1675,"internal.metrics.input.bytesRead",7737,7737,7737,7737
+5,1676,"internal.metrics.input.recordsRead",731,731,731,731
+6,590,"number of output rows",2410100,2412966,3978300,2500000000
+6,591,"scan time",134,908,7403,1110166
+6,1298,"data size",134965600,135134965,222784800,140000000000
+6,1317,"shuffle bytes written",57772383,57854927,95217935,59937969030
+6,1318,"shuffle records written",2410100,2412966,3978300,2500000000
+6,1319,"shuffle write time",35046241,55452740,151699864,57449299195
+6,1320,"duration",136,1615,7933,1916974
+6,1321,"number of output rows",2410100,2412966,3978300,2500000000
+6,1322,"number of output rows",2410100,2412966,3978300,2500000000
+6,1323,"number of input batches",589,589,972,610970
+6,1679,"internal.metrics.executorDeserializeTime",1,1,69,3324
+6,1680,"internal.metrics.executorDeserializeCpuTime",1397574,2695932,13502382,2814825181
+6,1681,"internal.metrics.executorRunTime",156,3144,9263,3537585
+6,1682,"internal.metrics.executorCpuTime",59493865,2509891329,4302287004,2620326821287
+6,1683,"internal.metrics.resultSize",2725,2917,2983,3067763
+6,1684,"internal.metrics.jvmGCTime",10,20,546,93312
+6,1685,"internal.metrics.resultSerializationTime",2,39,76,78
+6,1688,"internal.metrics.peakExecutionMemory",32768,266507029,335544320,278233612288
+6,1707,"internal.metrics.shuffle.write.bytesWritten",57772383,57854927,95217935,59937969030
+6,1708,"internal.metrics.shuffle.write.recordsWritten",2410100,2412966,3978300,2500000000
+6,1709,"internal.metrics.shuffle.write.writeTime",35046241,55452740,151699864,57449299195
+6,1710,"internal.metrics.input.bytesRead",1005925,1028358,1044063,1073983375
+6,1711,"internal.metrics.input.recordsRead",2410100,2412966,3978300,2500000000
+7,621,"number of output rows",80000,80000,80000,2000000
+7,622,"scan time",5406,10069,21877,251844
+7,1327,"data size",1280000,1280000,1280000,32000000
+7,1346,"shuffle bytes written",502324,505708,508770,12642851
+7,1347,"shuffle records written",80000,80000,80000,2000000
+7,1348,"shuffle write time",3138032,3594296,4939056,89857522
+7,1349,"duration",5437,10104,21913,252744
+7,1350,"number of output rows",80000,80000,80000,2000000
+7,1351,"number of output rows",80000,80000,80000,2000000
+7,1352,"number of input batches",32,32,32,800
+7,1714,"internal.metrics.executorDeserializeTime",1,8,32,396
+7,1715,"internal.metrics.executorDeserializeCpuTime",1977964,5508007,9637886,137700336
+7,1716,"internal.metrics.executorRunTime",5513,10192,22020,254965
+7,1717,"internal.metrics.executorCpuTime",600559805,682199873,983591628,17054997017
+7,1718,"internal.metrics.resultSize",2897,2929,2942,73392
+7,1719,"internal.metrics.jvmGCTime",7,12,35,394
+7,1723,"internal.metrics.peakExecutionMemory",69206016,69206016,69206016,1730150400
+7,1742,"internal.metrics.shuffle.write.bytesWritten",502324,505708,508770,12642851
+7,1743,"internal.metrics.shuffle.write.recordsWritten",80000,80000,80000,2000000
+7,1744,"internal.metrics.shuffle.write.writeTime",3138032,3594296,4939056,89857522
+7,1745,"internal.metrics.input.bytesRead",222496,222738,222752,5568496
+7,1746,"internal.metrics.input.recordsRead",80000,80000,80000,2000000
+8,652,"number of output rows",119980,119995,120023,3000000
+8,653,"scan time",5702,8902,20282,222738
+8,1356,"data size",1919680,1919994,1920368,48000000
+8,1375,"shuffle bytes written",817907,819889,822545,20497380
+8,1376,"shuffle records written",119980,119995,120023,3000000
+8,1377,"shuffle write time",3433442,3768297,5206992,94207617
+8,1378,"duration",5744,8946,20329,223798
+8,1379,"number of output rows",119980,119995,120023,3000000
+8,1380,"number of output rows",119980,119995,120023,3000000
+8,1381,"number of input batches",32,32,32,800
+8,1749,"internal.metrics.executorDeserializeTime",1,14,63,493
+8,1750,"internal.metrics.executorDeserializeCpuTime",1852557,6252903,9044693,156322735
+8,1751,"internal.metrics.executorRunTime",5841,10293,23490,257491
+8,1752,"internal.metrics.executorCpuTime",557950214,700052506,934998556,17501312844
+8,1753,"internal.metrics.resultSize",2895,2919,2942,73159
+8,1754,"internal.metrics.jvmGCTime",7,18,41,393
+8,1758,"internal.metrics.peakExecutionMemory",69206016,69206016,69206016,1730150400
+8,1777,"internal.metrics.shuffle.write.bytesWritten",817907,819889,822545,20497380
+8,1778,"internal.metrics.shuffle.write.recordsWritten",119980,119995,120023,3000000
+8,1779,"internal.metrics.shuffle.write.writeTime",3433442,3768297,5206992,94207617
+8,1780,"internal.metrics.input.bytesRead",234462,234462,234464,5861590
+8,1781,"internal.metrics.input.recordsRead",119980,119995,120023,3000000
+9,683,"number of output rows",19980,19994,20012,500000
+9,684,"scan time",5705,9918,20028,248071
+9,1385,"data size",319680,319994,320192,8000000
+9,1404,"shuffle bytes written",176059,176938,178110,4423585
+9,1405,"shuffle records written",19980,19994,20012,500000
+9,1406,"shuffle write time",2775735,2957944,3379925,73948730
+9,1407,"duration",5723,9942,20049,248662
+9,1408,"number of output rows",19980,19994,20012,500000
+9,1409,"number of output rows",19980,19994,20012,500000
+9,1410,"number of input batches",32,32,32,800
+9,1784,"internal.metrics.executorDeserializeTime",1,7,31,338
+9,1785,"internal.metrics.executorDeserializeCpuTime",1532484,5341185,8535358,133529741
+9,1786,"internal.metrics.executorRunTime",5791,10009,20125,250380
+9,1787,"internal.metrics.executorCpuTime",468299161,608935944,824485592,15223398754
+9,1788,"internal.metrics.resultSize",2895,2919,2942,73156
+9,1789,"internal.metrics.jvmGCTime",7,10,28,237
+9,1793,"internal.metrics.peakExecutionMemory",67633152,67633152,67633152,1690828800
+9,1812,"internal.metrics.shuffle.write.bytesWritten",176059,176938,178110,4423585
+9,1813,"internal.metrics.shuffle.write.recordsWritten",19980,19994,20012,500000
+9,1814,"internal.metrics.shuffle.write.writeTime",2775735,2957944,3379925,73948730
+9,1815,"internal.metrics.input.bytesRead",222052,222275,222527,5557007
+9,1816,"internal.metrics.input.recordsRead",19980,19994,20012,500000
+10,714,"number of output rows",2500,2500,2500,5000
+10,715,"scan time",4586,4619,4652,9238
+10,1414,"data size",40000,40000,40000,80000
+10,1433,"shuffle bytes written",73692,73693,73695,147387
+10,1434,"shuffle records written",2500,2500,2500,5000
+10,1435,"shuffle write time",2619378,2664373,2709368,5328746
+10,1436,"duration",4603,4636,4669,9272
+10,1437,"number of output rows",2500,2500,2500,5000
+10,1438,"number of output rows",2500,2500,2500,5000
+10,1439,"number of input batches",25,25,25,50
+10,1819,"internal.metrics.executorDeserializeTime",10,11,12,22
+10,1820,"internal.metrics.executorDeserializeCpuTime",3939256,4582364,5225473,9164729
+10,1821,"internal.metrics.executorRunTime",4665,4699,4734,9399
+10,1822,"internal.metrics.executorCpuTime",418118103,455350327,492582552,910700655
+10,1823,"internal.metrics.resultSize",2898,2919,2940,5838
+10,1824,"internal.metrics.jvmGCTime",10,10,10,10
+10,1828,"internal.metrics.peakExecutionMemory",67174400,67174400,67174400,134348800
+10,1847,"internal.metrics.shuffle.write.bytesWritten",73692,73693,73695,147387
+10,1848,"internal.metrics.shuffle.write.recordsWritten",2500,2500,2500,5000
+10,1849,"internal.metrics.shuffle.write.writeTime",2619378,2664373,2709368,5328746
+10,1850,"internal.metrics.input.bytesRead",190848,190851,190854,381702
+10,1851,"internal.metrics.input.recordsRead",2500,2500,2500,5000
+11,745,"number of output rows",731,731,731,731
+11,746,"scan time",214,214,214,214
+11,1443,"data size",11696,11696,11696,11696
+11,1462,"shuffle bytes written",37994,37994,37994,37994
+11,1463,"shuffle records written",731,731,731,731
+11,1464,"shuffle write time",1607306,1607306,1607306,1607306
+11,1465,"duration",218,218,218,218
+11,1466,"number of output rows",731,731,731,731
+11,1467,"number of output rows",731,731,731,731
+11,1468,"number of input batches",1,1,1,1
+11,1854,"internal.metrics.executorDeserializeTime",9,9,9,9
+11,1855,"internal.metrics.executorDeserializeCpuTime",4621713,4621713,4621713,4621713
+11,1856,"internal.metrics.executorRunTime",264,264,264,264
+11,1857,"internal.metrics.executorCpuTime",80369898,80369898,80369898,80369898
+11,1858,"internal.metrics.resultSize",2895,2895,2895,2895
+11,1863,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,67141632
+11,1882,"internal.metrics.shuffle.write.bytesWritten",37994,37994,37994,37994
+11,1883,"internal.metrics.shuffle.write.recordsWritten",731,731,731,731
+11,1884,"internal.metrics.shuffle.write.writeTime",1607306,1607306,1607306,1607306
+11,1885,"internal.metrics.input.bytesRead",7749,7749,7749,7749
+11,1886,"internal.metrics.input.recordsRead",731,731,731,731
+14,974,"remote blocks read",836,1002,1036,811830
+14,975,"local blocks read",12,12,200,16970
+14,976,"remote bytes read",80364809,98931675,110342232,79145500994
+14,978,"local bytes read",1078627,2357855,19844665,1655338347
+14,979,"fetch wait time",0,20447,65035,16518535
+14,980,"records read",2786247,3124800,3452922,2500000000
+14,989,"remote reqs duration",3074,62258,289962,49965039
+14,1003,"remote blocks read",22,22,25,19539
+14,1004,"local blocks read",1,1,3,461
+14,1005,"remote bytes read",21258,24108,26424,19444420
+14,1007,"local bytes read",737,1333,3315,459807
+14,1008,"fetch wait time",0,0,281,459
+14,1009,"records read",2345,2410,2669,2000000
+14,1018,"remote reqs duration",489,21418,158065,17301989
+14,2089,"data size",79493976,103501393,127319832,82801280448
+14,2108,"shuffle bytes written",34092957,44162835,54145865,35330433786
+14,2109,"shuffle records written",1104083,1437327,1768331,1150017784
+14,2110,"shuffle write time",19607039,33112561,90053514,26490206976
+14,2111,"duration",2261,22983,67105,18548109
+14,2112,"number of output rows",1104083,1437327,1768331,1150017784
+14,2113,"spill size",0,0,0,0
+14,2116,"sort time",101,101,724,106084
+14,2117,"peak memory",335544320,336466866,402653184,269173653504
+14,2118,"spill size",0,0,0,0
+14,2119,"duration",4526,46256,134214,37163289
+14,2120,"sort time",0,0,0,0
+14,2121,"peak memory",67239936,67239936,67239936,53791948800
+14,2122,"spill size",0,0,0,0
+14,2305,"internal.metrics.executorDeserializeTime",2,2129,78108,1860700
+14,2306,"internal.metrics.executorDeserializeCpuTime",2624205,33650068,605781022,26920216334
+14,2307,"internal.metrics.executorRunTime",3163,27476,114085,22139613
+14,2308,"internal.metrics.executorCpuTime",2237324227,3033802866,4862780558,2427042449974
+14,2309,"internal.metrics.resultSize",7993,7993,8039,6396808
+14,2310,"internal.metrics.jvmGCTime",13,59,5017,211957
+14,2311,"internal.metrics.resultSerializationTime",2,2,17,42
+14,2314,"internal.metrics.peakExecutionMemory",570556416,572317823,704774144,457854418944
+14,2316,"internal.metrics.shuffle.read.remoteBlocksFetched",859,1025,1061,831369
+14,2317,"internal.metrics.shuffle.read.localBlocksFetched",0,0,202,17431
+14,2318,"internal.metrics.shuffle.read.remoteBytesRead",80387310,98955975,110367019,79164945414
+14,2319,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+14,2320,"internal.metrics.shuffle.read.localBytesRead",0,2069547,19846938,1655798154
+14,2321,"internal.metrics.shuffle.read.fetchWaitTime",0,20447,65035,16518994
+14,2322,"internal.metrics.shuffle.read.recordsRead",2788822,3127304,3455431,2502000000
+14,2323,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+14,2324,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+14,2325,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+14,2326,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+14,2327,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+14,2328,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+14,2329,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+14,2330,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+14,2331,"internal.metrics.shuffle.read.remoteReqsDuration",4277,83888,447540,67267028
+14,2332,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+14,2333,"internal.metrics.shuffle.write.bytesWritten",34092957,44162835,54145865,35330433786
+14,2334,"internal.metrics.shuffle.write.recordsWritten",1104083,1437327,1768331,1150017784
+14,2335,"internal.metrics.shuffle.write.writeTime",19607039,33112561,90053514,26490206976
+17,1300,"remote blocks read",1002,1002,1036,811823
+17,1301,"local blocks read",23,23,34,16977
+17,1302,"remote bytes read",65253440,73388247,81591805,58710760138
+17,1304,"local bytes read",1534608,2041792,2583582,1227208892
+17,1305,"fetch wait time",0,4688,29491,3906170
+17,1306,"records read",2786247,3124805,3452922,2500000000
+17,1315,"remote reqs duration",3081,17193,86150,13915813
+17,1329,"remote blocks read",21,21,25,19578
+17,1330,"local blocks read",1,1,4,422
+17,1331,"remote bytes read",12516,15264,16819,12373994
+17,1333,"local bytes read",492,1012,2698,268857
+17,1334,"fetch wait time",0,0,1377,2214
+17,1335,"records read",2345,2409,2669,2000000
+17,1344,"remote reqs duration",12,5282,47392,4386995
+17,2679,"data size",61828648,80501040,99026536,64400995904
+17,2698,"shuffle bytes written",23191852,29932707,36574181,23946326836
+17,2699,"shuffle records written",1104083,1437317,1768331,1150017784
+17,2700,"shuffle write time",15427908,29021295,87568249,23217198173
+17,2701,"duration",2511,7127,31590,5858766
+17,2702,"number of output rows",1104083,1437317,1768331,1150017784
+17,2703,"spill size",0,0,0,0
+17,2706,"sort time",103,106,343,117487
+17,2707,"peak memory",335544320,336466868,402653184,269173653504
+17,2708,"spill size",0,0,0,0
+17,2709,"duration",5025,14461,63210,11729232
+17,2710,"sort time",0,0,36,37
+17,2711,"peak memory",67239936,67239936,67239936,53791948800
+17,2712,"spill size",0,0,0,0
+17,2725,"internal.metrics.executorDeserializeTime",2,2,3148,23231
+17,2726,"internal.metrics.executorDeserializeCpuTime",2489740,4360737,18150258,3488747069
+17,2727,"internal.metrics.executorRunTime",3405,8220,34431,6734132
+17,2728,"internal.metrics.executorCpuTime",2098570471,3060055636,4251488847,2448044667761
+17,2729,"internal.metrics.resultSize",7993,7993,8039,6396691
+17,2730,"internal.metrics.jvmGCTime",10,14,2048,88710
+17,2731,"internal.metrics.resultSerializationTime",1,1,4,15
+17,2734,"internal.metrics.peakExecutionMemory",570556416,571478964,637665280,457183330304
+17,2736,"internal.metrics.shuffle.read.remoteBlocksFetched",1027,1027,1061,831401
+17,2737,"internal.metrics.shuffle.read.localBlocksFetched",0,0,34,17399
+17,2738,"internal.metrics.shuffle.read.remoteBytesRead",65268956,73403716,81608232,58723134132
+17,2739,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+17,2740,"internal.metrics.shuffle.read.localBytesRead",0,1534153,2583582,1227477749
+17,2741,"internal.metrics.shuffle.read.fetchWaitTime",0,4689,29491,3908384
+17,2742,"internal.metrics.shuffle.read.recordsRead",2788822,3127301,3455431,2502000000
+17,2743,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+17,2744,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+17,2745,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+17,2746,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+17,2747,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+17,2748,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+17,2749,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+17,2750,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+17,2751,"internal.metrics.shuffle.read.remoteReqsDuration",3868,22688,133542,18302808
+17,2752,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+17,2753,"internal.metrics.shuffle.write.bytesWritten",23191852,29932707,36574181,23946326836
+17,2754,"internal.metrics.shuffle.write.recordsWritten",1104083,1437317,1768331,1150017784
+17,2755,"internal.metrics.shuffle.write.writeTime",15427908,29021295,87568249,23217198173
+22,1358,"remote blocks read",46,46,50,19722
+22,1359,"local blocks read",2,2,4,278
+22,1360,"remote bytes read",46166,50433,53511,20214425
+22,1362,"local bytes read",1787,2389,4303,282955
+22,1363,"fetch wait time",0,0,2036,12279
+22,1364,"records read",7289,7410,7790,3000000
+22,1373,"remote reqs duration",62,3162,9266,1305074
+22,2681,"remote blocks read",1560,1560,1600,626774
+22,2682,"local blocks read",18,18,40,13226
+22,2683,"remote bytes read",55273707,58627407,62154659,23451002096
+22,2685,"local bytes read",657846,1250719,1573383,495324740
+22,2686,"fetch wait time",0,0,845,15034
+22,2687,"records read",2700251,2874938,3054607,1150017784
+22,2696,"remote reqs duration",2644,8075,18171,3267707
+22,3071,"data size",23311248,29659561,35766816,11863861584
+22,3090,"shuffle bytes written",8514381,10806652,12997082,4322701153
+22,3091,"shuffle records written",485651,617812,745142,247163783
+22,3092,"shuffle write time",8449270,16463813,146233859,6585563602
+22,3093,"duration",1653,2440,4116,1015515
+22,3094,"number of output rows",485651,617812,745142,247163783
+22,3095,"spill size",0,0,0,0
+22,3097,"duration",1711,2731,9052,1132562
+22,3098,"sort time",103,106,312,58783
+22,3099,"peak memory",335544320,335544320,335544320,134217728000
+22,3100,"spill size",0,0,0,0
+22,3105,"sort time",0,0,33,68
+22,3106,"peak memory",67371008,67371008,67371008,26948403200
+22,3107,"spill size",0,0,0,0
+22,3120,"internal.metrics.executorDeserializeTime",3,2503,14848,1040169
+22,3121,"internal.metrics.executorDeserializeCpuTime",3172652,7625275,25882027,3050149002
+22,3122,"internal.metrics.executorRunTime",2024,4020,21291,1648892
+22,3123,"internal.metrics.executorCpuTime",1947589158,2643416246,3380436842,1057366539409
+22,3124,"internal.metrics.resultSize",11633,11633,11680,4654332
+22,3125,"internal.metrics.jvmGCTime",9,37,1439,39194
+22,3126,"internal.metrics.resultSerializationTime",1,2,5,11
+22,3129,"internal.metrics.peakExecutionMemory",478412800,486633532,486801408,194653454336
+22,3131,"internal.metrics.shuffle.read.remoteBlocksFetched",1606,1606,1648,646496
+22,3132,"internal.metrics.shuffle.read.localBlocksFetched",2,16,44,13504
+22,3133,"internal.metrics.shuffle.read.remoteBytesRead",55325124,58677940,62204119,23471216521
+22,3134,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+22,3135,"internal.metrics.shuffle.read.localBytesRead",1856,1238919,1577438,495607695
+22,3136,"internal.metrics.shuffle.read.fetchWaitTime",0,0,2036,27313
+22,3137,"internal.metrics.shuffle.read.recordsRead",2707825,2882441,3062179,1153017784
+22,3138,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+22,3139,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+22,3140,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+22,3141,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+22,3142,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+22,3143,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+22,3144,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+22,3145,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+22,3146,"internal.metrics.shuffle.read.remoteReqsDuration",3627,11331,24974,4572781
+22,3147,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+22,3148,"internal.metrics.shuffle.write.bytesWritten",8514381,10806652,12997082,4322701153
+22,3149,"internal.metrics.shuffle.write.recordsWritten",485651,617812,745142,247163783
+22,3150,"internal.metrics.shuffle.write.writeTime",8449270,16463813,146233859,6585563602
+27,1032,"remote blocks read",22,22,25,19644
+27,1033,"local blocks read",1,1,3,356
+27,1034,"remote bytes read",25346,28668,30688,23097200
+27,1036,"local bytes read",1008,1832,3864,418792
+27,1037,"fetch wait time",0,4,2198,22113
+27,1038,"records read",3552,3648,3959,3000000
+27,1047,"remote reqs duration",22,3451,12089,2911066
+27,2091,"remote blocks read",772,772,800,628111
+27,2092,"local blocks read",4,4,28,11889
+27,2093,"remote bytes read",38968046,43342669,46991231,34674289032
+27,2095,"local bytes read",194591,836725,1678104,656144754
+27,2096,"fetch wait time",0,242,2615,350519
+27,2097,"records read",1304989,1437326,1559174,1150017784
+27,2106,"remote reqs duration",1938,8612,23502,7046556
+27,3327,"data size",18199920,24716182,31619760,19773102640
+27,3346,"shuffle bytes written",6399744,8639468,11027783,6911737521
+27,3347,"shuffle records written",227499,308759,395247,247163783
+27,3348,"shuffle write time",6313667,12934333,56315996,10347633840
+27,3349,"duration",920,1662,3865,1492621
+27,3350,"number of output rows",227499,308759,395247,247163783
+27,3351,"spill size",0,0,0,0
+27,3353,"duration",927,1692,3881,1516860
+27,3354,"sort time",42,47,142,57600
+27,3355,"peak memory",201326592,201326592,201326592,161061273600
+27,3356,"spill size",0,0,0,0
+27,3358,"sort time",0,0,0,0
+27,3359,"peak memory",67239936,67239936,67239936,53791948800
+27,3360,"spill size",0,0,0,0
+27,3478,"internal.metrics.executorDeserializeTime",2,10,2509,36818
+27,3479,"internal.metrics.executorDeserializeCpuTime",2846098,8973140,544651769,7178671536
+27,3480,"internal.metrics.executorRunTime",1144,2728,14111,2346497
+27,3481,"internal.metrics.executorCpuTime",1100340832,1564275412,2254321155,1251420485008
+27,3482,"internal.metrics.resultSize",11590,11618,11679,9307869
+27,3483,"internal.metrics.jvmGCTime",9,10,330,34718
+27,3484,"internal.metrics.resultSerializationTime",1,1,2,11
+27,3487,"internal.metrics.peakExecutionMemory",339869696,343780691,344064000,275024707584
+27,3489,"internal.metrics.shuffle.read.remoteBlocksFetched",796,796,825,647755
+27,3490,"internal.metrics.shuffle.read.localBlocksFetched",0,0,29,12245
+27,3491,"internal.metrics.shuffle.read.remoteBytesRead",38995967,43371535,47021004,34697386232
+27,3492,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+27,3493,"internal.metrics.shuffle.read.localBytesRead",0,820513,1678104,656563546
+27,3494,"internal.metrics.shuffle.read.fetchWaitTime",0,271,2615,372632
+27,3495,"internal.metrics.shuffle.read.recordsRead",1308709,1441074,1562936,1153017784
+27,3496,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+27,3497,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+27,3498,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+27,3499,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+27,3500,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+27,3501,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+27,3502,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+27,3503,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+27,3504,"internal.metrics.shuffle.read.remoteReqsDuration",2316,12243,33861,9957622
+27,3505,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+27,3506,"internal.metrics.shuffle.write.bytesWritten",6399744,8639468,11027783,6911737521
+27,3507,"internal.metrics.shuffle.write.recordsWritten",227499,308759,395247,247163783
+27,3508,"internal.metrics.shuffle.write.writeTime",6313667,12934333,56315996,10347633840
+34,1061,"remote blocks read",25,58,120,19603
+34,1062,"local blocks read",2,2,16,397
+34,1063,"remote bytes read",15422,48351,70383,11908929
+34,1065,"local bytes read",1200,3372,9898,240602
+34,1066,"fetch wait time",0,0,344,4362
+34,1067,"records read",640,1969,3110,500000
+34,1076,"remote reqs duration",353,6089,9422,1513563
+34,3329,"remote blocks read",784,2496,4000,627790
+34,3330,"local blocks read",12,12,128,12210
+34,3331,"remote bytes read",9735772,27561395,32987273,6780118701
+34,3333,"local bytes read",96640,579755,1330555,131618820
+34,3334,"fetch wait time",0,137,865,46100
+34,3335,"records read",356238,1004671,1199145,247163783
+34,3344,"remote reqs duration",1341,17740,33688,4378614
+34,3657,"data size",39417872,111613199,133606608,27456861776
+34,3676,"shuffle bytes written",9915547,28296373,34749282,6960922451
+34,3677,"shuffle records written",356238,1004671,1199145,247163783
+34,3678,"shuffle write time",15175249,34006246,111528938,8365551154
+34,3679,"duration",801,2067,3012,522785
+34,3680,"number of output rows",356238,1004671,1199145,247163783
+34,3681,"spill size",0,0,0,0
+34,3683,"duration",814,2169,3153,547839
+34,3684,"sort time",11,19,180,8336
+34,3685,"peak memory",83886080,177661109,201326592,43704647680
+34,3686,"spill size",0,0,0,0
+34,3690,"duration",807,2112,3080,535333
+34,3691,"sort time",0,0,0,0
+34,3692,"peak memory",67174400,67193785,67239936,16529686528
+34,3693,"spill size",0,0,0,0
+34,3811,"internal.metrics.executorDeserializeTime",3,47,2829,14813
+34,3812,"internal.metrics.executorDeserializeCpuTime",3563651,13159227,682648559,3237184101
+34,3813,"internal.metrics.executorRunTime",1305,3337,5715,836806
+34,3814,"internal.metrics.executorCpuTime",1072333047,2525533020,3277187074,621281137196
+34,3815,"internal.metrics.resultSize",15273,15273,15320,3757974
+34,3816,"internal.metrics.jvmGCTime",12,47,434,22941
+34,3817,"internal.metrics.resultSerializationTime",1,2,10,18
+34,3820,"internal.metrics.peakExecutionMemory",226557952,412115618,503447552,101380456448
+34,3822,"internal.metrics.shuffle.read.remoteBlocksFetched",809,2575,4120,647393
+34,3823,"internal.metrics.shuffle.read.localBlocksFetched",0,5,128,12607
+34,3824,"internal.metrics.shuffle.read.remoteBytesRead",9751194,27609812,33031840,6792027630
+34,3825,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+34,3826,"internal.metrics.shuffle.read.localBytesRead",0,535952,1330555,131859422
+34,3827,"internal.metrics.shuffle.read.fetchWaitTime",0,156,865,50462
+34,3828,"internal.metrics.shuffle.read.recordsRead",356878,1006700,1200997,247663783
+34,3829,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+34,3830,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+34,3831,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+34,3832,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+34,3833,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+34,3834,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+34,3835,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+34,3836,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+34,3837,"internal.metrics.shuffle.read.remoteReqsDuration",1838,23886,42799,5892177
+34,3838,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+34,3839,"internal.metrics.shuffle.write.bytesWritten",9915547,28296373,34749282,6960922451
+34,3840,"internal.metrics.shuffle.write.recordsWritten",356238,1004671,1199145,247163783
+34,3841,"internal.metrics.shuffle.write.writeTime",15175249,34006246,111528938,8365551154
+41,1387,"remote blocks read",25,61,125,19580
+41,1388,"local blocks read",2,2,12,420
+41,1389,"remote bytes read",5533,17614,27735,4330585
+41,1391,"local bytes read",377,1061,2733,93000
+41,1392,"fetch wait time",0,0,0,0
+41,1393,"records read",640,1981,3181,500000
+41,1402,"remote reqs duration",126,1041,4979,269861
+41,3073,"remote blocks read",385,1199,1980,313882
+41,3074,"local blocks read",8,10,90,6118
+41,3075,"remote bytes read",5967766,17306298,20531660,4240058591
+41,3077,"local bytes read",131220,348647,915396,82642562
+41,3078,"fetch wait time",0,0,315,2301
+41,3079,"records read",356238,1008772,1201795,247163783
+41,3088,"remote reqs duration",892,3308,10626,824114
+41,4067,"data size",14249520,40353207,48071800,9886551320
+41,4086,"shuffle bytes written",4068608,11274932,13352847,2762373922
+41,4087,"shuffle records written",356238,1008772,1201795,247163783
+41,4088,"shuffle write time",5054383,15083684,98496005,3695517869
+41,4089,"duration",310,1120,1843,288590
+41,4090,"number of output rows",356238,1008772,1201795,247163783
+41,4091,"spill size",0,0,0,0
+41,4093,"duration",315,1154,1881,298581
+41,4094,"sort time",13,17,79,8034
+41,4095,"peak memory",83886080,114427403,134217728,28034727936
+41,4096,"spill size",0,0,0,0
+41,4100,"duration",311,1135,1846,293127
+41,4101,"sort time",0,0,0,0
+41,4102,"peak memory",67174400,67193867,67239936,16462512128
+41,4103,"spill size",0,0,0,0
+41,4113,"internal.metrics.executorDeserializeTime",3,3,519,4962
+41,4114,"internal.metrics.executorDeserializeCpuTime",3739921,6491084,15482401,1590330279
+41,4115,"internal.metrics.executorRunTime",492,1660,2606,421296
+41,4116,"internal.metrics.executorCpuTime",473040974,1540174783,2110701516,377342836976
+41,4117,"internal.metrics.resultSize",15230,15234,15318,3740986
+41,4118,"internal.metrics.jvmGCTime",9,11,157,7557
+41,4119,"internal.metrics.resultSerializationTime",1,1,1,1
+41,4122,"internal.metrics.peakExecutionMemory",226557952,272389487,302120960,66735439872
+41,4124,"internal.metrics.shuffle.read.remoteBlocksFetched",410,1282,2105,333462
+41,4125,"internal.metrics.shuffle.read.localBlocksFetched",0,4,90,6538
+41,4126,"internal.metrics.shuffle.read.remoteBytesRead",5973299,17323973,20547925,4244389176
+41,4127,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+41,4128,"internal.metrics.shuffle.read.localBytesRead",0,337635,915396,82735562
+41,4129,"internal.metrics.shuffle.read.fetchWaitTime",0,0,315,2301
+41,4130,"internal.metrics.shuffle.read.recordsRead",356878,1010813,1203659,247663783
+41,4131,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+41,4132,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+41,4133,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+41,4134,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+41,4135,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+41,4136,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+41,4137,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+41,4138,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+41,4139,"internal.metrics.shuffle.read.remoteReqsDuration",1157,4404,15605,1093975
+41,4140,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+41,4141,"internal.metrics.shuffle.write.bytesWritten",4068608,11274932,13352847,2762373922
+41,4142,"internal.metrics.shuffle.write.recordsWritten",356238,1008772,1201795,247163783
+41,4143,"internal.metrics.shuffle.write.writeTime",5054383,15083684,98496005,3695517869
+50,1416,"remote blocks read",1,1,23,1398
+50,1417,"local blocks read",1,1,10,139
+50,1418,"remote bytes read",75,557,2086,134038
+50,1420,"local bytes read",75,421,1030,13349
+50,1421,"fetch wait time",0,0,0,0
+50,1422,"records read",2,3,62,5000
+50,1431,"remote reqs duration",5,221,670,60801
+50,4069,"remote blocks read",237,816,2892,191552
+50,4070,"local blocks read",2,2,77,3713
+50,4071,"remote bytes read",1066654,12260850,38140823,2709660739
+50,4073,"local bytes read",21114,242868,952652,52713183
+50,4074,"fetch wait time",0,0,117,503
+50,4075,"records read",86511,1118335,3404746,247163783
+50,4084,"remote reqs duration",273,6921,12848,1541796
+50,4341,"data size",2768352,35788366,108951872,7909241056
+50,4360,"shuffle bytes written",690992,8046825,24364201,1778361144
+50,4361,"shuffle records written",86511,1118335,3404746,247163783
+50,4362,"shuffle write time",2256935,9535410,27775850,2107337803
+50,4363,"duration",110,972,2159,225693
+50,4364,"number of output rows",86511,1118335,3404746,247163783
+50,4365,"spill size",0,0,0,0
+50,4367,"duration",139,1071,2283,248220
+50,4368,"sort time",1,1,78,4662
+50,4369,"peak memory",71303168,142036917,335544320,31390171136
+50,4370,"spill size",0,0,0,0
+50,4374,"duration",118,1006,2231,233941
+50,4375,"sort time",0,0,0,0
+50,4376,"peak memory",67174400,67174400,67174400,14845542400
+50,4377,"spill size",0,0,0,0
+50,4384,"internal.metrics.executorDeserializeTime",3,11,471,4757
+50,4385,"internal.metrics.executorDeserializeCpuTime",3857864,7134748,49451640,1576791808
+50,4386,"internal.metrics.executorRunTime",220,1565,4689,359392
+50,4387,"internal.metrics.executorCpuTime",191575895,1314878029,3161546365,290588056185
+50,4388,"internal.metrics.resultSize",18870,18872,18917,4178515
+50,4389,"internal.metrics.jvmGCTime",12,13,169,6374
+50,4393,"internal.metrics.peakExecutionMemory",207683584,323805024,671154176,71560921088
+50,4395,"internal.metrics.shuffle.read.remoteBlocksFetched",239,821,2915,192950
+50,4396,"internal.metrics.shuffle.read.localBlocksFetched",0,0,77,3852
+50,4397,"internal.metrics.shuffle.read.remoteBytesRead",1066831,12261460,38141068,2709794777
+50,4398,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+50,4399,"internal.metrics.shuffle.read.localBytesRead",0,238529,952652,52726532
+50,4400,"internal.metrics.shuffle.read.fetchWaitTime",0,0,117,503
+50,4401,"internal.metrics.shuffle.read.recordsRead",86516,1118356,3404757,247168783
+50,4402,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+50,4403,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+50,4404,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+50,4405,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+50,4406,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+50,4407,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+50,4408,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+50,4409,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+50,4410,"internal.metrics.shuffle.read.remoteReqsDuration",278,7195,13518,1602597
+50,4411,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+50,4412,"internal.metrics.shuffle.write.bytesWritten",690992,8046825,24364201,1778361144
+50,4413,"internal.metrics.shuffle.write.recordsWritten",86511,1118335,3404746,247163783
+50,4414,"internal.metrics.shuffle.write.writeTime",2256935,9535410,27775850,2107337803
+59,1090,"remote blocks read",1,1,23,1429
+59,1091,"local blocks read",1,1,10,108
+59,1092,"remote bytes read",102,943,3402,226685
+59,1094,"local bytes read",110,586,1470,17163
+59,1095,"fetch wait time",0,0,17,20
+59,1096,"records read",2,2,61,5000
+59,1105,"remote reqs duration",1,236,702,66756
+59,3659,"remote blocks read",238,794,2904,192521
+59,3660,"local blocks read",4,4,66,3541
+59,3661,"remote bytes read",1111280,30110514,88177433,6835099126
+59,3663,"local bytes read",18578,571868,2257038,125823325
+59,3664,"fetch wait time",0,0,744,7020
+59,3665,"records read",34425,1088771,3404746,247163783
+59,3674,"remote reqs duration",148,7131,16263,1632286
+59,4535,"data size",4807096,151441960,486747168,34377337936
+59,4554,"shuffle bytes written",1349290,38838403,118675750,8816330265
+59,4555,"shuffle records written",34425,1088771,3404746,247163783
+59,4556,"shuffle write time",3022300,27546271,81368763,6253016743
+59,4557,"duration",81,1283,6799,302905
+59,4558,"number of output rows",34425,1088771,3404746,247163783
+59,4559,"spill size",0,0,0,0
+59,4561,"duration",89,1327,6802,313915
+59,4562,"sort time",0,0,66,3818
+59,4563,"peak memory",69206016,195857309,536870912,44459622400
+59,4564,"spill size",0,0,0,0
+59,4568,"duration",75,1288,6790,305089
+59,4569,"sort time",0,0,0,0
+59,4570,"peak memory",67174400,67174400,67174400,15248588800
+59,4571,"spill size",0,0,0,0
+59,4624,"internal.metrics.executorDeserializeTime",3,76,2750,20208
+59,4625,"internal.metrics.executorDeserializeCpuTime",3674163,21692601,653637593,4924233441
+59,4626,"internal.metrics.executorRunTime",204,2329,9157,542049
+59,4627,"internal.metrics.executorCpuTime",183038989,1992841882,5497729719,452375118929
+59,4628,"internal.metrics.resultSize",18870,18871,19002,4292066
+59,4629,"internal.metrics.jvmGCTime",7,26,655,13467
+59,4631,"internal.metrics.memoryBytesSpilled",65536,65536,65536,65536
+59,4632,"internal.metrics.diskBytesSpilled",173,173,173,173
+59,4633,"internal.metrics.peakExecutionMemory",204537856,476257563,1208025088,108110479360
+59,4635,"internal.metrics.shuffle.read.remoteBlocksFetched",240,799,2927,193950
+59,4636,"internal.metrics.shuffle.read.localBlocksFetched",0,0,66,3649
+59,4637,"internal.metrics.shuffle.read.remoteBytesRead",1111502,30111510,88177820,6835325811
+59,4638,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+59,4639,"internal.metrics.shuffle.read.localBytesRead",0,554310,2257038,125840488
+59,4640,"internal.metrics.shuffle.read.fetchWaitTime",0,0,744,7040
+59,4641,"internal.metrics.shuffle.read.recordsRead",34427,1088795,3404757,247168783
+59,4642,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+59,4643,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+59,4644,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+59,4645,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+59,4646,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+59,4647,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+59,4648,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+59,4649,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+59,4650,"internal.metrics.shuffle.read.remoteReqsDuration",149,7430,16322,1699042
+59,4651,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+59,4652,"internal.metrics.shuffle.write.bytesWritten",1349290,38838403,118675750,8816330265
+59,4653,"internal.metrics.shuffle.write.recordsWritten",34425,1088771,3404746,247163783
+59,4654,"internal.metrics.shuffle.write.writeTime",3022300,27546271,81368763,6253016743
+70,1445,"remote blocks read",1,1,3,475
+70,1446,"local blocks read",1,1,2,5
+70,1447,"remote bytes read",75,82,225,37582
+70,1449,"local bytes read",83,103,158,412
+70,1450,"fetch wait time",0,0,0,0
+70,1451,"records read",1,1,6,731
+70,1460,"remote reqs duration",0,0,59,3757
+70,4343,"remote blocks read",204,317,660,104085
+70,4344,"local blocks read",1,1,51,1995
+70,4345,"remote bytes read",2090526,6463523,16825972,1745170211
+70,4347,"local bytes read",19215,125178,608941,33190933
+70,4348,"fetch wait time",0,0,187,781
+70,4349,"records read",337861,915354,2030168,247163783
+70,4358,"remote reqs duration",486,1512,10155,426329
+70,4787,"data size",3260688,5030132,8057616,1358154408
+70,4806,"shuffle bytes written",1276408,1821491,2681371,491821061
+70,4807,"shuffle records written",135862,209526,335734,56589767
+70,4808,"shuffle write time",3563347,5465350,11802928,1475661612
+70,4809,"duration",169,1197,7734,341618
+70,4810,"number of output rows",135862,209526,335734,56589767
+70,4811,"peak memory",71303168,74254654,83886080,20048773120
+70,4813,"time in aggregation build",140,1038,6018,296547
+70,4814,"avg hash probes per key",12,12,14,3513
+70,4816,"number of output rows",337861,915354,2030168,247163783
+70,4817,"spill size",0,0,0,0
+70,4819,"duration",151,4531,14794,1242112
+70,4820,"sort time",0,0,63,3689
+70,4821,"peak memory",83886080,101346748,201326592,27363639296
+70,4822,"spill size",0,0,0,0
+70,4826,"duration",72,4373,14672,1195184
+70,4827,"sort time",0,0,0,0
+70,4828,"peak memory",67174400,67174400,67174400,18137088000
+70,4829,"spill size",0,0,0,0
+70,4833,"internal.metrics.executorDeserializeTime",5,5740,18170,1568968
+70,4834,"internal.metrics.executorDeserializeCpuTime",4953904,28121610,439474788,7592853061
+70,4835,"internal.metrics.executorRunTime",274,5261,19375,1438243
+70,4836,"internal.metrics.executorCpuTime",265411417,974177278,2479821315,263027883700
+70,4837,"internal.metrics.resultSize",22940,22940,23028,6201720
+70,4838,"internal.metrics.jvmGCTime",7,8,401,6097
+70,4839,"internal.metrics.resultSerializationTime",1,22,160,186
+70,4842,"internal.metrics.peakExecutionMemory",293666816,314141164,427884544,84818132992
+70,4844,"internal.metrics.shuffle.read.remoteBlocksFetched",205,318,663,104560
+70,4845,"internal.metrics.shuffle.read.localBlocksFetched",0,0,51,2000
+70,4846,"internal.metrics.shuffle.read.remoteBytesRead",2090601,6463665,16826087,1745207793
+70,4847,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+70,4848,"internal.metrics.shuffle.read.localBytesRead",0,122862,608941,33191345
+70,4849,"internal.metrics.shuffle.read.fetchWaitTime",0,0,187,781
+70,4850,"internal.metrics.shuffle.read.recordsRead",337862,915357,2030174,247164514
+70,4851,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+70,4852,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+70,4853,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+70,4854,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+70,4855,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+70,4856,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+70,4857,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+70,4858,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+70,4859,"internal.metrics.shuffle.read.remoteReqsDuration",498,1524,10157,430086
+70,4860,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+70,4861,"internal.metrics.shuffle.write.bytesWritten",1276408,1821491,2681371,491821061
+70,4862,"internal.metrics.shuffle.write.recordsWritten",135862,209526,335734,56589767
+70,4863,"internal.metrics.shuffle.write.writeTime",3563347,5465350,11802928,1475661612
+81,1119,"remote blocks read",1,1,3,456
+81,1120,"local blocks read",1,1,3,24
+81,1121,"remote bytes read",90,118,270,45281
+81,1123,"local bytes read",90,145,270,2526
+81,1124,"fetch wait time",0,0,0,0
+81,1125,"records read",1,1,6,731
+81,1134,"remote reqs duration",1,74,1597,34918
+81,4537,"remote blocks read",221,327,681,107445
+81,4538,"local blocks read",2,2,24,1515
+81,4539,"remote bytes read",11757869,32217479,69454774,8698737458
+81,4541,"local bytes read",87010,470314,2365731,117592807
+81,4542,"fetch wait time",0,0,291,1794
+81,4543,"records read",337861,915358,2030168,247163783
+81,4552,"remote reqs duration",1125,7539,23364,2052017
+81,4956,"data size",60507552,163940259,363582304,44263889256
+81,4975,"shuffle bytes written",17584775,47339851,104903133,12781778627
+81,4976,"shuffle records written",337861,915358,2030168,247163783
+81,4977,"shuffle write time",12375546,34378300,71034828,9282160353
+81,4978,"duration",453,1466,3453,414257
+81,4979,"number of output rows",337861,915358,2030168,247163783
+81,4980,"spill size",0,0,0,0
+81,4982,"duration",458,1573,5546,442649
+81,4983,"sort time",0,0,50,3763
+81,4984,"peak memory",83886080,212946296,402653184,57495519232
+81,4985,"spill size",0,0,0,0
+81,4989,"duration",182,1235,3240,350885
+81,4990,"sort time",0,0,2,2
+81,4991,"peak memory",67174400,67174400,67174400,18137088000
+81,4992,"spill size",0,0,0,0
+81,4999,"internal.metrics.executorDeserializeTime",3,134,2954,57273
+81,5000,"internal.metrics.executorDeserializeCpuTime",3929108,36689732,592625437,9906246110
+81,5001,"internal.metrics.executorRunTime",842,2829,9967,781740
+81,5002,"internal.metrics.executorCpuTime",818120188,2293521524,4752360564,619250829812
+81,5003,"internal.metrics.resultSize",22511,22552,22599,6089988
+81,5004,"internal.metrics.jvmGCTime",10,52,1436,33284
+81,5005,"internal.metrics.resultSerializationTime",2,2,2,8
+81,5008,"internal.metrics.peakExecutionMemory",226557952,478557882,906035200,129210646528
+81,5010,"internal.metrics.shuffle.read.remoteBlocksFetched",222,329,684,107901
+81,5011,"internal.metrics.shuffle.read.localBlocksFetched",0,0,24,1539
+81,5012,"internal.metrics.shuffle.read.remoteBytesRead",11757959,32217645,69454954,8698782739
+81,5013,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+81,5014,"internal.metrics.shuffle.read.localBytesRead",0,435467,2365731,117595333
+81,5015,"internal.metrics.shuffle.read.fetchWaitTime",0,0,291,1794
+81,5016,"internal.metrics.shuffle.read.recordsRead",337862,915361,2030174,247164514
+81,5017,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+81,5018,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+81,5019,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+81,5020,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+81,5021,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+81,5022,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+81,5023,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+81,5024,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+81,5025,"internal.metrics.shuffle.read.remoteReqsDuration",1129,7659,24702,2086935
+81,5026,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+81,5027,"internal.metrics.shuffle.write.bytesWritten",17584775,47339851,104903133,12781778627
+81,5028,"internal.metrics.shuffle.write.recordsWritten",337861,915358,2030168,247163783
+81,5029,"internal.metrics.shuffle.write.writeTime",12375546,34378300,71034828,9282160353
+104,4789,"remote blocks read",520,668,810,212681
+104,4790,"local blocks read",2,3,30,3319
+104,4791,"remote bytes read",1205578,1699153,1903303,484278344
+104,4793,"local bytes read",5027,31636,66626,7542717
+104,4794,"fetch wait time",0,431,4797,139261
+104,4795,"records read",142304,198486,219472,56589767
+104,4804,"remote reqs duration",213,2226,9172,655041
+104,4958,"remote blocks read",506,668,810,212658
+104,4959,"local blocks read",2,2,51,3342
+104,4960,"remote bytes read",31603228,44155459,49904460,12584325898
+104,4962,"local bytes read",136469,1141304,2973807,197452729
+104,4963,"fetch wait time",0,202,2448,74078
+104,4964,"records read",621170,867173,967651,247163783
+104,4973,"remote reqs duration",2486,8924,22959,2563924
+104,5071,"data size",12560048,14324953,15296480,4082631256
+104,5090,"shuffle bytes written",5220657,5944515,6333951,1694206014
+104,5091,"shuffle records written",56775,64656,69109,18447023
+104,5092,"shuffle write time",5763571,8702002,49624454,2480091324
+104,5093,"duration",2040,5420,8423,1563972
+104,5094,"number of output rows",56775,64656,69109,18447023
+104,5095,"peak memory",67371008,67371008,67371008,19200737280
+104,5097,"time in aggregation build",1999,5290,8379,1529270
+104,5098,"avg hash probes per key",10,10,11,3128
+104,5100,"number of output rows",510671,712266,794178,203016807
+104,5101,"peak memory",150994944,218692412,234881024,62327357440
+104,5103,"time in aggregation build",1645,4573,7812,1323938
+104,5104,"avg hash probes per key",16,16,16,4560
+104,5106,"number of output rows",510671,712266,794178,203016807
+104,5107,"peak memory",150994944,218692412,234881024,62327357440
+104,5109,"time in aggregation build",1048,3385,6831,985282
+104,5110,"avg hash probes per key",16,16,16,4560
+104,5112,"number of output rows",621170,867173,967651,247163783
+104,5113,"spill size",0,0,0,0
+104,5115,"spill size",0,0,0,0
+104,5116,"duration",2032,5829,10007,1681390
+104,5117,"sort time",283,583,1184,185720
+104,5118,"peak memory",150994944,218810146,234881024,62360911872
+104,5119,"spill size",0,0,0,0
+104,5120,"spill size",0,0,0,0
+104,5121,"duration",3335,6943,14132,1998398
+104,5122,"sort time",700,1503,3282,449910
+104,5123,"peak memory",150994944,218810146,234881024,62360911872
+104,5124,"spill size",0,0,0,0
+104,5128,"duration",1072,3557,6871,1033364
+104,5129,"sort time",0,0,16,238
+104,5130,"peak memory",67371008,67371008,67371008,19200737280
+104,5131,"spill size",0,0,0,0
+104,5132,"number of output rows",4861,6950,7737,2000000
+104,5133,"peak memory",67371008,67371008,67371008,19200737280
+104,5135,"time in aggregation build",79,643,4907,202461
+104,5136,"avg hash probes per key",10,10,12,3343
+104,5141,"internal.metrics.executorDeserializeTime",7,1302,13816,391735
+104,5142,"internal.metrics.executorDeserializeCpuTime",7957521,90972851,758459448,25927283530
+104,5143,"internal.metrics.executorRunTime",6190,14029,21624,4016747
+104,5144,"internal.metrics.executorCpuTime",4321211677,8460626461,11257370138,2411278561482
+104,5145,"internal.metrics.resultSize",46503,46503,46550,13254489
+104,5146,"internal.metrics.jvmGCTime",33,805,3898,248625
+104,5147,"internal.metrics.resultSerializationTime",2,2,5,28
+104,5150,"internal.metrics.peakExecutionMemory",874250240,1145779843,1210843136,326547275776
+104,5152,"internal.metrics.shuffle.read.remoteBlocksFetched",1038,1399,1620,425339
+104,5153,"internal.metrics.shuffle.read.localBlocksFetched",0,0,63,6661
+104,5154,"internal.metrics.shuffle.read.remoteBytesRead",32821071,45854686,51766885,13068604242
+104,5155,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+104,5156,"internal.metrics.shuffle.read.localBytesRead",0,719216,3000552,204995446
+104,5157,"internal.metrics.shuffle.read.fetchWaitTime",0,682,5402,213339
+104,5158,"internal.metrics.shuffle.read.recordsRead",763913,1065732,1187121,303753550
+104,5159,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+104,5160,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+104,5161,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+104,5162,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+104,5163,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+104,5164,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+104,5165,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+104,5166,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+104,5167,"internal.metrics.shuffle.read.remoteReqsDuration",3163,11228,23793,3218965
+104,5168,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+104,5169,"internal.metrics.shuffle.write.bytesWritten",5220657,5944515,6333951,1694206014
+104,5170,"internal.metrics.shuffle.write.recordsWritten",56775,64656,69109,18447023
+104,5171,"internal.metrics.shuffle.write.writeTime",5763571,8702002,49624454,2480091324
+128,5073,"remote blocks read",281,556,855,224792
+128,5074,"local blocks read",4,7,24,3208
+128,5075,"remote bytes read",2034056,4338654,5796435,1670419161
+128,5077,"local bytes read",29816,66539,164142,23786853
+128,5078,"fetch wait time",0,0,54,187
+128,5079,"records read",22286,47815,63896,18447023
+128,5088,"remote reqs duration",369,1556,9613,636277
+128,5207,"duration",52,210,997,112651
+128,5208,"number of output rows",164,312,512,136673
+128,5209,"peak memory",67371008,67371008,67371008,25937838080
+128,5211,"time in aggregation build",47,182,748,99636
+128,5212,"avg hash probes per key",10,10,10,3850
+128,5217,"internal.metrics.executorDeserializeTime",8,1284,5226,533481
+128,5218,"internal.metrics.executorDeserializeCpuTime",8024432,102736096,893715932,39553431358
+128,5219,"internal.metrics.executorRunTime",55,486,4309,229881
+128,5220,"internal.metrics.executorCpuTime",55869947,270698969,1234160466,104219139575
+128,5221,"internal.metrics.resultSize",52686,58953,64268,22734894
+128,5222,"internal.metrics.jvmGCTime",8,9,160,8656
+128,5223,"internal.metrics.resultSerializationTime",1,1,18,252
+128,5226,"internal.metrics.peakExecutionMemory",67371008,67371008,67371008,25937838080
+128,5228,"internal.metrics.shuffle.read.remoteBlocksFetched",281,556,855,224792
+128,5229,"internal.metrics.shuffle.read.localBlocksFetched",0,0,24,3208
+128,5230,"internal.metrics.shuffle.read.remoteBytesRead",2034056,4338654,5796435,1670419161
+128,5231,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+128,5232,"internal.metrics.shuffle.read.localBytesRead",0,61680,164142,23786853
+128,5233,"internal.metrics.shuffle.read.fetchWaitTime",0,0,54,187
+128,5234,"internal.metrics.shuffle.read.recordsRead",22286,47815,63896,18447023
+128,5235,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+128,5236,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+128,5237,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+128,5238,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+128,5239,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+128,5240,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+128,5241,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+128,5242,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+128,5243,"internal.metrics.shuffle.read.remoteReqsDuration",369,1556,9613,636277
+128,5244,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+152,5073,"remote blocks read",281,557,855,449636
+152,5074,"local blocks read",4,7,24,6364
+152,5075,"remote bytes read",2034963,4339753,5797691,3341261827
+152,5077,"local bytes read",28909,66098,163257,47150201
+152,5078,"fetch wait time",0,0,113,1786
+152,5079,"records read",22286,47820,63896,36894046
+152,5088,"remote reqs duration",625,4002,11310,2212871
+152,5185,"data size",33976,73363,105912,28279672
+152,5204,"shuffle bytes written",35366,73075,101667,28171594
+152,5205,"shuffle records written",164,310,512,136673
+152,5206,"shuffle write time",841727,1949883,52026109,750743078
+152,5207,"duration",79,128,648,206778
+152,5208,"number of output rows",164,310,512,273346
+152,5209,"peak memory",67371008,67371008,67371008,51875676160
+152,5211,"time in aggregation build",72,112,547,184334
+152,5212,"avg hash probes per key",10,10,10,7700
+152,5252,"internal.metrics.executorDeserializeTime",9,317,3864,153030
+152,5253,"internal.metrics.executorDeserializeCpuTime",9136987,41215883,1069259561,15868152925
+152,5254,"internal.metrics.executorRunTime",104,200,2114,123757
+152,5255,"internal.metrics.executorCpuTime",100635689,215584358,748822119,83000013923
+152,5256,"internal.metrics.resultSize",48084,48084,48174,18519651
+152,5257,"internal.metrics.jvmGCTime",8,9,129,4132
+152,5258,"internal.metrics.resultSerializationTime",1,1,13,49
+152,5261,"internal.metrics.peakExecutionMemory",134512640,134512640,134512640,51787366400
+152,5263,"internal.metrics.shuffle.read.remoteBlocksFetched",281,557,855,224844
+152,5264,"internal.metrics.shuffle.read.localBlocksFetched",0,0,24,3156
+152,5265,"internal.metrics.shuffle.read.remoteBytesRead",2034963,4339753,5797691,1670842666
+152,5266,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+152,5267,"internal.metrics.shuffle.read.localBytesRead",0,60590,163257,23363348
+152,5268,"internal.metrics.shuffle.read.fetchWaitTime",0,0,113,1599
+152,5269,"internal.metrics.shuffle.read.recordsRead",22286,47820,63896,18447023
+152,5270,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+152,5271,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+152,5272,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+152,5273,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+152,5274,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+152,5275,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+152,5276,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+152,5277,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+152,5278,"internal.metrics.shuffle.read.remoteReqsDuration",625,4002,11310,1576594
+152,5279,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+152,5280,"internal.metrics.shuffle.write.bytesWritten",35366,73075,101667,28171594
+152,5281,"internal.metrics.shuffle.write.recordsWritten",164,310,512,136673
+152,5282,"internal.metrics.shuffle.write.writeTime",841727,1949883,52026109,750743078
+177,5187,"remote blocks read",3892,4035,6320,109090
+177,5188,"local blocks read",38,52,91,1398
+177,5189,"remote bytes read",993729,1030106,1609653,27813049
+177,5191,"local bytes read",9250,14934,23410,358545
+177,5192,"fetch wait time",0,0,0,0
+177,5193,"records read",4953,5056,7858,136673
+177,5202,"remote reqs duration",335,757,2227,20597
+177,5291,"task commit time",443,1987,6245,53832
+177,5293,"duration",15925,26343,39042,711419
+177,5294,"sort time",0,0,8,41
+177,5295,"peak memory",67371008,67371008,67371008,1819017216
+177,5296,"spill size",0,0,0,0
+177,5300,"internal.metrics.executorDeserializeTime",77,1984,6260,53746
+177,5301,"internal.metrics.executorDeserializeCpuTime",52401343,166425991,910841737,4493501935
+177,5302,"internal.metrics.executorRunTime",21041,29280,40523,790696
+177,5303,"internal.metrics.executorCpuTime",847589668,2712342616,4817953273,73233250798
+177,5304,"internal.metrics.resultSize",49617,49641,49660,1340519
+177,5305,"internal.metrics.jvmGCTime",11,85,355,1819
+177,5306,"internal.metrics.resultSerializationTime",2,2,5,81
+177,5309,"internal.metrics.peakExecutionMemory",67371008,67371008,67371008,1819017216
+177,5311,"internal.metrics.shuffle.read.remoteBlocksFetched",3892,4035,6320,109090
+177,5312,"internal.metrics.shuffle.read.localBlocksFetched",0,44,91,1398
+177,5313,"internal.metrics.shuffle.read.remoteBytesRead",993729,1030106,1609653,27813049
+177,5314,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+177,5315,"internal.metrics.shuffle.read.localBytesRead",0,13273,23410,358545
+177,5316,"internal.metrics.shuffle.read.fetchWaitTime",0,0,0,0
+177,5317,"internal.metrics.shuffle.read.recordsRead",4953,5056,7858,136673
+177,5318,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+177,5319,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+177,5320,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+177,5321,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+177,5322,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+177,5323,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+177,5324,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+177,5325,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+177,5326,"internal.metrics.shuffle.read.remoteReqsDuration",335,757,2227,20597
+177,5327,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+177,5333,"internal.metrics.output.bytesWritten",137596,170914,200386,4614842
+177,5334,"internal.metrics.output.recordsWritten",4953,5056,7858,136673
+178,5572,"number of output rows",2410100,2412947,3978300,2500000000
+178,5573,"scan time",161,18833,55176,19945446
+178,6284,"data size",134965600,135134947,222784800,140000000000
+178,6303,"shuffle bytes written",77886442,77992836,128406630,80800839341
+178,6304,"shuffle records written",2410100,2412947,3978300,2500000000
+178,6305,"shuffle write time",36579758,65408870,890867070,67763849592
+178,6306,"duration",162,19919,55907,21055186
+178,6307,"number of output rows",2410100,2412947,3978300,2500000000
+178,6308,"number of output rows",2410100,2412947,3978300,2500000000
+178,6309,"number of input batches",589,589,972,610970
+178,6781,"internal.metrics.executorDeserializeTime",1,159,1199,396085
+178,6782,"internal.metrics.executorDeserializeCpuTime",1275054,148860123,624581002,155410247678
+178,6783,"internal.metrics.executorRunTime",164,22024,57496,23272194
+178,6784,"internal.metrics.executorCpuTime",58368907,3693750371,6323684405,3856275655828
+178,6785,"internal.metrics.resultSize",2725,2929,2985,3074351
+178,6786,"internal.metrics.jvmGCTime",11,46,786,349005
+178,6787,"internal.metrics.resultSerializationTime",1,1,9,375
+178,6790,"internal.metrics.peakExecutionMemory",32768,266507041,335544320,278233612288
+178,6809,"internal.metrics.shuffle.write.bytesWritten",77886442,77992836,128406630,80800839341
+178,6810,"internal.metrics.shuffle.write.recordsWritten",2410100,2412947,3978300,2500000000
+178,6811,"internal.metrics.shuffle.write.writeTime",36579758,65408870,890867070,67763849592
+178,6812,"internal.metrics.input.bytesRead",1005925,1028457,1044263,1074108889
+178,6813,"internal.metrics.input.recordsRead",2410100,2412947,3978300,2500000000
+179,5603,"number of output rows",5000,5000,5000,2000000
+179,5604,"scan time",328,661,14712,293027
+179,6313,"data size",160000,160000,160000,64000000
+179,6332,"shuffle bytes written",128093,129103,129931,51680990
+179,6333,"shuffle records written",5000,5000,5000,2000000
+179,6334,"shuffle write time",2691098,3554131,27865844,1421689864
+179,6335,"duration",332,665,14716,294990
+179,6336,"number of output rows",5000,5000,5000,2000000
+179,6337,"number of output rows",5000,5000,5000,2000000
+179,6338,"number of input batches",2,2,2,800
+179,6816,"internal.metrics.executorDeserializeTime",1,1,21,966
+179,6817,"internal.metrics.executorDeserializeCpuTime",1198109,2215688,9281778,886315231
+179,6818,"internal.metrics.executorRunTime",389,783,14794,342708
+179,6819,"internal.metrics.executorCpuTime",80671348,124473611,214144233,49789483318
+179,6820,"internal.metrics.resultSize",2895,2895,2983,1166119
+179,6821,"internal.metrics.jvmGCTime",6,9,192,3899
+179,6822,"internal.metrics.resultSerializationTime",28,28,28,28
+179,6825,"internal.metrics.peakExecutionMemory",67239936,67239936,67239936,26895974400
+179,6844,"internal.metrics.shuffle.write.bytesWritten",128093,129103,129931,51680990
+179,6845,"internal.metrics.shuffle.write.recordsWritten",5000,5000,5000,2000000
+179,6846,"internal.metrics.shuffle.write.writeTime",2691098,3554131,27865844,1421689864
+179,6847,"internal.metrics.input.bytesRead",13748,13748,13764,5505296
+179,6848,"internal.metrics.input.recordsRead",5000,5000,5000,2000000
+180,5634,"number of output rows",7493,7493,7505,3000000
+180,5635,"scan time",320,588,14393,260232
+180,6342,"data size",239776,239926,240160,96000000
+180,6361,"shuffle bytes written",148816,149294,149823,59758757
+180,6362,"shuffle records written",7493,7493,7505,3000000
+180,6363,"shuffle write time",2682891,3553674,74926111,1421509943
+180,6364,"duration",323,593,14400,262408
+180,6365,"number of output rows",7493,7493,7505,3000000
+180,6366,"number of output rows",7493,7493,7505,3000000
+180,6367,"number of input batches",2,2,2,800
+180,6851,"internal.metrics.executorDeserializeTime",1,1,26,856
+180,6852,"internal.metrics.executorDeserializeCpuTime",1194412,1990572,7138980,796267866
+180,6853,"internal.metrics.executorRunTime",378,869,14488,373450
+180,6854,"internal.metrics.executorCpuTime",80551954,114508347,185016087,45803378712
+180,6855,"internal.metrics.resultSize",2895,2895,2942,1164848
+180,6856,"internal.metrics.jvmGCTime",7,7,71,2065
+180,6860,"internal.metrics.peakExecutionMemory",67239936,67239936,67239936,26895974400
+180,6879,"internal.metrics.shuffle.write.bytesWritten",148816,149294,149823,59758757
+180,6880,"internal.metrics.shuffle.write.recordsWritten",7493,7493,7505,3000000
+180,6881,"internal.metrics.shuffle.write.writeTime",2682891,3553674,74926111,1421509943
+180,6882,"internal.metrics.input.bytesRead",14652,14652,14654,5861590
+180,6883,"internal.metrics.input.recordsRead",7493,7493,7505,3000000
+181,5665,"number of output rows",1248,1248,1252,500000
+181,5666,"scan time",317,934,15201,402256
+181,6371,"data size",68208,68747,69376,27537360
+181,6390,"shuffle bytes written",87462,89963,92132,36026534
+181,6391,"shuffle records written",1248,1248,1252,500000
+181,6392,"shuffle write time",2087514,2620448,35700623,1048218448
+181,6393,"duration",320,937,15204,403466
+181,6394,"number of output rows",1248,1248,1252,500000
+181,6395,"number of output rows",1248,1248,1252,500000
+181,6396,"number of input batches",2,2,2,800
+181,6886,"internal.metrics.executorDeserializeTime",1,1,17,792
+181,6887,"internal.metrics.executorDeserializeCpuTime",1154284,1923572,6048012,769467625
+181,6888,"internal.metrics.executorRunTime",368,1107,15272,473630
+181,6889,"internal.metrics.executorCpuTime",63326021,92697001,156634331,37078839068
+181,6890,"internal.metrics.resultSize",2895,2895,2981,1163793
+181,6891,"internal.metrics.jvmGCTime",7,7,64,1718
+181,6892,"internal.metrics.resultSerializationTime",11,11,11,11
+181,6895,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,26856652800
+181,6914,"internal.metrics.shuffle.write.bytesWritten",87462,89963,92132,36026534
+181,6915,"internal.metrics.shuffle.write.recordsWritten",1248,1248,1252,500000
+181,6916,"internal.metrics.shuffle.write.writeTime",2087514,2620448,35700623,1048218448
+181,6917,"internal.metrics.input.bytesRead",13828,13845,13930,5547407
+181,6918,"internal.metrics.input.recordsRead",1248,1248,1252,500000
+182,5696,"number of output rows",100,100,100,5000
+182,5697,"scan time",177,338,7480,17462
+182,6400,"data size",5112,5189,5296,260000
+182,6419,"shuffle bytes written",9631,10157,10498,508484
+182,6420,"shuffle records written",100,100,100,5000
+182,6421,"shuffle write time",324098,399744,697528,19987696
+182,6422,"duration",179,340,7482,17565
+182,6423,"number of output rows",100,100,100,5000
+182,6424,"number of output rows",100,100,100,5000
+182,6425,"number of input batches",1,1,1,50
+182,6921,"internal.metrics.executorDeserializeTime",1,1,39,294
+182,6922,"internal.metrics.executorDeserializeCpuTime",1347151,2685862,5994484,134293737
+182,6923,"internal.metrics.executorRunTime",188,1505,14830,75938
+182,6924,"internal.metrics.executorCpuTime",22846214,41189766,68361364,2059488921
+182,6925,"internal.metrics.resultSize",2895,2895,2941,145252
+182,6926,"internal.metrics.jvmGCTime",10,13,32,134
+182,6930,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,3357081600
+182,6949,"internal.metrics.shuffle.write.bytesWritten",9631,10157,10498,508484
+182,6950,"internal.metrics.shuffle.write.recordsWritten",100,100,100,5000
+182,6951,"internal.metrics.shuffle.write.writeTime",324098,399744,697528,19987696
+182,6952,"internal.metrics.input.bytesRead",7608,7616,7626,381102
+182,6953,"internal.metrics.input.recordsRead",100,100,100,5000
+183,5727,"number of output rows",731,731,731,731
+183,5728,"scan time",217,217,217,217
+183,6429,"data size",29240,29240,29240,29240
+183,6448,"shuffle bytes written",47807,47807,47807,47807
+183,6449,"shuffle records written",731,731,731,731
+183,6450,"shuffle write time",1811625,1811625,1811625,1811625
+183,6451,"duration",234,234,234,234
+183,6452,"number of output rows",731,731,731,731
+183,6453,"number of output rows",731,731,731,731
+183,6454,"number of input batches",1,1,1,1
+183,6956,"internal.metrics.executorDeserializeTime",7,7,7,7
+183,6957,"internal.metrics.executorDeserializeCpuTime",3367626,3367626,3367626,3367626
+183,6958,"internal.metrics.executorRunTime",280,280,280,280
+183,6959,"internal.metrics.executorCpuTime",94366148,94366148,94366148,94366148
+183,6960,"internal.metrics.resultSize",2898,2898,2898,2898
+183,6965,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,67141632
+183,6984,"internal.metrics.shuffle.write.bytesWritten",47807,47807,47807,47807
+183,6985,"internal.metrics.shuffle.write.recordsWritten",731,731,731,731
+183,6986,"internal.metrics.shuffle.write.writeTime",1811625,1811625,1811625,1811625
+183,6987,"internal.metrics.input.bytesRead",7737,7737,7737,7737
+183,6988,"internal.metrics.input.recordsRead",731,731,731,731
+184,5910,"number of output rows",2410100,2412977,3978300,2500000000
+184,5911,"scan time",124,892,8093,1093937
+184,6610,"data size",115684800,115829955,190958400,120000000000
+184,6629,"shuffle bytes written",56760023,56842089,93622305,58888670214
+184,6630,"shuffle records written",2410100,2412977,3978300,2500000000
+184,6631,"shuffle write time",29281424,50855666,134573002,52686737856
+184,6632,"duration",125,1478,8727,1793408
+184,6633,"number of output rows",2410100,2412977,3978300,2500000000
+184,6634,"number of output rows",2410100,2412977,3978300,2500000000
+184,6635,"number of input batches",589,589,972,610970
+184,6991,"internal.metrics.executorDeserializeTime",1,1,32,1603
+184,6992,"internal.metrics.executorDeserializeCpuTime",1079018,1847123,7889249,1928663575
+184,6993,"internal.metrics.executorRunTime",127,2949,15169,3347947
+184,6994,"internal.metrics.executorCpuTime",45115763,2198571704,3203370237,2295309126926
+184,6995,"internal.metrics.resultSize",2723,2917,2985,3068157
+184,6996,"internal.metrics.jvmGCTime",20,24,467,92033
+184,6997,"internal.metrics.resultSerializationTime",20,22,24,44
+184,7000,"internal.metrics.peakExecutionMemory",32768,266507032,335544320,278233612288
+184,7019,"internal.metrics.shuffle.write.bytesWritten",56760023,56842089,93622305,58888670214
+184,7020,"internal.metrics.shuffle.write.recordsWritten",2410100,2412977,3978300,2500000000
+184,7021,"internal.metrics.shuffle.write.writeTime",29281424,50855666,134573002,52686737856
+184,7022,"internal.metrics.input.bytesRead",1005925,1026521,1040965,1072059065
+184,7023,"internal.metrics.input.recordsRead",2410100,2412977,3978300,2500000000
+185,5941,"number of output rows",5000,5000,5000,2000000
+185,5942,"scan time",333,794,11176,341727
+185,6639,"data size",80000,80000,80000,32000000
+185,6658,"shuffle bytes written",87741,88274,89251,35346967
+185,6659,"shuffle records written",5000,5000,5000,2000000
+185,6660,"shuffle write time",2563500,3268950,6741521,1307620283
+185,6661,"duration",336,798,11180,343282
+185,6662,"number of output rows",5000,5000,5000,2000000
+185,6663,"number of output rows",5000,5000,5000,2000000
+185,6664,"number of input batches",2,2,2,800
+185,7026,"internal.metrics.executorDeserializeTime",1,1,20,856
+185,7027,"internal.metrics.executorDeserializeCpuTime",1187060,2041491,8412441,816638032
+185,7028,"internal.metrics.executorRunTime",394,893,11252,384927
+185,7029,"internal.metrics.executorCpuTime",80557230,110489064,259457611,44195664210
+185,7030,"internal.metrics.resultSize",2895,2895,2942,1164700
+185,7031,"internal.metrics.jvmGCTime",6,6,153,3088
+185,7035,"internal.metrics.peakExecutionMemory",67239936,67239936,67239936,26895974400
+185,7054,"internal.metrics.shuffle.write.bytesWritten",87741,88274,89251,35346967
+185,7055,"internal.metrics.shuffle.write.recordsWritten",5000,5000,5000,2000000
+185,7056,"internal.metrics.shuffle.write.writeTime",2563500,3268950,6741521,1307620283
+185,7057,"internal.metrics.input.bytesRead",13906,13906,13922,5568496
+185,7058,"internal.metrics.input.recordsRead",5000,5000,5000,2000000
+186,5972,"number of output rows",7493,7493,7505,3000000
+186,5973,"scan time",310,653,9860,284367
+186,6668,"data size",119888,119948,120080,48000000
+186,6687,"shuffle bytes written",114844,115481,116343,46234529
+186,6688,"shuffle records written",7493,7493,7505,3000000
+186,6689,"shuffle write time",2659866,8266039,697958990,3306454541
+186,6690,"duration",313,659,9863,286241
+186,6691,"number of output rows",7493,7493,7505,3000000
+186,6692,"number of output rows",7493,7493,7505,3000000
+186,6693,"number of input batches",2,2,2,800
+186,7061,"internal.metrics.executorDeserializeTime",1,1,28,935
+186,7062,"internal.metrics.executorDeserializeCpuTime",1185881,2010445,9175526,804217795
+186,7063,"internal.metrics.executorRunTime",368,1037,10033,441629
+186,7064,"internal.metrics.executorCpuTime",76218315,106047566,229925467,42419067886
+186,7065,"internal.metrics.resultSize",2895,2895,2942,1165012
+186,7066,"internal.metrics.jvmGCTime",7,7,80,2437
+186,7070,"internal.metrics.peakExecutionMemory",67239936,67239936,67239936,26895974400
+186,7089,"internal.metrics.shuffle.write.bytesWritten",114844,115481,116343,46234529
+186,7090,"internal.metrics.shuffle.write.recordsWritten",7493,7493,7505,3000000
+186,7091,"internal.metrics.shuffle.write.writeTime",2659866,8266039,697958990,3306454541
+186,7092,"internal.metrics.input.bytesRead",14652,14652,14654,5861590
+186,7093,"internal.metrics.input.recordsRead",7493,7493,7505,3000000
+187,6003,"number of output rows",1248,1248,1252,500000
+187,6004,"scan time",315,599,9397,265645
+187,6697,"data size",19968,19968,20032,8000000
+187,6716,"shuffle bytes written",50548,52357,54078,20983593
+187,6717,"shuffle records written",1248,1248,1252,500000
+187,6718,"shuffle write time",2015609,21364232,1894365594,8545731616
+187,6719,"duration",317,602,9399,266743
+187,6720,"number of output rows",1248,1248,1252,500000
+187,6721,"number of output rows",1248,1248,1252,500000
+187,6722,"number of input batches",2,2,2,800
+187,7096,"internal.metrics.executorDeserializeTime",1,1,25,838
+187,7097,"internal.metrics.executorDeserializeCpuTime",1082431,1947842,8160429,779176996
+187,7098,"internal.metrics.executorRunTime",360,864,9538,372374
+187,7099,"internal.metrics.executorCpuTime",62754969,91610252,214862493,36644138587
+187,7100,"internal.metrics.resultSize",2895,2895,2942,1163139
+187,7101,"internal.metrics.jvmGCTime",7,10,191,1950
+187,7105,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,26856652800
+187,7124,"internal.metrics.shuffle.write.bytesWritten",50548,52357,54078,20983593
+187,7125,"internal.metrics.shuffle.write.recordsWritten",1248,1248,1252,500000
+187,7126,"internal.metrics.shuffle.write.writeTime",2015609,21364232,1894365594,8545731616
+187,7127,"internal.metrics.input.bytesRead",13852,13868,13954,5557007
+187,7128,"internal.metrics.input.recordsRead",1248,1248,1252,500000
+188,6034,"number of output rows",100,100,100,5000
+188,6035,"scan time",165,309,5674,16163
+188,6726,"data size",1600,1600,1600,80000
+188,6745,"shuffle bytes written",6632,7093,7366,355272
+188,6746,"shuffle records written",100,100,100,5000
+188,6747,"shuffle write time",317969,376999,505081,18850623
+188,6748,"duration",167,313,5676,16304
+188,6749,"number of output rows",100,100,100,5000
+188,6750,"number of output rows",100,100,100,5000
+188,6751,"number of input batches",1,1,1,50
+188,7131,"internal.metrics.executorDeserializeTime",1,1,13,244
+188,7132,"internal.metrics.executorDeserializeCpuTime",1230126,2984604,5984852,149230749
+188,7133,"internal.metrics.executorRunTime",176,907,5849,46038
+188,7134,"internal.metrics.executorCpuTime",20315204,40608798,77004824,2030440477
+188,7135,"internal.metrics.resultSize",2895,2897,2941,145247
+188,7136,"internal.metrics.jvmGCTime",10,51,191,480
+188,7140,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,3357081600
+188,7159,"internal.metrics.shuffle.write.bytesWritten",6632,7093,7366,355272
+188,7160,"internal.metrics.shuffle.write.recordsWritten",100,100,100,5000
+188,7161,"internal.metrics.shuffle.write.writeTime",317969,376999,505081,18850623
+188,7162,"internal.metrics.input.bytesRead",7620,7627,7638,381702
+188,7163,"internal.metrics.input.recordsRead",100,100,100,5000
+189,6065,"number of output rows",731,731,731,731
+189,6066,"scan time",184,184,184,184
+189,6755,"data size",11696,11696,11696,11696
+189,6774,"shuffle bytes written",37994,37994,37994,37994
+189,6775,"shuffle records written",731,731,731,731
+189,6776,"shuffle write time",1849574,1849574,1849574,1849574
+189,6777,"duration",200,200,200,200
+189,6778,"number of output rows",731,731,731,731
+189,6779,"number of output rows",731,731,731,731
+189,6780,"number of input batches",1,1,1,1
+189,7166,"internal.metrics.executorDeserializeTime",6,6,6,6
+189,7167,"internal.metrics.executorDeserializeCpuTime",3403738,3403738,3403738,3403738
+189,7168,"internal.metrics.executorRunTime",5054,5054,5054,5054
+189,7169,"internal.metrics.executorCpuTime",78590414,78590414,78590414,78590414
+189,7170,"internal.metrics.resultSize",2940,2940,2940,2940
+189,7171,"internal.metrics.jvmGCTime",14,14,14,14
+189,7175,"internal.metrics.peakExecutionMemory",67141632,67141632,67141632,67141632
+189,7194,"internal.metrics.shuffle.write.bytesWritten",37994,37994,37994,37994
+189,7195,"internal.metrics.shuffle.write.recordsWritten",731,731,731,731
+189,7196,"internal.metrics.shuffle.write.writeTime",1849574,1849574,1849574,1849574
+189,7197,"internal.metrics.input.bytesRead",7749,7749,7749,7749
+189,7198,"internal.metrics.input.recordsRead",731,731,731,731
+192,6612,"remote blocks read",1008,1008,1036,823007
+192,6613,"local blocks read",4,4,28,5793
+192,6614,"remote bytes read",65336147,73096425,81240044,58477300193
+192,6616,"local bytes read",271714,1265671,1974899,411370021
+192,6617,"fetch wait time",1424,9533,24602,7787979
+192,6618,"records read",2786247,3124796,3452922,2500000000
+192,6627,"remote reqs duration",29585,104318,202911,83616300
+192,6641,"remote blocks read",381,381,400,317018
+192,6642,"local blocks read",1,1,17,2354
+192,6643,"remote bytes read",41758,43659,45148,35086564
+192,6645,"local bytes read",84,746,1983,260403
+192,6646,"fetch wait time",0,0,8483,205933
+192,6647,"records read",2345,2406,2669,2000000
+192,6656,"remote reqs duration",8557,91021,190660,72968291
+192,7399,"data size",52995984,69000873,84879888,55200853632
+192,7418,"shuffle bytes written",22838406,29430376,36137358,23544459532
+192,7419,"shuffle records written",1104083,1437324,1768331,1150017784
+192,7420,"shuffle write time",14978247,24929820,204840898,19944009087
+192,7421,"duration",4615,12536,30154,10183102
+192,7422,"number of output rows",1104083,1437324,1768331,1150017784
+192,7423,"spill size",0,0,0,0
+192,7426,"sort time",100,104,453,114679
+192,7427,"peak memory",335544320,335544320,335544320,268435456000
+192,7428,"spill size",0,0,0,0
+192,7429,"duration",9288,25302,60366,20405416
+192,7430,"sort time",0,0,1,2
+192,7431,"peak memory",67239936,67239936,67239936,53791948800
+192,7432,"spill size",0,0,0,0
+192,7433,"internal.metrics.executorDeserializeTime",2,1093,32959,1040431
+192,7434,"internal.metrics.executorDeserializeCpuTime",2342160,23241112,147769988,18593047788
+192,7435,"internal.metrics.executorRunTime",5462,23960,48076,19333204
+192,7436,"internal.metrics.executorCpuTime",2293828880,2967764351,3833969882,2374211636410
+192,7437,"internal.metrics.resultSize",7992,7992,8039,6396571
+192,7438,"internal.metrics.jvmGCTime",10,147,1113,263011
+192,7439,"internal.metrics.resultSerializationTime",112,112,112,112
+192,7442,"internal.metrics.peakExecutionMemory",503447552,569381814,570556416,455505608704
+192,7444,"internal.metrics.shuffle.read.remoteBlocksFetched",1395,1396,1436,1140025
+192,7445,"internal.metrics.shuffle.read.localBlocksFetched",0,0,39,8147
+192,7446,"internal.metrics.shuffle.read.remoteBytesRead",65380214,73140291,81284601,58512386757
+192,7447,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+192,7448,"internal.metrics.shuffle.read.localBytesRead",0,514337,1975133,411630424
+192,7449,"internal.metrics.shuffle.read.fetchWaitTime",2579,9788,24602,7993912
+192,7450,"internal.metrics.shuffle.read.recordsRead",2788822,3127301,3455431,2502000000
+192,7451,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+192,7452,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+192,7453,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+192,7454,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+192,7455,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+192,7456,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+192,7457,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+192,7458,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+192,7459,"internal.metrics.shuffle.read.remoteReqsDuration",48493,195530,393172,156584591
+192,7460,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+192,7461,"internal.metrics.shuffle.write.bytesWritten",22838406,29430376,36137358,23544459532
+192,7462,"internal.metrics.shuffle.write.recordsWritten",1104083,1437324,1768331,1150017784
+192,7463,"internal.metrics.shuffle.write.writeTime",14978247,24929820,204840898,19944009087
+195,6286,"remote blocks read",1024,1024,1033,823324
+195,6287,"local blocks read",3,3,12,5476
+195,6288,"remote bytes read",89281249,100333342,110182781,80266830746
+195,6290,"local bytes read",275759,667307,1277058,534008595
+195,6291,"fetch wait time",3476,11070,23995,9016803
+195,6292,"records read",2786247,3124799,3452922,2500000000
+195,6301,"remote reqs duration",17638,71061,193908,57002579
+195,6315,"remote blocks read",379,379,400,316569
+195,6316,"local blocks read",1,1,20,2803
+195,6317,"remote bytes read",61016,63832,66451,51229380
+195,6319,"local bytes read",107,1307,3469,451610
+195,6320,"fetch wait time",0,0,5714,7472
+195,6321,"records read",2345,2406,2669,2000000
+195,6330,"remote reqs duration",12509,54443,153156,43712987
+195,7654,"data size",79493976,103501398,127319832,82801280448
+195,7673,"shuffle bytes written",34093488,44162874,54146411,35330461894
+195,7674,"shuffle records written",1104083,1437323,1768331,1150017784
+195,7675,"shuffle write time",20520050,31828938,76893950,25463308772
+195,7676,"duration",5708,13659,27235,11087830
+195,7677,"number of output rows",1104083,1437323,1768331,1150017784
+195,7678,"spill size",0,0,0,0
+195,7681,"sort time",102,103,271,103603
+195,7682,"peak memory",335544320,336466869,402653184,269173653504
+195,7683,"spill size",0,0,0,0
+195,7684,"duration",11424,27545,54542,22192010
+195,7685,"sort time",0,0,0,0
+195,7686,"peak memory",67239936,67239936,67239936,53791948800
+195,7687,"spill size",0,0,0,0
+195,7688,"internal.metrics.executorDeserializeTime",2,2,17805,191659
+195,7689,"internal.metrics.executorDeserializeCpuTime",2350856,5044480,17780721,4035743777
+195,7690,"internal.metrics.executorRunTime",6678,14870,28864,12056347
+195,7691,"internal.metrics.executorCpuTime",2388071095,3274634619,4360243436,2619707855885
+195,7692,"internal.metrics.resultSize",7993,7993,8039,6396589
+195,7693,"internal.metrics.jvmGCTime",9,35,892,151817
+195,7694,"internal.metrics.resultSerializationTime",1,8,20,25
+195,7697,"internal.metrics.peakExecutionMemory",570556416,572317819,704774144,457854418944
+195,7699,"internal.metrics.shuffle.read.remoteBlocksFetched",1407,1407,1433,1139893
+195,7700,"internal.metrics.shuffle.read.localBlocksFetched",3,3,28,8279
+195,7701,"internal.metrics.shuffle.read.remoteBytesRead",89345467,100397372,110246339,80318060126
+195,7702,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+195,7703,"internal.metrics.shuffle.read.localBytesRead",275759,667878,1278201,534460205
+195,7704,"internal.metrics.shuffle.read.fetchWaitTime",3476,11081,23995,9024275
+195,7705,"internal.metrics.shuffle.read.recordsRead",2788822,3127302,3455431,2502000000
+195,7706,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+195,7707,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+195,7708,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+195,7709,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+195,7710,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+195,7711,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+195,7712,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+195,7713,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+195,7714,"internal.metrics.shuffle.read.remoteReqsDuration",30259,125702,343712,100715566
+195,7715,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+195,7716,"internal.metrics.shuffle.write.bytesWritten",34093488,44162874,54146411,35330461894
+195,7717,"internal.metrics.shuffle.write.recordsWritten",1104083,1437323,1768331,1150017784
+195,7718,"internal.metrics.shuffle.write.writeTime",20520050,31828938,76893950,25463308772
+200,6670,"remote blocks read",388,388,400,317899
+200,6671,"local blocks read",1,1,12,2084
+200,6672,"remote bytes read",54695,57220,59394,45932464
+200,6674,"local bytes read",107,838,1716,302065
+200,6675,"fetch wait time",0,5,3266,222170
+200,6676,"records read",3552,3650,3959,3000000
+200,6685,"remote reqs duration",11656,63330,96850,50820705
+200,7401,"remote blocks read",792,792,800,636292
+200,7402,"local blocks read",4,4,8,3708
+200,7403,"remote bytes read",26866908,29259753,31679546,23407959580
+200,7405,"local bytes read",126565,175708,319936,136499952
+200,7406,"fetch wait time",0,2837,8400,2425372
+200,7407,"records read",1304989,1437314,1559174,1150017784
+200,7416,"remote reqs duration",15067,80789,137917,64791740
+200,7893,"data size",9099960,12357985,15809880,9886551320
+200,7912,"shuffle bytes written",4085227,5433696,6847534,4347117246
+200,7913,"shuffle records written",227499,308750,395247,247163783
+200,7914,"shuffle write time",5303251,9416506,40770234,7533360576
+200,7915,"duration",2654,4456,9425,3714549
+200,7916,"number of output rows",227499,308750,395247,247163783
+200,7917,"spill size",0,0,0,0
+200,7919,"duration",2720,4598,9494,3843483
+200,7920,"sort time",42,43,139,50415
+200,7921,"peak memory",201326592,201326592,201326592,161061273600
+200,7922,"spill size",0,0,0,0
+200,7924,"sort time",0,0,49,49
+200,7925,"peak memory",67239936,67239936,67239936,53791948800
+200,7926,"spill size",0,0,0,0
+200,7927,"internal.metrics.executorDeserializeTime",3,3,588,68345
+200,7928,"internal.metrics.executorDeserializeCpuTime",2673904,7470129,21195564,5976263090
+200,7929,"internal.metrics.executorRunTime",2924,5061,11037,4227427
+200,7930,"internal.metrics.executorCpuTime",1008300362,1418268343,1781251564,1134614829949
+200,7931,"internal.metrics.resultSize",11632,11632,11679,9308710
+200,7932,"internal.metrics.jvmGCTime",8,10,446,47333
+200,7933,"internal.metrics.resultSerializationTime",1,2,5,12
+200,7936,"internal.metrics.peakExecutionMemory",339869696,343780682,344064000,275024707584
+200,7938,"internal.metrics.shuffle.read.remoteBlocksFetched",1181,1181,1200,954191
+200,7939,"internal.metrics.shuffle.read.localBlocksFetched",0,0,19,5792
+200,7940,"internal.metrics.shuffle.read.remoteBytesRead",26923294,29317153,31737597,23453892044
+200,7941,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+200,7942,"internal.metrics.shuffle.read.localBytesRead",0,170800,321588,136802017
+200,7943,"internal.metrics.shuffle.read.fetchWaitTime",1233,3107,8400,2647542
+200,7944,"internal.metrics.shuffle.read.recordsRead",1308709,1441061,1562936,1153017784
+200,7945,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+200,7946,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+200,7947,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+200,7948,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+200,7949,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+200,7950,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+200,7951,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+200,7952,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+200,7953,"internal.metrics.shuffle.read.remoteReqsDuration",26723,144315,217593,115612445
+200,7954,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+200,7955,"internal.metrics.shuffle.write.bytesWritten",4085227,5433696,6847534,4347117246
+200,7956,"internal.metrics.shuffle.write.recordsWritten",227499,308750,395247,247163783
+200,7957,"internal.metrics.shuffle.write.writeTime",5303251,9416506,40770234,7533360576
+205,6344,"remote blocks read",388,388,400,318620
+205,6345,"local blocks read",1,1,12,1363
+205,6346,"remote bytes read",71533,74180,76711,59503100
+205,6348,"local bytes read",156,1364,2415,255657
+205,6349,"fetch wait time",0,0,228,1228
+205,6350,"records read",3552,3648,3959,3000000
+205,6359,"remote reqs duration",7954,25865,50596,20859302
+205,7656,"remote blocks read",789,789,800,636482
+205,7657,"local blocks read",1,1,11,3518
+205,7658,"remote bytes read",40139840,43920679,47755135,35136700129
+205,7660,"local bytes read",49798,275055,640575,193761765
+205,7661,"fetch wait time",625,2737,5384,2346227
+205,7662,"records read",1304989,1437325,1559174,1150017784
+205,7671,"remote reqs duration",12393,38722,103262,31138760
+205,8120,"data size",18199920,24716176,31619760,19773102640
+205,8139,"shuffle bytes written",6398885,8639423,11028514,6911700182
+205,8140,"shuffle records written",227499,308760,395247,247163783
+205,8141,"shuffle write time",6263342,10575283,49803005,8460381314
+205,8142,"duration",1871,4023,6731,3384111
+205,8143,"number of output rows",227499,308760,395247,247163783
+205,8144,"spill size",0,0,0,0
+205,8146,"duration",1878,4066,6814,3419894
+205,8147,"sort time",47,48,294,50630
+205,8148,"peak memory",201326592,201326592,201326592,161061273600
+205,8149,"spill size",0,0,0,0
+205,8151,"sort time",0,0,0,0
+205,8152,"peak memory",67239936,67239936,67239936,53791948800
+205,8153,"spill size",0,0,0,0
+205,8154,"internal.metrics.executorDeserializeTime",3,10,3744,77096
+205,8155,"internal.metrics.executorDeserializeCpuTime",3012724,6595641,14800637,5276666999
+205,8156,"internal.metrics.executorRunTime",2171,4378,7096,3658190
+205,8157,"internal.metrics.executorCpuTime",1093757969,1475558227,2046468919,1180446740424
+205,8158,"internal.metrics.resultSize",11632,11632,11679,9308628
+205,8159,"internal.metrics.jvmGCTime",7,8,487,40791
+205,8160,"internal.metrics.resultSerializationTime",2,2,2,4
+205,8163,"internal.metrics.peakExecutionMemory",339869696,343780676,344064000,275024707584
+205,8165,"internal.metrics.shuffle.read.remoteBlocksFetched",1178,1178,1200,955102
+205,8166,"internal.metrics.shuffle.read.localBlocksFetched",0,0,22,4881
+205,8167,"internal.metrics.shuffle.read.remoteBytesRead",40213653,43995048,47829955,35196203229
+205,8168,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+205,8169,"internal.metrics.shuffle.read.localBytesRead",0,242325,642755,194017422
+205,8170,"internal.metrics.shuffle.read.fetchWaitTime",625,2740,5384,2347455
+205,8171,"internal.metrics.shuffle.read.recordsRead",1308709,1441071,1562936,1153017784
+205,8172,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+205,8173,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+205,8174,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+205,8175,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+205,8176,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+205,8177,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+205,8178,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+205,8179,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+205,8180,"internal.metrics.shuffle.read.remoteReqsDuration",21307,64805,153611,51998062
+205,8181,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+205,8182,"internal.metrics.shuffle.write.bytesWritten",6398885,8639423,11028514,6911700182
+205,8183,"internal.metrics.shuffle.write.recordsWritten",227499,308760,395247,247163783
+205,8184,"internal.metrics.shuffle.write.writeTime",6263342,10575283,49803005,8460381314
+212,6699,"remote blocks read",282,291,647,251329
+212,6700,"local blocks read",1,1,12,1600
+212,6701,"remote bytes read",23374,25897,53312,20851080
+212,6703,"local bytes read",75,441,1014,132513
+212,6704,"fetch wait time",0,0,169,5972
+212,6705,"records read",537,577,1237,500000
+212,6714,"remote reqs duration",254,6328,13411,5213139
+212,7895,"remote blocks read",792,792,1592,636351
+212,7896,"local blocks read",4,4,8,3649
+212,7897,"remote bytes read",2599307,5409536,9986407,4322377740
+212,7899,"local bytes read",12848,30772,94949,24739506
+212,7900,"fetch wait time",0,0,507,54785
+212,7901,"records read",132986,309136,600917,247163783
+212,7910,"remote reqs duration",1856,17946,37447,14497658
+212,8331,"data size",4255552,9898727,19229344,7909241056
+212,8350,"shuffle bytes written",1523675,3429047,6547672,2739966274
+212,8351,"shuffle records written",132986,309136,600917,247163783
+212,8352,"shuffle write time",3985106,7631915,51221538,6098064710
+212,8353,"duration",211,387,1072,473832
+212,8354,"number of output rows",132986,309136,600917,247163783
+212,8355,"spill size",0,0,0,0
+212,8357,"duration",244,448,1175,541041
+212,8358,"sort time",3,3,39,7525
+212,8359,"peak memory",75497472,80977682,100663296,64701333504
+212,8360,"spill size",0,0,0,0
+212,8364,"duration",227,413,1139,497650
+212,8365,"sort time",0,0,0,0
+212,8366,"peak memory",67174400,67174400,67174400,53672345600
+212,8367,"spill size",0,0,0,0
+212,8371,"internal.metrics.executorDeserializeTime",3,3,486,31404
+212,8372,"internal.metrics.executorDeserializeCpuTime",3509265,10234047,32992226,8177155662
+212,8373,"internal.metrics.executorRunTime",352,693,1444,761191
+212,8374,"internal.metrics.executorCpuTime",344380675,663353393,1095891122,530019517474
+212,8375,"internal.metrics.resultSize",15230,15230,15319,12196880
+212,8376,"internal.metrics.jvmGCTime",10,10,151,19498
+212,8377,"internal.metrics.resultSerializationTime",1,3,18,26
+212,8380,"internal.metrics.peakExecutionMemory",213975040,222195462,251723776,177534337024
+212,8382,"internal.metrics.shuffle.read.remoteBlocksFetched",1078,1088,2239,887680
+212,8383,"internal.metrics.shuffle.read.localBlocksFetched",4,4,19,5249
+212,8384,"internal.metrics.shuffle.read.remoteBytesRead",2623790,5435635,10011936,4343228820
+212,8385,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+212,8386,"internal.metrics.shuffle.read.localBytesRead",12978,30931,95734,24872019
+212,8387,"internal.metrics.shuffle.read.fetchWaitTime",0,0,507,60757
+212,8388,"internal.metrics.shuffle.read.recordsRead",133523,309759,601540,247663783
+212,8389,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+212,8390,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+212,8391,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+212,8392,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+212,8393,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+212,8394,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+212,8395,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+212,8396,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+212,8397,"internal.metrics.shuffle.read.remoteReqsDuration",2222,24466,46807,19710797
+212,8398,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+212,8399,"internal.metrics.shuffle.write.bytesWritten",1523675,3429047,6547672,2739966274
+212,8400,"internal.metrics.shuffle.write.recordsWritten",132986,309136,600917,247163783
+212,8401,"internal.metrics.shuffle.write.writeTime",3985106,7631915,51221538,6098064710
+219,6373,"remote blocks read",286,290,647,251451
+219,6374,"local blocks read",1,1,15,1478
+219,6375,"remote bytes read",40751,44678,91382,35815804
+219,6377,"local bytes read",99,877,2290,210730
+219,6378,"fetch wait time",0,0,598,19382
+219,6379,"records read",537,577,1292,500000
+219,6388,"remote reqs duration",603,5778,12404,4773592
+219,8122,"remote blocks read",792,792,1600,636433
+219,8123,"local blocks read",1,1,8,3567
+219,8124,"remote bytes read",3981322,8612262,16333707,6872739939
+219,8126,"local bytes read",4714,52255,151701,38960243
+219,8127,"fetch wait time",0,0,742,177715
+219,8128,"records read",132986,309529,600917,247163783
+219,8137,"remote reqs duration",1902,22659,46860,18242883
+219,8536,"data size",14712576,34406887,66720632,27456861776
+219,8555,"shuffle bytes written",4649259,8785117,15319208,7010694857
+219,8556,"shuffle records written",132986,309529,600917,247163783
+219,8557,"shuffle write time",5412937,12427682,61487991,9917451419
+219,8558,"duration",395,778,1621,810784
+219,8559,"number of output rows",132986,309529,600917,247163783
+219,8560,"spill size",0,0,0,0
+219,8562,"duration",408,908,1803,920907
+219,8563,"sort time",2,2,31,7297
+219,8564,"peak memory",75497472,80995068,100663296,64634224640
+219,8565,"spill size",0,0,0,0
+219,8569,"duration",404,831,1776,851095
+219,8570,"sort time",0,0,2,3
+219,8571,"peak memory",67174400,67174400,67174400,53605171200
+219,8572,"spill size",0,0,0,0
+219,8576,"internal.metrics.executorDeserializeTime",3,3,374,41132
+219,8577,"internal.metrics.executorDeserializeCpuTime",3522588,8433091,22911636,6729774034
+219,8578,"internal.metrics.executorRunTime",637,1350,2290,1241974
+219,8579,"internal.metrics.executorCpuTime",485943704,1001390337,1551243869,799109642702
+219,8580,"internal.metrics.resultSize",15231,15231,15319,12187228
+219,8581,"internal.metrics.jvmGCTime",8,8,158,24816
+219,8582,"internal.metrics.resultSerializationTime",1,1,1,3
+219,8585,"internal.metrics.peakExecutionMemory",213975040,222473828,318832640,177534271488
+219,8587,"internal.metrics.shuffle.read.remoteBlocksFetched",1079,1087,2239,887884
+219,8588,"internal.metrics.shuffle.read.localBlocksFetched",0,0,20,5045
+219,8589,"internal.metrics.shuffle.read.remoteBytesRead",4022382,8657145,16377815,6908555743
+219,8590,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+219,8591,"internal.metrics.shuffle.read.localBytesRead",0,48888,151701,39170973
+219,8592,"internal.metrics.shuffle.read.fetchWaitTime",0,18,742,197097
+219,8593,"internal.metrics.shuffle.read.recordsRead",133523,310154,601540,247663783
+219,8594,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+219,8595,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+219,8596,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+219,8597,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+219,8598,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+219,8599,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+219,8600,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+219,8601,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+219,8602,"internal.metrics.shuffle.read.remoteReqsDuration",2596,28640,57175,23016475
+219,8603,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+219,8604,"internal.metrics.shuffle.write.bytesWritten",4649259,8785117,15319208,7010694857
+219,8605,"internal.metrics.shuffle.write.recordsWritten",132986,309529,600917,247163783
+219,8606,"internal.metrics.shuffle.write.writeTime",5412937,12427682,61487991,9917451419
+228,6728,"remote blocks read",1,1,17,4232
+228,6729,"local blocks read",1,1,4,474
+228,6730,"remote bytes read",75,618,1275,319368
+228,6732,"local bytes read",75,75,300,35904
+228,6733,"fetch wait time",0,0,0,0
+228,6734,"records read",2,2,19,5000
+228,6743,"remote reqs duration",10,110,1005,98591
+228,8333,"remote blocks read",791,1330,3975,632931
+228,8334,"local blocks read",4,4,28,3872
+228,8335,"remote bytes read",1138760,6204115,37456821,2723653786
+228,8337,"local bytes read",5443,37137,369813,16312488
+228,8338,"fetch wait time",0,0,39,191
+228,8339,"records read",86211,562906,3404746,247163783
+228,8348,"remote reqs duration",919,4879,21701,2189313
+228,8725,"data size",2069064,13512258,81713904,5931930792
+228,8744,"shuffle bytes written",665495,3889847,23075996,1707693315
+228,8745,"shuffle records written",86211,562906,3404746,247163783
+228,8746,"shuffle write time",2129239,6245031,57857432,2741615943
+228,8747,"duration",86,408,2382,228780
+228,8748,"number of output rows",86211,562906,3404746,247163783
+228,8749,"spill size",0,0,0,0
+228,8751,"duration",89,432,2442,239488
+228,8752,"sort time",1,1,55,3732
+228,8753,"peak memory",71303168,90373283,268435456,39673921536
+228,8754,"spill size",0,0,0,0
+228,8758,"duration",82,410,2422,230534
+228,8759,"sort time",0,0,0,0
+228,8760,"peak memory",67174400,67174400,67174400,29489561600
+228,8761,"spill size",0,0,0,0
+228,8765,"internal.metrics.executorDeserializeTime",4,4,109,5029
+228,8766,"internal.metrics.executorDeserializeCpuTime",4076332,7487196,16847689,3286927946
+228,8767,"internal.metrics.executorRunTime",170,663,3490,340853
+228,8768,"internal.metrics.executorCpuTime",150091578,713826545,3295248969,313369901523
+228,8769,"internal.metrics.resultSize",18870,18870,18959,8295752
+228,8770,"internal.metrics.jvmGCTime",8,9,84,5686
+228,8771,"internal.metrics.resultSerializationTime",18,18,18,18
+228,8774,"internal.metrics.peakExecutionMemory",207683584,236594546,536936448,103865057280
+228,8776,"internal.metrics.shuffle.read.remoteBlocksFetched",794,1341,3989,637163
+228,8777,"internal.metrics.shuffle.read.localBlocksFetched",0,3,29,4346
+228,8778,"internal.metrics.shuffle.read.remoteBytesRead",1139060,6204844,37457646,2723973154
+228,8779,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+228,8780,"internal.metrics.shuffle.read.localBytesRead",0,37129,369813,16348392
+228,8781,"internal.metrics.shuffle.read.fetchWaitTime",0,0,39,191
+228,8782,"internal.metrics.shuffle.read.recordsRead",86216,562918,3404757,247168783
+228,8783,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+228,8784,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+228,8785,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+228,8786,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+228,8787,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+228,8788,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+228,8789,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+228,8790,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+228,8791,"internal.metrics.shuffle.read.remoteReqsDuration",933,5109,22603,2287904
+228,8792,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+228,8793,"internal.metrics.shuffle.write.bytesWritten",665495,3889847,23075996,1707693315
+228,8794,"internal.metrics.shuffle.write.recordsWritten",86211,562906,3404746,247163783
+228,8795,"internal.metrics.shuffle.write.writeTime",2129239,6245031,57857432,2741615943
+237,6402,"remote blocks read",1,1,18,4225
+237,6403,"local blocks read",1,1,4,481
+237,6404,"remote bytes read",109,946,1914,455270
+237,6406,"local bytes read",100,101,426,53214
+237,6407,"fetch wait time",0,0,0,0
+237,6408,"records read",2,2,18,5000
+237,6417,"remote reqs duration",6,333,2258,184570
+237,8538,"remote blocks read",790,1373,3970,632454
+237,8539,"local blocks read",4,4,24,3552
+237,8540,"remote bytes read",1242145,16212019,88935566,6971213745
+237,8542,"local bytes read",5750,91704,824432,39481112
+237,8543,"fetch wait time",0,0,66,864
+237,8544,"records read",34425,574699,3404746,247163783
+237,8553,"remote reqs duration",1343,8311,33611,3619605
+237,8902,"data size",4926192,79947191,486747168,34377337936
+237,8921,"shuffle bytes written",1350961,20536589,118756846,8830777944
+237,8922,"shuffle records written",34425,574699,3404746,247163783
+237,8923,"shuffle write time",3011771,15797082,79140768,6792794222
+237,8924,"duration",77,577,3407,295947
+237,8925,"number of output rows",34425,574699,3404746,247163783
+237,8926,"spill size",0,0,0,0
+237,8928,"duration",80,601,3433,305948
+237,8929,"sort time",0,0,48,3408
+237,8930,"peak memory",69206016,126799555,536870912,54523854848
+237,8931,"spill size",0,0,0,0
+237,8935,"duration",70,571,3414,294260
+237,8936,"sort time",0,0,0,0
+237,8937,"peak memory",67174400,67174400,67174400,28884992000
+237,8938,"spill size",0,0,0,0
+237,8942,"internal.metrics.executorDeserializeTime",3,3,69,4954
+237,8943,"internal.metrics.executorDeserializeCpuTime",3770603,6696237,13992004,2879428815
+237,8944,"internal.metrics.executorRunTime",155,1068,5757,504669
+237,8945,"internal.metrics.executorCpuTime",148814072,1115413481,5575809583,479627840809
+237,8946,"internal.metrics.resultSize",18870,18870,19000,8128624
+237,8947,"internal.metrics.jvmGCTime",7,7,180,7139
+237,8949,"internal.metrics.memoryBytesSpilled",469827584,469827584,469827584,469827584
+237,8950,"internal.metrics.diskBytesSpilled",7073868,7073868,7073868,7073868
+237,8951,"internal.metrics.peakExecutionMemory",204537856,320971144,1208025088,138017636352
+237,8953,"internal.metrics.shuffle.read.remoteBlocksFetched",793,1383,3984,636679
+237,8954,"internal.metrics.shuffle.read.localBlocksFetched",4,4,26,4033
+237,8955,"internal.metrics.shuffle.read.remoteBytesRead",1242256,16213085,88936756,6971669015
+237,8956,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+237,8957,"internal.metrics.shuffle.read.localBytesRead",5861,91823,824654,39534326
+237,8958,"internal.metrics.shuffle.read.fetchWaitTime",0,0,66,864
+237,8959,"internal.metrics.shuffle.read.recordsRead",34427,574713,3404757,247168783
+237,8960,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+237,8961,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+237,8962,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+237,8963,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+237,8964,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+237,8965,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+237,8966,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+237,8967,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+237,8968,"internal.metrics.shuffle.read.remoteReqsDuration",1356,8737,34287,3804175
+237,8969,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+237,8970,"internal.metrics.shuffle.write.bytesWritten",1350961,20536589,118756846,8830777944
+237,8971,"internal.metrics.shuffle.write.recordsWritten",34425,574699,3404746,247163783
+237,8972,"internal.metrics.shuffle.write.writeTime",3011771,15797082,79140768,6792794222
+248,6757,"remote blocks read",1,1,1,454
+248,6758,"local blocks read",1,1,1,26
+248,6759,"remote bytes read",74,74,115,35922
+248,6761,"local bytes read",75,75,88,2072
+248,6762,"fetch wait time",0,0,30,103
+248,6763,"records read",1,1,6,731
+248,6772,"remote reqs duration",23,120,300,93054
+248,8727,"remote blocks read",424,424,439,209342
+248,8728,"local blocks read",1,1,15,1378
+248,8729,"remote bytes read",1961216,3534997,16249115,1696856324
+248,8731,"local bytes read",957,37163,253431,10836991
+248,8732,"fetch wait time",0,21,579,76499
+248,8733,"records read",336932,514808,2030168,247163783
+248,8742,"remote reqs duration",294,4410,7343,2171812
+248,9057,"data size",2167680,2547137,5371744,1222685360
+248,9076,"shuffle bytes written",1011214,1155771,2090591,554825788
+248,9077,"shuffle records written",135480,159086,335734,76417835
+248,9078,"shuffle write time",3201793,4164751,6979219,1999137435
+248,9079,"duration",172,498,1292,315365
+248,9080,"number of output rows",135480,159086,335734,76417835
+248,9081,"peak memory",71303168,71783640,83886080,34456207360
+248,9083,"time in aggregation build",148,406,1180,270716
+248,9084,"avg hash probes per key",12,12,14,6528
+248,9086,"number of output rows",336932,514808,2030168,247163783
+248,9087,"spill size",0,0,0,0
+248,9089,"duration",153,576,1355,342975
+248,9090,"sort time",0,0,37,1828
+248,9091,"peak memory",83886080,90946372,134217728,43654316032
+248,9092,"spill size",0,0,0,0
+248,9096,"duration",82,397,1223,256782
+248,9097,"sort time",0,0,0,0
+248,9098,"peak memory",67174400,67174400,67174400,32243712000
+248,9099,"spill size",0,0,0,0
+248,9103,"internal.metrics.executorDeserializeTime",4,4,186,18704
+248,9104,"internal.metrics.executorDeserializeCpuTime",4829239,15918884,49291699,7641123305
+248,9105,"internal.metrics.executorRunTime",259,764,1583,434188
+248,9106,"internal.metrics.executorCpuTime",259661152,616061276,1459780594,295709467393
+248,9107,"internal.metrics.resultSize",22939,22939,22987,11020611
+248,9108,"internal.metrics.jvmGCTime",6,6,43,3036
+248,9112,"internal.metrics.peakExecutionMemory",293666816,301242657,360775680,144596533248
+248,9114,"internal.metrics.shuffle.read.remoteBlocksFetched",425,425,440,209796
+248,9115,"internal.metrics.shuffle.read.localBlocksFetched",0,0,15,1404
+248,9116,"internal.metrics.shuffle.read.remoteBytesRead",1961291,3535070,16249230,1696892246
+248,9117,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+248,9118,"internal.metrics.shuffle.read.localBytesRead",0,22460,253431,10839063
+248,9119,"internal.metrics.shuffle.read.fetchWaitTime",0,21,579,76602
+248,9120,"internal.metrics.shuffle.read.recordsRead",336933,514810,2030174,247164514
+248,9121,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+248,9122,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+248,9123,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+248,9124,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+248,9125,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+248,9126,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+248,9127,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+248,9128,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+248,9129,"internal.metrics.shuffle.read.remoteReqsDuration",294,4604,7580,2264866
+248,9130,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+248,9131,"internal.metrics.shuffle.write.bytesWritten",1011214,1155771,2090591,554825788
+248,9132,"internal.metrics.shuffle.write.recordsWritten",135480,159086,335734,76417835
+248,9133,"internal.metrics.shuffle.write.writeTime",3201793,4164751,6979219,1999137435
+259,6431,"remote blocks read",1,1,1,467
+259,6432,"local blocks read",1,1,1,13
+259,6433,"remote bytes read",89,89,180,46448
+259,6435,"local bytes read",90,102,126,1359
+259,6436,"fetch wait time",0,0,217,4862
+259,6437,"records read",1,1,6,731
+259,6446,"remote reqs duration",310,1492,2996,752509
+259,8904,"remote blocks read",407,409,430,205066
+259,8905,"local blocks read",1,1,23,1334
+259,8906,"remote bytes read",11582368,18279456,70431800,8774196816
+259,8908,"local bytes read",5282,184827,1491989,56581128
+259,8909,"fetch wait time",0,1266,2625,665934
+259,8910,"records read",336932,514802,2030168,247163783
+259,8919,"remote reqs duration",1383,18857,29979,9106815
+259,9212,"data size",54944824,83977521,331099616,40309268728
+259,9231,"shuffle bytes written",13699623,20907689,81840322,10035748419
+259,9232,"shuffle records written",336932,514802,2030168,247163783
+259,9233,"shuffle write time",9646114,15904796,54498579,7634359912
+259,9234,"duration",334,2023,3728,1029425
+259,9235,"number of output rows",336932,514802,2030168,247163783
+259,9236,"spill size",0,0,0,0
+259,9238,"duration",336,2104,3837,1068809
+259,9239,"sort time",0,0,29,1738
+259,9240,"peak memory",83886080,124500806,402653184,59760443392
+259,9241,"spill size",0,0,0,0
+259,9245,"duration",163,1835,3604,937727
+259,9246,"sort time",0,0,0,0
+259,9247,"peak memory",67174400,67174400,67174400,32243712000
+259,9248,"spill size",0,0,0,0
+259,9252,"internal.metrics.executorDeserializeTime",4,11,1079,25048
+259,9253,"internal.metrics.executorDeserializeCpuTime",4842515,15297384,42291496,7342802382
+259,9254,"internal.metrics.executorRunTime",683,2589,5033,1306822
+259,9255,"internal.metrics.executorCpuTime",671109012,1172362810,3871749075,562734207109
+259,9256,"internal.metrics.resultSize",22510,22511,22557,10823461
+259,9257,"internal.metrics.jvmGCTime",7,7,211,7894
+259,9261,"internal.metrics.peakExecutionMemory",226557952,305655416,906035200,146714656768
+259,9263,"internal.metrics.shuffle.read.remoteBlocksFetched",408,409,431,205533
+259,9264,"internal.metrics.shuffle.read.localBlocksFetched",0,0,23,1347
+259,9265,"internal.metrics.shuffle.read.remoteBytesRead",11582458,18279549,70431980,8774243264
+259,9266,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+259,9267,"internal.metrics.shuffle.read.localBytesRead",0,117765,1491989,56582487
+259,9268,"internal.metrics.shuffle.read.fetchWaitTime",0,1278,2625,670796
+259,9269,"internal.metrics.shuffle.read.recordsRead",336933,514803,2030174,247164514
+259,9270,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+259,9271,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+259,9272,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+259,9273,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+259,9274,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+259,9275,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+259,9276,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+259,9277,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+259,9278,"internal.metrics.shuffle.read.remoteReqsDuration",1383,20422,32696,9859324
+259,9279,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+259,9280,"internal.metrics.shuffle.write.bytesWritten",13699623,20907689,81840322,10035748419
+259,9281,"internal.metrics.shuffle.write.recordsWritten",336932,514802,2030168,247163783
+259,9282,"internal.metrics.shuffle.write.writeTime",9646114,15904796,54498579,7634359912
+282,9059,"remote blocks read",454,469,478,381786
+282,9060,"local blocks read",2,2,26,2214
+282,9061,"remote bytes read",576824,689335,806724,551632463
+282,9063,"local bytes read",1798,3790,41403,3193325
+282,9064,"fetch wait time",0,0,2298,137378
+282,9065,"records read",79962,95322,110275,76417835
+282,9074,"remote reqs duration",4339,32943,66893,26518659
+282,9214,"remote blocks read",467,470,478,381822
+282,9215,"local blocks read",2,2,13,2178
+282,9216,"remote bytes read",9610381,12473309,15281645,9978801092
+282,9218,"local bytes read",26925,70983,412680,56947327
+282,9219,"fetch wait time",0,790,2674,793888
+282,9220,"records read",237099,308751,380236,247163783
+282,9229,"remote reqs duration",4133,34866,62201,28048394
+282,9327,"data size",6504640,7405117,8330400,5924250736
+282,9346,"shuffle bytes written",2309334,2613122,2921517,2090654367
+282,9347,"shuffle records written",41459,46972,53055,37734459
+282,9348,"shuffle write time",4002859,5265913,39701994,4212889370
+282,9349,"duration",720,1949,3830,1722998
+282,9350,"number of output rows",41459,46972,53055,37734459
+282,9351,"peak memory",67371008,67371008,67371008,53896806400
+282,9353,"time in aggregation build",692,1825,3730,1625043
+282,9354,"avg hash probes per key",10,10,10,8000
+282,9356,"number of output rows",237099,308751,380236,247163783
+282,9357,"spill size",0,0,0,0
+282,9359,"duration",706,2176,3941,1911183
+282,9360,"sort time",5,5,46,6614
+282,9361,"peak memory",75497472,83613252,83886080,66890760192
+282,9362,"spill size",0,0,0,0
+282,9363,"duration",700,1988,3884,1753974
+282,9364,"sort time",0,0,0,0
+282,9365,"peak memory",67239936,67239936,67239936,53791948800
+282,9366,"spill size",0,0,0,0
+282,9367,"number of output rows",2345,2415,2669,2000000
+282,9368,"peak memory",262144,20562374,67371008,16450060288
+282,9370,"time in aggregation build",35,57,2367,190681
+282,9371,"avg hash probes per key",10,10,10,2420
+282,9373,"internal.metrics.executorDeserializeTime",7,7,389,39688
+282,9374,"internal.metrics.executorDeserializeCpuTime",7990952,16667196,31793722,13333906832
+282,9375,"internal.metrics.executorRunTime",845,2394,4115,2094990
+282,9376,"internal.metrics.executorCpuTime",545466608,1033166259,1385855980,826533173048
+282,9377,"internal.metrics.resultSize",45453,45455,45542,36396336
+282,9378,"internal.metrics.jvmGCTime",8,8,107,22654
+282,9379,"internal.metrics.resultSerializationTime",1,3,7,12
+282,9382,"internal.metrics.peakExecutionMemory",278528000,306944213,354025472,245555527680
+282,9384,"internal.metrics.shuffle.read.remoteBlocksFetched",932,942,956,763608
+282,9385,"internal.metrics.shuffle.read.localBlocksFetched",4,4,28,4392
+282,9386,"internal.metrics.shuffle.read.remoteBytesRead",10187205,13162841,16083623,10530433555
+282,9387,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+282,9388,"internal.metrics.shuffle.read.localBytesRead",29225,74980,415272,60140652
+282,9389,"internal.metrics.shuffle.read.fetchWaitTime",0,946,2674,931266
+282,9390,"internal.metrics.shuffle.read.recordsRead",317061,404276,490511,323581618
+282,9391,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+282,9392,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+282,9393,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+282,9394,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+282,9395,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+282,9396,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+282,9397,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+282,9398,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+282,9399,"internal.metrics.shuffle.read.remoteReqsDuration",8472,68004,108837,54567053
+282,9400,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+282,9401,"internal.metrics.shuffle.write.bytesWritten",2309334,2613122,2921517,2090654367
+282,9402,"internal.metrics.shuffle.write.recordsWritten",41459,46972,53055,37734459
+282,9403,"internal.metrics.shuffle.write.writeTime",4002859,5265913,39701994,4212889370
+306,9329,"remote blocks read",792,792,796,636415
+306,9330,"local blocks read",4,4,8,3585
+306,9331,"remote bytes read",1715178,2598458,3357749,2078929135
+306,9333,"local bytes read",9365,14454,32130,11725232
+306,9334,"fetch wait time",0,0,42,684
+306,9335,"records read",29109,46969,63044,37734459
+306,9344,"remote reqs duration",2681,12936,30232,10502597
+306,9414,"data size",16,16,16,12800
+306,9433,"shuffle bytes written",75,75,75,60000
+306,9434,"shuffle records written",1,1,1,800
+306,9435,"shuffle write time",218040,18496377,106536301,14797259717
+306,9436,"duration",120,180,485,242492
+306,9437,"number of output rows",1,1,1,800
+306,9440,"time in aggregation build",119,179,481,239401
+306,9443,"number of output rows",134,140,210,136673
+306,9444,"peak memory",262144,262144,262144,209715200
+306,9446,"time in aggregation build",112,164,411,215217
+306,9449,"internal.metrics.executorDeserializeTime",13,15,192,61092
+306,9450,"internal.metrics.executorDeserializeCpuTime",11117893,21257977,40165676,17006543881
+306,9451,"internal.metrics.executorRunTime",131,281,640,350902
+306,9452,"internal.metrics.executorCpuTime",116766926,235688472,343779438,188550938802
+306,9453,"internal.metrics.resultSize",46607,46607,46696,37297721
+306,9454,"internal.metrics.jvmGCTime",10,10,64,7045
+306,9455,"internal.metrics.resultSerializationTime",1,3,36,157
+306,9458,"internal.metrics.peakExecutionMemory",262144,262144,262144,209715200
+306,9460,"internal.metrics.shuffle.read.remoteBlocksFetched",792,792,796,636415
+306,9461,"internal.metrics.shuffle.read.localBlocksFetched",4,4,8,3585
+306,9462,"internal.metrics.shuffle.read.remoteBytesRead",1715178,2598458,3357749,2078929135
+306,9463,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+306,9464,"internal.metrics.shuffle.read.localBytesRead",9365,14454,32130,11725232
+306,9465,"internal.metrics.shuffle.read.fetchWaitTime",0,0,42,684
+306,9466,"internal.metrics.shuffle.read.recordsRead",29109,46969,63044,37734459
+306,9467,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+306,9468,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+306,9469,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+306,9470,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+306,9471,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+306,9472,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+306,9473,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+306,9474,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+306,9475,"internal.metrics.shuffle.read.remoteReqsDuration",2681,12936,30232,10502597
+306,9476,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0
+306,9477,"internal.metrics.shuffle.write.bytesWritten",75,75,75,60000
+306,9478,"internal.metrics.shuffle.write.recordsWritten",1,1,1,800
+306,9479,"internal.metrics.shuffle.write.writeTime",218040,18496377,106536301,14797259717
+331,9416,"remote blocks read",793,793,793,793
+331,9417,"local blocks read",7,7,7,7
+331,9418,"remote bytes read",59475,59475,59475,59475
+331,9420,"local bytes read",525,525,525,525
+331,9421,"fetch wait time",0,0,0,0
+331,9422,"records read",800,800,800,800
+331,9431,"remote reqs duration",988,988,988,988
+331,9484,"duration",38,38,38,38
+331,9485,"number of output rows",1,1,1,1
+331,9488,"time in aggregation build",37,37,37,37
+331,9491,"internal.metrics.executorDeserializeTime",150,150,150,150
+331,9492,"internal.metrics.executorDeserializeCpuTime",86933606,86933606,86933606,86933606
+331,9493,"internal.metrics.executorRunTime",56,56,56,56
+331,9494,"internal.metrics.executorCpuTime",54698395,54698395,54698395,54698395
+331,9495,"internal.metrics.resultSize",3995,3995,3995,3995
+331,9502,"internal.metrics.shuffle.read.remoteBlocksFetched",793,793,793,793
+331,9503,"internal.metrics.shuffle.read.localBlocksFetched",7,7,7,7
+331,9504,"internal.metrics.shuffle.read.remoteBytesRead",59475,59475,59475,59475
+331,9505,"internal.metrics.shuffle.read.remoteBytesReadToDisk",0,0,0,0
+331,9506,"internal.metrics.shuffle.read.localBytesRead",525,525,525,525
+331,9507,"internal.metrics.shuffle.read.fetchWaitTime",0,0,0,0
+331,9508,"internal.metrics.shuffle.read.recordsRead",800,800,800,800
+331,9509,"internal.metrics.shuffle.push.read.corruptMergedBlockChunks",0,0,0,0
+331,9510,"internal.metrics.shuffle.push.read.mergedFetchFallbackCount",0,0,0,0
+331,9511,"internal.metrics.shuffle.push.read.remoteMergedBlocksFetched",0,0,0,0
+331,9512,"internal.metrics.shuffle.push.read.localMergedBlocksFetched",0,0,0,0
+331,9513,"internal.metrics.shuffle.push.read.remoteMergedChunksFetched",0,0,0,0
+331,9514,"internal.metrics.shuffle.push.read.localMergedChunksFetched",0,0,0,0
+331,9515,"internal.metrics.shuffle.push.read.remoteMergedBytesRead",0,0,0,0
+331,9516,"internal.metrics.shuffle.push.read.localMergedBytesRead",0,0,0,0
+331,9517,"internal.metrics.shuffle.read.remoteReqsDuration",988,988,988,988
+331,9518,"internal.metrics.shuffle.push.read.remoteMergedReqsDuration",0,0,0,0

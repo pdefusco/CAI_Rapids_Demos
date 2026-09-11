@@ -1,0 +1,5 @@
+{
+  "appName" : "Spark-ETL-v6",
+  "appId" : "spark-9ea1f83f4a7740ffb9002876514c6426",
+  "eventLogPath" : "file:/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-9ea1f83f4a7740ffb9002876514c6426"
+}

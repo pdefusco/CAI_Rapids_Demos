@@ -1,0 +1,26 @@
+App ID,SQL ID,Operator,Count,Stage Task Exec Duration(s),Total SQL Task Duration(s),% of Total SQL Task Duration,Supported
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,AQEShuffleRead,19,15267.69,58517.36,26.09,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,AdaptiveSparkPlan,1,845.02,58517.36,1.44,False
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,ColumnarToRow,12,10060.30,58517.36,17.19,False
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Exchange,24,56899.41,58517.36,97.24,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Execute InsertIntoHadoopFsRelationCommand parquet,1,845.02,58517.36,1.44,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Filter,12,10060.30,58517.36,17.19,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,HashAggregate,7,8483.56,58517.36,14.50,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Project,12,46554.30,58517.36,79.56,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Scan parquet,2,0.67,58517.36,0.00,False
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Scan parquet,10,10059.63,58517.36,17.19,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Sort,24,47399.33,58517.36,81.00,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,SortMergeJoin,11,46554.30,58517.36,79.56,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,Window,2,4415.65,58517.36,7.55,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,1,WriteFiles,1,845.02,58517.36,1.44,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,AQEShuffleRead,12,4800.10,77800.66,6.17,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,AdaptiveSparkPlan,1,0.21,77800.66,0.00,False
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,ColumnarToRow,12,29617.87,77800.66,38.07,False
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,Exchange,24,77800.44,77800.66,100.00,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,Filter,12,29617.87,77800.66,38.07,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,HashAggregate,6,3122.54,77800.66,4.01,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,Project,11,47692.68,77800.66,61.30,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,Scan parquet,2,5.36,77800.66,0.01,False
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,Scan parquet,10,29612.51,77800.66,38.06,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,Sort,22,47692.68,77800.66,61.30,True
+spark-7dcb476d33694d94b7e67d2c22bdcf6d,2,SortMergeJoin,11,47692.68,77800.66,61.30,True

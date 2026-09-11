@@ -1,0 +1,2 @@
+,appName,appId,appDuration,scaleFactor,Duration,Duration_pred,Duration_supported,description,fraction_supported,appDuration_pred,speedup,wasPredicted
+0,Spark-ETL-v2,spark-7dcb476d33694d94b7e67d2c22bdcf6d,725520,1.0,707334,170334,707318,saveAsTable at NativeMethodAccessorImpl.java:0,0.9749119759257453,188520,3.848491499869798,True

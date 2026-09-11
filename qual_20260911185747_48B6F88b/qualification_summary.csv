@@ -1,0 +1,2 @@
+,Vendor,Driver Host,App Name,App ID,Estimated GPU Speedup,Estimated GPU Duration,App Duration,SQL Stage Durations Sum,Unsupported Operators Stage Duration,Unsupported Operators Stage Duration Percent,Total Core Seconds,Skip by Heuristics,Not Recommended Reason,Spark Runtime,Estimated GPU Speedup Category
+0,onprem,100.100.235.149,Spark-ETL-v9,spark-7d224fa9d1474d10b3caf43c15aa2104,1.00,3121968,3121968,20930852,1202829,5.75,2046093,False,GPU SpeedUp < Qualifying Threshold (More is qualified),SPARK,Not Recommended

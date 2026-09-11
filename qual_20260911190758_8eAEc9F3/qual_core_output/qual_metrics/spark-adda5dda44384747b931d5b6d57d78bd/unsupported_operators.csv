@@ -1,0 +1,60 @@
+SQL ID,Stage ID,ExecId,Unsupported Type,Unsupported Operator,Details,Stage Duration,App Duration,Action
+0,-1,0,Exec,"Execute CreateDataSourceTableAsSelectCommand","Unsupported",0,1083949,IgnorePerf
+1,819,1,Exec,"AdaptiveSparkPlan","Unsupported",5847,1083949,IgnoreNoPerf
+1,21,2,Exec,"ColumnarToRow","Unsupported",10941,1083949,IgnoreNoPerf
+1,0,2,Exec,"ColumnarToRow","Unsupported",161814,1083949,IgnoreNoPerf
+1,38,3,Exec,"ColumnarToRow","Unsupported",11745,1083949,IgnoreNoPerf
+1,1,3,Exec,"ColumnarToRow","Unsupported",164621,1083949,IgnoreNoPerf
+1,2,4,Exec,"ColumnarToRow","Unsupported",165417,1083949,IgnoreNoPerf
+1,40,4,Exec,"ColumnarToRow","Unsupported",12088,1083949,IgnoreNoPerf
+1,65,5,Exec,"ColumnarToRow","Unsupported",71662,1083949,IgnoreNoPerf
+1,3,5,Exec,"ColumnarToRow","Unsupported",167218,1083949,IgnoreNoPerf
+1,4,6,Exec,"ColumnarToRow","Unsupported",166505,1083949,IgnoreNoPerf
+1,5,7,Exec,"ColumnarToRow","Unsupported",161506,1083949,IgnoreNoPerf
+1,5,8,ReadExec,"Scan parquet","Unsupported IO format",161506,1083949,Triage
+1,27,9,Exec,"ColumnarToRow","Unsupported",10396,1083949,IgnoreNoPerf
+1,6,9,Exec,"ColumnarToRow","Unsupported",245834,1083949,IgnoreNoPerf
+1,23,10,Exec,"ColumnarToRow","Unsupported",12852,1083949,IgnoreNoPerf
+1,7,10,Exec,"ColumnarToRow","Unsupported",209771,1083949,IgnoreNoPerf
+1,8,11,Exec,"ColumnarToRow","Unsupported",210506,1083949,IgnoreNoPerf
+1,45,11,Exec,"ColumnarToRow","Unsupported",12342,1083949,IgnoreNoPerf
+1,9,12,Exec,"ColumnarToRow","Unsupported",211197,1083949,IgnoreNoPerf
+1,10,13,Exec,"ColumnarToRow","Unsupported",209917,1083949,IgnoreNoPerf
+1,11,14,Exec,"ColumnarToRow","Unsupported",205284,1083949,IgnoreNoPerf
+1,11,15,ReadExec,"Scan parquet","Unsupported IO format",205284,1083949,Triage
+1,25,16,Exec,"ColumnarToRow","Unsupported",10907,1083949,IgnoreNoPerf
+1,12,16,Exec,"ColumnarToRow","Unsupported",214646,1083949,IgnoreNoPerf
+1,13,17,Exec,"ColumnarToRow","Unsupported",215468,1083949,IgnoreNoPerf
+1,81,17,Exec,"ColumnarToRow","Unsupported",53155,1083949,IgnoreNoPerf
+1,35,18,Exec,"ColumnarToRow","Unsupported",10005,1083949,IgnoreNoPerf
+1,14,18,Exec,"ColumnarToRow","Unsupported",282283,1083949,IgnoreNoPerf
+1,15,19,Exec,"ColumnarToRow","Unsupported",240012,1083949,IgnoreNoPerf
+1,15,20,ReadExec,"Scan parquet","Unsupported IO format",240012,1083949,Triage
+1,31,21,Exec,"ColumnarToRow","Unsupported",11151,1083949,IgnoreNoPerf
+1,16,21,Exec,"ColumnarToRow","Unsupported",247896,1083949,IgnoreNoPerf
+1,17,22,Exec,"ColumnarToRow","Unsupported",289253,1083949,IgnoreNoPerf
+1,18,23,Exec,"ColumnarToRow","Unsupported",241044,1083949,IgnoreNoPerf
+1,18,24,ReadExec,"Scan parquet","Unsupported IO format",241044,1083949,Triage
+1,19,25,Exec,"ColumnarToRow","Unsupported",249397,1083949,IgnoreNoPerf
+2,1318,26,Exec,"AdaptiveSparkPlan","Unsupported",37,1083949,IgnoreNoPerf
+2,820,27,Exec,"ColumnarToRow","Unsupported",11818,1083949,IgnoreNoPerf
+2,821,28,Exec,"ColumnarToRow","Unsupported",7715,1083949,IgnoreNoPerf
+2,822,29,Exec,"ColumnarToRow","Unsupported",8384,1083949,IgnoreNoPerf
+2,823,30,Exec,"ColumnarToRow","Unsupported",9151,1083949,IgnoreNoPerf
+2,824,31,Exec,"ColumnarToRow","Unsupported",8701,1083949,IgnoreNoPerf
+2,825,32,Exec,"ColumnarToRow","Unsupported",8523,1083949,IgnoreNoPerf
+2,825,33,ReadExec,"Scan parquet","Unsupported IO format",8523,1083949,Triage
+2,826,34,Exec,"ColumnarToRow","Unsupported",17762,1083949,IgnoreNoPerf
+2,827,35,Exec,"ColumnarToRow","Unsupported",13638,1083949,IgnoreNoPerf
+2,828,36,Exec,"ColumnarToRow","Unsupported",14512,1083949,IgnoreNoPerf
+2,829,37,Exec,"ColumnarToRow","Unsupported",14001,1083949,IgnoreNoPerf
+2,830,38,Exec,"ColumnarToRow","Unsupported",13929,1083949,IgnoreNoPerf
+2,830,39,ReadExec,"Scan parquet","Unsupported IO format",13929,1083949,Triage
+2,831,40,Exec,"ColumnarToRow","Unsupported",15484,1083949,IgnoreNoPerf
+2,832,41,Exec,"ColumnarToRow","Unsupported",16253,1083949,IgnoreNoPerf
+2,833,42,Exec,"ColumnarToRow","Unsupported",14943,1083949,IgnoreNoPerf
+2,833,43,ReadExec,"Scan parquet","Unsupported IO format",14943,1083949,Triage
+2,834,44,Exec,"ColumnarToRow","Unsupported",16787,1083949,IgnoreNoPerf
+2,835,45,Exec,"ColumnarToRow","Unsupported",16954,1083949,IgnoreNoPerf
+2,836,46,Exec,"ColumnarToRow","Unsupported",16448,1083949,IgnoreNoPerf
+2,836,47,ReadExec,"Scan parquet","Unsupported IO format",16448,1083949,Triage

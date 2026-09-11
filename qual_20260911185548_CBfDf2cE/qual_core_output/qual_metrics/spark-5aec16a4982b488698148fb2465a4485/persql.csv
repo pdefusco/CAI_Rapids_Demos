@@ -1,0 +1,4 @@
+Root SQL ID,SQL ID,SQL Description,SQL DF Duration,GPU Opportunity
+"0",0,"saveAsTable at NativeMethodAccessorImpl.java:0",536356,536356
+"0",1,"saveAsTable at NativeMethodAccessorImpl.java:0",535101,535099
+"2",2,"count at NativeMethodAccessorImpl.java:0",92257,92256

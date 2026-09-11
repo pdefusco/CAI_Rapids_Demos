@@ -1,0 +1,72 @@
+### Recommended SPARK Configuration on GPU Cluster for App: spark-6760d3407a2b4ef88ec48a1ad1e868c3 ###
+
+Spark Properties:
+--conf spark.dynamicAllocation.maxExecutors=62
+--conf spark.executor.cores=16
+--conf spark.executor.instances=24
+--conf spark.executor.memory=[FILL_IN_VALUE]
+--conf spark.executor.memoryOverhead=[FILL_IN_VALUE]
+--conf spark.executor.resource.gpu.amount=1
+--conf spark.executor.resource.gpu.vendor=nvidia.com
+--conf spark.locality.wait=0
+--conf spark.plugins=com.nvidia.spark.SQLPlugin
+--conf spark.rapids.filecache.enabled=false
+--conf spark.rapids.memory.pinnedPool.size=[FILL_IN_VALUE]
+--conf spark.rapids.shuffle.multiThreaded.reader.threads=24
+--conf spark.rapids.shuffle.multiThreaded.writer.threads=24
+--conf spark.rapids.sql.batchSizeBytes=1g
+--conf spark.rapids.sql.concurrentGpuTasks=3
+--conf spark.rapids.sql.enabled=true
+--conf spark.rapids.sql.multiThreadedRead.numThreads=32
+--conf spark.sql.adaptive.autoBroadcastJoinThreshold=[FILL_IN_VALUE]
+--conf spark.sql.adaptive.coalescePartitions.initialPartitionNum=800
+--conf spark.sql.adaptive.coalescePartitions.minPartitionSize=4m
+--conf spark.sql.adaptive.coalescePartitions.parallelismFirst=false
+--conf spark.sql.files.maxPartitionBytes=4g
+--conf spark.sql.shuffle.partitions=800
+--conf spark.task.resource.gpu.amount=0.001
+
+Comments:
+- 'spark.executor.instances' was not set.
+- 'spark.executor.resource.gpu.amount' should be set to allow Spark to schedule GPU resources.
+- 'spark.executor.resource.gpu.vendor' was not set.
+- 'spark.plugins' should be set to the class name required for the RAPIDS Accelerator for Apache Spark.
+  Refer to: https://docs.nvidia.com/spark-rapids/user-guide/latest/getting-started/overview.html
+- 'spark.rapids.filecache.enabled' was not set.
+- 'spark.rapids.shuffle.multiThreaded.reader.threads' was not set.
+- 'spark.rapids.shuffle.multiThreaded.writer.threads' was not set.
+- 'spark.rapids.sql.batchSizeBytes' was not set.
+- 'spark.rapids.sql.concurrentGpuTasks' was not set.
+- 'spark.rapids.sql.enabled' was not set.
+- 'spark.rapids.sql.multiThreadedRead.numThreads' was not set.
+- 'spark.shuffle.manager' is not recommended because the Spark version on the GPU cluster is unknown during Qualification.
+- 'spark.sql.adaptive.autoBroadcastJoinThreshold' was not set.
+- 'spark.sql.adaptive.coalescePartitions.initialPartitionNum' was not set.
+- 'spark.sql.files.maxPartitionBytes' was not set.
+- 'spark.task.resource.gpu.amount' was not set.
+- Enable file cache only if Spark local disks bandwidth is > 1 GB/s and you have sufficient disk space available to fit both cache and normal Spark temporary data.
+- Not enough memory to set 'spark.executor.memory'. See comments for more details.
+- Not enough memory to set 'spark.executor.memoryOverhead'. See comments for more details.
+- Not enough memory to set 'spark.rapids.memory.pinnedPool.size'. See comments for more details.
+- RAPIDS Accelerator for Apache Spark plugin jar is missing
+  from the classpath entries.
+  If the Spark RAPIDS jar is being bundled with your
+  Spark distribution, this step is not needed.
+- The RAPIDS Shuffle Manager requires spark.driver.extraClassPath
+  and spark.executor.extraClassPath settings to include the
+  path to the Spark RAPIDS plugin jar.
+  If the Spark RAPIDS jar is being bundled with your Spark
+  distribution, this step is not needed.
+- This node/worker configuration is not ideal for using the RAPIDS Accelerator
+  for Apache Spark because it doesn't have enough memory for the executors.
+  We recommend either using nodes with more memory or reducing 'spark.memory.offHeap.size',
+  as off-heap memory is unused by the RAPIDS Accelerator, unless explicitly required by
+  the application. Need at least 40140 MB memory per executor.
+- To enable Spark to discover and schedule GPU resources, set the
+  'spark.executor.resource.gpu.discoveryScript' property according to cluster
+  manager's documentation. Sample discovery script is available at
+  '${SPARK_HOME}/examples/src/main/scripts/getGpusResources.sh'.
+- To include additional plugins for the GPU cluster, specify 'spark.plugins' in the
+  'sparkProperties.enforced' section in '--target_cluster_info'.
+- Tuned dynamic allocation properties (spark.dynamicAllocation.maxExecutors)
+  based on cores ratio (CPU: 4 cores, GPU: 16 cores).

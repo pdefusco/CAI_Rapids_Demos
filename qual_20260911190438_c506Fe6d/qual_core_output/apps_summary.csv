@@ -1,0 +1,2 @@
+App Name,App ID,Attempt ID,App Duration,Executor CPU Time Percent,SQL Ids with Failures,Unsupported Read File Formats and Types,Unsupported Write Data Format,Complex Types,Nested Complex Types,Potential Problems,Longest SQL Duration,SQL Stage Durations Sum,App Duration Estimated,Total Core Seconds
+"Spark-ETL-v6",spark-74d85928dcbb4e77a568949358c96aa9,1,758328,59.8,"2","Parquet[calendar]","","","","",602094,5084267,false,239813

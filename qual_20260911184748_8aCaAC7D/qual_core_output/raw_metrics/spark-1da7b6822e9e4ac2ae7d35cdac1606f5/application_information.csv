@@ -1,0 +1,2 @@
+appName,appId,attemptId,sparkUser,startTime,endTime,duration,durationStr,sparkRuntime,sparkVersion,pluginEnabled,totalCoreSeconds
+"Spark-ETL-v9","spark-1da7b6822e9e4ac2ae7d35cdac1606f5","1","pauldefusco",1789114255260,1789116575760,2320500,"39 min","SPARK","3.5.4.1.25.731.0-41",false,1681511

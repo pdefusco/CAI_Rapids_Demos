@@ -1,0 +1,3 @@
+appID,sqlID,input_bytesRead_sum,input_recordsRead_sum,output_bytesWritten_sum,output_recordsWritten_sum,diskBytesSpilled_sum,memoryBytesSpilled_sum,sr_totalBytesRead_sum,sw_bytesWritten_sum
+"spark-804ba8c1909c4004bb53641858a61004",1,4873138533,11200308370,1040690,30312,0,0,475632924720,582299837443
+"spark-804ba8c1909c4004bb53641858a61004",2,2176792472,5008011462,0,0,0,0,364537563352,305454141391

@@ -1,0 +1,25 @@
+App ID,SQL ID,Operator,Count,Stage Task Exec Duration(s),Total SQL Task Duration(s),% of Total SQL Task Duration,Supported
+spark-adda5dda44384747b931d5b6d57d78bd,1,AQEShuffleRead,79,31521.02,371271.85,8.49,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,AdaptiveSparkPlan,1,126.67,371271.85,0.03,False
+spark-adda5dda44384747b931d5b6d57d78bd,1,ColumnarToRow,31,17305.24,371271.85,4.66,False
+spark-adda5dda44384747b931d5b6d57d78bd,1,Exchange,92,367640.90,371271.85,99.02,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,Execute InsertIntoHadoopFsRelationCommand parquet,1,126.67,371271.85,0.03,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,Filter,31,17305.24,371271.85,4.66,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,HashAggregate,30,27298.98,371271.85,7.35,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,Project,80,353239.82,371271.85,95.14,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,Scan parquet,4,1.29,371271.85,0.00,False
+spark-adda5dda44384747b931d5b6d57d78bd,1,Scan parquet,27,17303.95,371271.85,4.66,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,Sort,161,353366.49,371271.85,95.18,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,SortMergeJoin,80,353239.82,371271.85,95.14,True
+spark-adda5dda44384747b931d5b6d57d78bd,1,WriteFiles,1,126.67,371271.85,0.03,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,AQEShuffleRead,52,16093.56,77738.82,20.70,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,AdaptiveSparkPlan,1,0.04,77738.82,0.00,False
+spark-adda5dda44384747b931d5b6d57d78bd,2,ColumnarToRow,17,11847.26,77738.82,15.24,False
+spark-adda5dda44384747b931d5b6d57d78bd,2,Exchange,70,77738.79,77738.82,100.00,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,Filter,17,11847.26,77738.82,15.24,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,HashAggregate,26,19223.45,77738.82,24.73,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,Project,52,65434.20,77738.82,84.17,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,Scan parquet,4,1.94,77738.82,0.00,False
+spark-adda5dda44384747b931d5b6d57d78bd,2,Scan parquet,13,11845.33,77738.82,15.24,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,Sort,104,65434.20,77738.82,84.17,True
+spark-adda5dda44384747b931d5b6d57d78bd,2,SortMergeJoin,52,65434.20,77738.82,84.17,True

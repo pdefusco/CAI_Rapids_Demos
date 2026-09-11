@@ -1,0 +1,5 @@
+,appName,appId,appDuration,sqlID,scaleFactor,Duration,description,y_pred,Duration_pred,Duration_supported,speedup_pred
+0,Spark-ETL-v4,spark-eece07b5af704cc8a9beb729b9aff2c8,578976,1,1,506628,saveAsTable at NativeMethodAccessorImpl.java:0,3.4870408,145294.233233841,506620.3952962916,3.4869105863590426
+1,Spark-ETL-v4,spark-eece07b5af704cc8a9beb729b9aff2c8,578976,3,1,14106,saveAsTable at NativeMethodAccessorImpl.java:0,3.1981027,4410.9116123059575,14105.750515529095,3.197978386292261
+2,Spark-ETL-v4,spark-eece07b5af704cc8a9beb729b9aff2c8,578976,4,1,666,count at NativeMethodAccessorImpl.java:0,4.0871778,162.95636522943263,665.9897541537645,4.086983647814631
+3,Spark-ETL-v4,spark-eece07b5af704cc8a9beb729b9aff2c8,578976,5,1,441,count at NativeMethodAccessorImpl.java:0,4.306,102.42129510469194,440.9920990465683,4.305745202198656

@@ -1,0 +1,29 @@
+App ID,SQL ID,Operator,Count,Stage Task Exec Duration(s),Total SQL Task Duration(s),% of Total SQL Task Duration,Supported
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,AQEShuffleRead,80,971.49,4730.52,20.54,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,AdaptiveSparkPlan,2,2.19,4730.52,0.05,False
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,ColumnarToRow,15,2794.97,4730.52,59.08,False
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Exchange,70,4575.90,4730.52,96.73,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Execute InsertIntoHadoopFsRelationCommand parquet,1,1.67,4730.52,0.04,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Filter,15,2794.97,4730.52,59.08,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,HashAggregate,38,1011.56,4730.52,21.38,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,ObjectHashAggregate,2,165.55,4730.52,3.50,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Project,58,2730.63,4730.52,57.72,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Scan parquet,2,0.51,4730.52,0.01,False
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Scan parquet,13,2794.47,4730.52,59.07,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Sort,99,1935.03,4730.52,40.91,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,SortMergeJoin,41,1208.16,4730.52,25.54,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,Subquery,1,173.99,4730.52,3.68,False
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,1,WriteFiles,1,1.67,4730.52,0.04,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,AQEShuffleRead,59,1473.02,4746.62,31.03,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,AdaptiveSparkPlan,2,2.00,4746.62,0.04,False
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,ColumnarToRow,14,2782.92,4746.62,58.63,False
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,Exchange,52,4744.63,4746.62,99.96,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,Filter,14,2782.92,4746.62,58.63,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,HashAggregate,22,963.09,4746.62,20.29,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,ObjectHashAggregate,2,303.21,4746.62,6.39,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,Project,36,4040.47,4746.62,85.12,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,Scan parquet,2,9.39,4746.62,0.20,False
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,Scan parquet,12,2773.53,4746.62,58.43,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,Sort,62,1875.46,4746.62,39.51,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,SortMergeJoin,30,1875.46,4746.62,39.51,True
+spark-6760d3407a2b4ef88ec48a1ad1e868c3,2,Subquery,1,182.26,4746.62,3.84,False

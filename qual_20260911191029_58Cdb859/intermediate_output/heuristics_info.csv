@@ -1,0 +1,2 @@
+App ID,Skip by Heuristics,Not Recommended Reason
+spark-f5a4e8e0a80d45dcb3d8700be511f1e6,False, Cannot apply heuristics for qualification. Reason - FileNotFoundError:[Errno 2] No such file or directory: '/home/cdsw/qual_20260911191029_58Cdb859/qual_core_output/raw_metrics/spark-f5a4e8e0a80d45dcb3d8700be511f1e6/stage_level_aggregated_task_metrics.csv'.

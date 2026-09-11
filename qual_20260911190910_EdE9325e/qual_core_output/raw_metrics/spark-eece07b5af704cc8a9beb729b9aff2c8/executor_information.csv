@@ -1,0 +1,2 @@
+resourceProfileId,numExecutors,executorCores,maxMem,maxOnHeapMem,maxOffHeapMem,executorMemory,numGpusPerExecutor,executorOffHeap,taskCpu,taskGpu
+0,12,4,9689785958,9689785958,0,16384,0,0,1.0,0.0
