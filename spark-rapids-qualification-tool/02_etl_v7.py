@@ -151,7 +151,7 @@ class BankingETLv7:
 
         transactions = (
             spark.table(
-                f"{self.database}.TRS_v10"
+                f"{self.database}.TRS_v25"
             )
             # Push the reduction into the fact-table scan. The benchmark
             # data generator uses a monotonically increasing transaction_id,
@@ -163,19 +163,19 @@ class BankingETLv7:
         )
 
         customers = spark.table(
-            f"{self.database}.CUSTOMERS"
+            f"{self.database}.CUSTOMERS_skewed"
         )
 
         accounts = spark.table(
-            f"{self.database}.ACCOUNTS"
+            f"{self.database}.ACCOUNTS_skewed"
         )
 
         merchants = spark.table(
-            f"{self.database}.MERCHANTS"
+            f"{self.database}.MERCHANTS_skewed"
         )
 
         branches = spark.table(
-            f"{self.database}.BRANCHES"
+            f"{self.database}.BRANCHES_skewed"
         )
 
         calendar = spark.table(

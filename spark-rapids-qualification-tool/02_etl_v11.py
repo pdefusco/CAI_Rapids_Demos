@@ -76,7 +76,7 @@ from pyspark.sql import functions as F
 
 DATABASE = "DEMO_pauldefusco"
 
-TRANSACTION_TABLE = f"{DATABASE}.TRS_v15"
+TRANSACTION_TABLE = f"{DATABASE}.TRS_v25"
 CUSTOMER_TABLE = f"{DATABASE}.CUSTOMERS_skewed"
 ACCOUNT_TABLE = f"{DATABASE}.ACCOUNTS_skewed"
 MERCHANT_TABLE = f"{DATABASE}.MERCHANTS_skewed"
@@ -99,7 +99,7 @@ SHUFFLE_PARTITIONS = 1000
 # ============================================================
 
 os.makedirs(
-    "/home/cdsw/spark-rapids-qualification-tool/spark-event-logs-dir",
+    "/home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs",
     exist_ok=True,
 )
 

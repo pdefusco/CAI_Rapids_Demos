@@ -46,13 +46,15 @@ class TransactionFactGenerator:
         self.database = database
 
     def createSparkConnection(self):
-        conn = cmldata.get_connection(self.connection_name)
-        spark = conn.get_spark_session()
         from pyspark import SparkContext
         SparkContext.setSystemProperty("spark.executor.cores", "5")
         SparkContext.setSystemProperty("spark.executor.memory", "20g")
         SparkContext.setSystemProperty("spark.driver.cores", "5")
         SparkContext.setSystemProperty("spark.driver.memory", "20g")
+
+        conn = cmldata.get_connection(self.connection_name)
+        spark = conn.get_spark_session()
+
         return spark
 
     def skewed_key(self, rate, fraction, cardinality, seed_hot, seed_cold):
@@ -66,7 +68,7 @@ class TransactionFactGenerator:
         ).cast("long")
         return F.when(hot, hot_id).otherwise(cold_id)
 
-    def generateTransactions(self, spark, rows=25000000):
+    def generateTransactions(self, spark, rows=2500000000):
         customers = 20000000
         accounts = 30000000
         merchants = 500000
@@ -215,10 +217,10 @@ class TransactionFactGenerator:
     def saveTable(self, df):
         # Preserve TRS_v14 as the v10 control dataset.
         df.write.mode("overwrite").saveAsTable(
-            f"{self.database}.TRS_v15"
+            f"{self.database}.TRS_v25"
         )
-        print(f"Transactions table created; rows: {df.count():,}")
-        df.show(10, False)
+        #print(f"Transactions table created; rows: {df.count():,}")
+        #df.show(10, False)
 
 
 def main():
@@ -226,7 +228,8 @@ def main():
     database = f"DEMO_{username}"
     generator = TransactionFactGenerator("se-aws-edl", database)
     spark = generator.createSparkConnection()
-    transactions = generator.generateTransactions(spark, rows=25000000)
+    print("https://spark-"+os.environ["CDSW_ENGINE_ID"]+"."+os.environ["CDSW_DOMAIN"])
+    transactions = generator.generateTransactions(spark, rows=2500000000)
     generator.saveTable(transactions)
 
 

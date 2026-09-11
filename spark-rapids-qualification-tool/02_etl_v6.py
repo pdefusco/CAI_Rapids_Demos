@@ -150,23 +150,23 @@ class BankingETLv6:
         ########################################################
 
         transactions = spark.table(
-            f"{self.database}.TRS_v10"
+            f"{self.database}.TRS_v25"
         )
 
         customers = spark.table(
-            f"{self.database}.CUSTOMERS"
+            f"{self.database}.CUSTOMERS_skewed"
         )
 
         accounts = spark.table(
-            f"{self.database}.ACCOUNTS"
+            f"{self.database}.ACCOUNTS_skewed"
         )
 
         merchants = spark.table(
-            f"{self.database}.MERCHANTS"
+            f"{self.database}.MERCHANTS_skewed"
         )
 
         branches = spark.table(
-            f"{self.database}.BRANCHES"
+            f"{self.database}.BRANCHES_skewed"
         )
 
         calendar = spark.table(

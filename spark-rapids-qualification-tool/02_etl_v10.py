@@ -56,7 +56,7 @@ DATABASE = "DEMO_pauldefusco"
 # These intentionally introduce controlled foreign-key skew so
 # joins, shuffles, aggregations, and downstream tasks experience
 # greater partition imbalance.
-TRANSACTION_TABLE = f"{DATABASE}.TRS_v14"
+TRANSACTION_TABLE = f"{DATABASE}.TRS_v25"
 CUSTOMER_TABLE = f"{DATABASE}.CUSTOMERS_skewed"
 ACCOUNT_TABLE = f"{DATABASE}.ACCOUNTS_skewed"
 MERCHANT_TABLE = f"{DATABASE}.MERCHANTS_skewed"
