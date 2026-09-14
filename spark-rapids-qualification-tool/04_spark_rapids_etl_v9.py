@@ -215,6 +215,11 @@ spark = (
 # level; skewed dims make the broadcast heuristic unreliable here.
 spark.conf.set("spark.sql.autoBroadcastJoinThreshold", -1)
 
+# Spark UI
+import os
+print("SPARK UI:\n")
+print("https://spark-"+os.environ["CDSW_ENGINE_ID"]+"."+os.environ["CDSW_DOMAIN"])
+
 # Wall-clock timer so this run can be compared to the CPU v9 run.
 # (05_compare_cpu_gpu.py is the natural place to record the delta.)
 _v9_gpu_start = time.time()
