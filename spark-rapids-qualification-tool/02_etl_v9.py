@@ -126,6 +126,10 @@ spark = (
 )
 
 
+import os
+print("SPARK UI:\n")
+print("https://spark-"+os.environ["CDSW_ENGINE_ID"]+"."+os.environ["CDSW_DOMAIN"])
+
 # ============================================================
 # Helper
 # ============================================================
