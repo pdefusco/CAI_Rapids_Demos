@@ -1,0 +1,8 @@
+propertyName,propertyValue
+"file.encoding","UTF-8"
+"java.version","1.8.0_452"
+"os.arch","amd64"
+"os.name","Linux"
+"os.version","6.12.103-127.188.amzn2023.x86_64"
+"sun.java.command","org.apache.spark.deploy.SparkSubmit --conf spark.executor.memory=16g --conf spark.driver.memory=4g --conf spark.driver.cores=4 --conf spark.eventLog.dir=file:///home/cdsw/spark-rapids-qualification-tool/spark-event-logs-dir --conf spark.app.name=Spark-ETL-v9 --conf spark.executor.cores=4 --conf spark.sql.shuffle.partitions=1000 --conf spark.kerberos.access.hadoopFileSystems=s3a://goes-se-sandbox/data --conf spark.dynamicAllocation.enabled=true pyspark-shell"
+"user.timezone","Etc/UTC"

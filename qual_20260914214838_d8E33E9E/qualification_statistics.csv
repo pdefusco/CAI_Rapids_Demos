@@ -1,0 +1,16 @@
+App ID,SQL ID,Operator,Count,Stage Task Exec Duration(s),Total SQL Task Duration(s),% of Total SQL Task Duration,Supported
+spark-94c75bfd78804baea75b0402d3ba224d,1,AQEShuffleRead,23,53240.60,342002.54,15.57,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,AdaptiveSparkPlan,1,12869.24,342002.54,3.76,False
+spark-94c75bfd78804baea75b0402d3ba224d,1,BroadcastExchange,18,1853.53,342002.54,0.54,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,BroadcastHashJoin,35,65284.48,342002.54,19.09,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,ColumnarToRow,38,30029.99,342002.54,8.78,False
+spark-94c75bfd78804baea75b0402d3ba224d,1,Exchange,53,306592.89,342002.54,89.65,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,Execute InsertIntoHadoopFsRelationCommand parquet,1,12869.24,342002.54,3.76,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,Filter,38,30029.99,342002.54,8.78,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,HashAggregate,24,90250.68,342002.54,26.39,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,Project,80,256387.24,342002.54,74.97,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,Scan parquet,5,1.58,342002.54,0.00,False
+spark-94c75bfd78804baea75b0402d3ba224d,1,Scan parquet,33,30028.41,342002.54,8.78,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,Sort,58,297831.81,342002.54,87.08,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,SortMergeJoin,24,230108.42,342002.54,67.28,True
+spark-94c75bfd78804baea75b0402d3ba224d,1,WriteFiles,1,12869.24,342002.54,3.76,True

@@ -68,7 +68,7 @@ class TransactionFactGenerator:
         ).cast("long")
         return F.when(hot, hot_id).otherwise(cold_id)
 
-    def generateTransactions(self, spark, rows=2500000000):
+    def generateTransactions(self, spark, rows=1000000000):
         customers = 20000000
         accounts = 30000000
         merchants = 500000
@@ -217,7 +217,7 @@ class TransactionFactGenerator:
     def saveTable(self, df):
         # Preserve TRS_v14 as the v10 control dataset.
         df.write.mode("overwrite").saveAsTable(
-            f"{self.database}.TRS_v25"
+            f"{self.database}.TRS_v26"
         )
         #print(f"Transactions table created; rows: {df.count():,}")
         #df.show(10, False)
@@ -229,7 +229,7 @@ def main():
     generator = TransactionFactGenerator("se-aws-edl", database)
     spark = generator.createSparkConnection()
     print("https://spark-"+os.environ["CDSW_ENGINE_ID"]+"."+os.environ["CDSW_DOMAIN"])
-    transactions = generator.generateTransactions(spark, rows=2500000000)
+    transactions = generator.generateTransactions(spark, rows=1000000000)
     generator.saveTable(transactions)
 
 

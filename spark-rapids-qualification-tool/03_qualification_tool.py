@@ -38,4 +38,4 @@
 #***************************************************************************/
 
 #!pip install spark-rapids-user-tools
-!spark_rapids qualification   --platform onprem   --eventlogs file:///home/cdsw/spark-rapids-qualification-tool/spark-rapids-logs/eventlog_v2_spark-1da7b6822e9e4ac2ae7d35cdac1606f5
+!spark_rapids qualification   --platform onprem   --eventlogs file:///home/cdsw/spark-rapids-qualification-tool/spark-event-logs-dir/eventlog_v2_spark-94c75bfd78804baea75b0402d3ba224d

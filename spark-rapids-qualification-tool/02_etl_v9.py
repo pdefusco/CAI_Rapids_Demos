@@ -51,7 +51,7 @@ from pyspark.sql import functions as F
 
 DATABASE = "DEMO_pauldefusco"
 
-TRANSACTION_TABLE = f"{DATABASE}.TRS_v25"
+TRANSACTION_TABLE = f"{DATABASE}.TRS_v26" # 1 B transactions
 CUSTOMER_TABLE = f"{DATABASE}.CUSTOMERS_skewed"
 ACCOUNT_TABLE = f"{DATABASE}.ACCOUNTS_skewed"
 MERCHANT_TABLE = f"{DATABASE}.MERCHANTS_skewed"
