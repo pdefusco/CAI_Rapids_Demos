@@ -125,7 +125,7 @@ spark = (
     # Tool suggested instances=63 / maxExecutors=62 (=63 GPUs).
     # Kept at 12 static executors for the CAI GPU capacity.
     .config("spark.dynamicAllocation.enabled", "false")
-    .config("spark.executor.instances", "12")
+    .config("spark.executor.instances", "63")         # tool recommendation
     .config("spark.executor.cores", "16")             # tool recommendation
     .config("spark.executor.memory", "16g")           # FILL_IN default
     .config("spark.executor.memoryOverhead", "3g")    # FILL_IN default

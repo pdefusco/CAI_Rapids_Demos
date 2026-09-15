@@ -1,0 +1,3 @@
+App ID,RootSqlID,sqlID,SQL Duration,Contains Dataset or RDD Op,App Duration,Potential Problems,Executor CPU Time Percent
+"spark-8ace695bbc8d45b4b1d58569539d94de",0,0,1096640,false,1120954,"null",null
+"spark-8ace695bbc8d45b4b1d58569539d94de",0,1,1094158,false,1120954,"null",38.49
