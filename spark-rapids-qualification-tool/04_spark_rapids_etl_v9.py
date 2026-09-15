@@ -153,9 +153,15 @@ spark = (
     )
     .config("spark.driver.extraClassPath",   RAPIDS_JAR_PATH)
     .config("spark.executor.extraClassPath", RAPIDS_JAR_PATH)
+    # CAI runtime is Spark 3.5.4, so the shim MUST match: the RAPIDS
+    # spark351 shim was compiled against Spark 3.5.1's
+    # IndexShuffleBlockResolver(SparkConf, BlockManager) constructor,
+    # which does not exist on 3.5.4 -- loading it there throws
+    # NoSuchMethodError at first shuffle. RAPIDS ships a matching
+    # spark354 shim (see NVIDIA/spark-rapids sql-plugin/src/main/spark354).
     .config(
         "spark.rapids.shims-provider-override",
-        "com.nvidia.spark.rapids.shims.spark351.SparkShimServiceProvider",
+        "com.nvidia.spark.rapids.shims.spark354.SparkShimServiceProvider",
     )
 
     # ------------------------------------------------------------
@@ -163,7 +169,7 @@ spark = (
     # ------------------------------------------------------------
     .config(
         "spark.shuffle.manager",
-        "com.nvidia.spark.rapids.spark351.RapidsShuffleManager",
+        "com.nvidia.spark.rapids.spark354.RapidsShuffleManager",
     )
     .config(
         "spark.kryo.registrator",
