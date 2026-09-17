@@ -5,8 +5,7 @@ Auto-discovers event logs under spark-event-logs-dir (the directory every
 ETL script here points spark.eventLog.dir at), profiles the two most
 recent ones with ../spark-log-profiler, and reports the speedup as a text
 summary -- optionally also saving a matplotlib bar chart. Run it after
-the CPU ETL script (02_etl_v3.py / 02_etl_v4.py) and its GPU counterpart
-(04_spark_rapids_etl.py / 04_spark_rapids_etl_v4.py) have both run.
+02_etl_cpu.py and its GPU counterpart 04_etl_gpu.py have both run.
 
 Usage:
   python3 05_compare_cpu_gpu.py                latest two runs, text summary

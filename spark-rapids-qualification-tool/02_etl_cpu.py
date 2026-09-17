@@ -8,7 +8,7 @@
 #***************************************************************************/
 #
 # ============================================================
-# v9_simple: legitimate subset of the v9 pipeline
+# CPU ETL: legitimate subset of the full v9 pipeline
 # ============================================================
 #
 # Purpose:
@@ -16,12 +16,12 @@
 #   enough to run to completion on the current CAI T4 GPU environment,
 #   while still exercising the join + column-math + aggregation shape
 #   that Spark-RAPIDS actually accelerates. This is the CPU baseline
-#   for that simplified pipeline; 04_spark_rapids_etl_v9_simple.py runs
-#   the SAME transformation on GPU. Both scripts must be compared
-#   against each other (NOT against the full v9), so the wall-clock
-#   comparison stays apples-to-apples.
+#   for that simplified pipeline; 04_etl_gpu.py runs the SAME
+#   transformation on GPU. Both scripts must be compared against each
+#   other (NOT against the full v9, which is kept under archive/), so
+#   the wall-clock comparison stays apples-to-apples.
 #
-# What is kept from v9:
+# What is kept from the full v9 (archive/02_etl_v9.py):
 #   - Same 5 source tables (fact + 4 skewed dims + calendar)
 #   - Same 5 LEFT joins to build the enriched fact
 #   - All ~10 analytical withColumn computations (risk factors,
@@ -29,7 +29,7 @@
 #   - Two aggregation branches: customer/month and merchant/quarter
 #   - Two saveAsTable terminal actions
 #
-# What is cut vs v9 (with reason):
+# What is cut vs the full v9 (with reason):
 #   - Fact filter narrowed to transaction_id < 500_000_000 (~4% of the
 #     original filtered scope) so wall-clock stays under the ~5-min
 #     pod-deletion window observed on this CAI environment.
@@ -42,7 +42,7 @@
 #     17 grouping columns with 50+ aggregates.
 #   - Global orderBy at the very end.
 #
-# Net: ~24 shuffle boundaries -> ~7. Data volume ~1B rows -> ~40M rows.
+# Net vs full v9: ~24 shuffle boundaries -> ~7. Data volume ~1B rows -> ~40M rows.
 # This is still a real ETL: fact-to-dim joins, heavy per-row analytics,
 # and two grouped aggregations that produce genuine business tables.
 # ============================================================
@@ -73,8 +73,9 @@ CALENDAR_TABLE = f"{DATABASE}.CALENDAR"
 OUTPUT_TABLE_CUSTOMER = f"{DATABASE}.ETL_V9_SIMPLE_CUSTOMER_MONTH"
 OUTPUT_TABLE_MERCHANT = f"{DATABASE}.ETL_V9_SIMPLE_MERCHANT_QUARTER"
 
-# Narrower fact filter than v9 (v9 uses < 12_500_000_000). This must
-# match the GPU-simple filter exactly for the comparison to be fair.
+# Narrower fact filter than the full v9 (archive/02_etl_v9.py uses
+# < 12_500_000_000). This must match the GPU filter in 04_etl_gpu.py
+# exactly for the comparison to be fair.
 FACT_ROW_ID_CEILING = 500_000_000
 
 EVENT_LOG_DIR = (
@@ -91,16 +92,16 @@ SHUFFLE_PARTITIONS = 1000
 # ============================================================
 # Spark Session (CPU)
 #
-# Identical to 02_etl_v9.py -- do not change without also changing
-# the GPU-simple builder. Only the RAPIDS-related configs differ
-# between CPU and GPU; the resource shape stays comparable.
+# Identical shape to archive/02_etl_v9.py -- do not change without also
+# changing the GPU builder in 04_etl_gpu.py. Only the RAPIDS-related
+# configs differ between CPU and GPU; the resource shape stays comparable.
 # ============================================================
 
 spark = (
     SparkSession.builder
 
     .appName(
-        "Spark-ETL-v9-simple"
+        "Spark-ETL-CPU"
     )
 
     .config(
@@ -170,7 +171,7 @@ def section(title):
 # Load Tables
 # ============================================================
 
-section("Loading source tables (v9_simple)")
+section("Loading source tables (CPU ETL)")
 
 transactions = (
     spark.table(TRANSACTION_TABLE)
@@ -657,7 +658,7 @@ _v9_simple_elapsed = time.time() - _v9_simple_start
 
 print()
 print("=" * 90)
-print("SPARK ETL V9_SIMPLE (CPU) COMPLETE")
+print("SPARK ETL (CPU) COMPLETE")
 print("=" * 90)
 print(f"Source transactions   : {TRANSACTION_TABLE}")
 print(f"Fact filter           : transaction_id < {FACT_ROW_ID_CEILING:,}")

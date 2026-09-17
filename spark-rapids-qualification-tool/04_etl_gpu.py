@@ -8,21 +8,21 @@
 #***************************************************************************/
 #
 # ============================================================
-# v9_simple GPU: RAPIDS version of 02_etl_v9_simple.py
+# GPU ETL: RAPIDS version of 02_etl_cpu.py
 # ============================================================
 #
 # The transformation logic below is BYTE-FOR-BYTE identical to
-# 02_etl_v9_simple.py. Only the SparkSession builder differs:
-# it applies the qualification-tool recommendations plus the
-# CAI-specific GPU plumbing needed for the RAPIDS Accelerator
-# plugin to actually load in this workspace.
+# 02_etl_cpu.py. Only the SparkSession builder differs: it applies
+# the qualification-tool recommendations plus the CAI-specific GPU
+# plumbing needed for the RAPIDS Accelerator plugin to actually
+# load in this workspace.
 #
-# See 02_etl_v9_simple.py header for the rationale on what was
-# kept and cut vs the full v9 pipeline.
+# See 02_etl_cpu.py header for the rationale on what was kept and
+# cut vs the full v9 pipeline (kept under archive/02_etl_v9.py).
 #
-# Compare wall-clock against 02_etl_v9_simple.py -- NOT against
-# 02_etl_v9.py -- because the fact filter and aggregation shape
-# are the same only between the two _simple scripts.
+# Compare wall-clock against 02_etl_cpu.py -- NOT against
+# archive/02_etl_v9.py -- because the fact filter and aggregation
+# shape only match between 02_etl_cpu.py and 04_etl_gpu.py.
 # ============================================================
 
 import os
@@ -51,12 +51,12 @@ MERCHANT_TABLE = f"{DATABASE}.MERCHANTS_skewed"
 BRANCH_TABLE = f"{DATABASE}.BRANCHES_skewed"
 CALENDAR_TABLE = f"{DATABASE}.CALENDAR"
 
-# Output tables suffixed with _GPU so CPU-simple and GPU-simple runs
-# can coexist and be compared without either clobbering the other.
+# Output tables suffixed with _GPU so CPU and GPU runs can coexist
+# and be compared without either clobbering the other.
 OUTPUT_TABLE_CUSTOMER = f"{DATABASE}.ETL_V9_SIMPLE_CUSTOMER_MONTH_GPU"
 OUTPUT_TABLE_MERCHANT = f"{DATABASE}.ETL_V9_SIMPLE_MERCHANT_QUARTER_GPU"
 
-# MUST match 02_etl_v9_simple.py exactly, or the wall-clock
+# MUST match 02_etl_cpu.py exactly, or the wall-clock
 # comparison is not apples-to-apples.
 FACT_ROW_ID_CEILING = 500_000_000
 
@@ -72,8 +72,8 @@ os.makedirs(EVENT_LOG_DIR_LOCAL, exist_ok=True)
 # ============================================================
 # Spark Session (GPU / RAPIDS)
 #
-# Session config carried from 04_spark_rapids_etl_v9.2.py (the
-# most recent known-good T4 loader): 8 static executors, network
+# Session config carried from archive/04_spark_rapids_etl_v9.2.py
+# (the most recent known-good T4 loader): 8 static executors, network
 # resilience configs raised, RAPIDS spark354 shim, RapidsShuffleManager,
 # discovery script. Simpler pipeline should keep wall-clock well
 # under the ~5-min pod-deletion window, so the network resilience
@@ -83,7 +83,7 @@ os.makedirs(EVENT_LOG_DIR_LOCAL, exist_ok=True)
 spark = (
     SparkSession.builder
 
-    .appName("Spark-Rapids-ETL-v9-simple")
+    .appName("Spark-Rapids-ETL-GPU")
 
     # ------------------------------------------------------------
     # Resources (constrained to CAI T4 GPU capacity)
@@ -217,7 +217,7 @@ def section(title):
 # Load Tables
 # ============================================================
 
-section("Loading source tables (v9_simple GPU)")
+section("Loading source tables (GPU ETL)")
 
 transactions = (
     spark.table(TRANSACTION_TABLE)
@@ -691,7 +691,7 @@ _v9_simple_gpu_total   = time.time() - t0
 
 print()
 print("=" * 90)
-print("SPARK RAPIDS ETL V9_SIMPLE (GPU) COMPLETE")
+print("SPARK RAPIDS ETL (GPU) COMPLETE")
 print("=" * 90)
 print(f"Source transactions   : {TRANSACTION_TABLE}")
 print(f"Fact filter           : transaction_id < {FACT_ROW_ID_CEILING:,}")
@@ -701,7 +701,7 @@ print(f"Shuffle partitions    : {SHUFFLE_PARTITIONS}")
 print(f"GPU wall-clock (ETL)  : {_v9_simple_gpu_elapsed:.1f}s")
 print(f"GPU wall-clock (total): {_v9_simple_gpu_total:.1f}s  (includes SparkSession startup)")
 print()
-print("Two terminal writes completed. Compare against 02_etl_v9_simple.py.")
+print("Two terminal writes completed. Compare against 02_etl_cpu.py.")
 print("=" * 90)
 
 
