@@ -174,6 +174,23 @@ spark = (
     .config("spark.locality.wait", "0")
 
     # ------------------------------------------------------------
+    # Broadcast joins for small dims
+    #
+    # Previously this was pinned to -1 (disabled) on the theory that
+    # skewed join keys make auto-broadcast unreliable. That reasoning
+    # applies to AQE's dynamic broadcast switch, not to static
+    # broadcast-by-size: for the four small dims (customers,
+    # merchants, branches, calendar), key skew on the FACT side is
+    # exactly what broadcast joins solve -- the fact never shuffles.
+    #
+    # 512m easily covers customers/merchants/branches/calendar and
+    # leaves account_dim (~1 GB) as a shuffle-hash join, which is
+    # the correct plan for a dim that large anyway. This eliminates
+    # 4 of the 5 join shuffles.
+    # ------------------------------------------------------------
+    .config("spark.sql.autoBroadcastJoinThreshold", "512m")
+
+    # ------------------------------------------------------------
     # Event log (comparable to CPU-simple)
     # ------------------------------------------------------------
     .config("spark.eventLog.enabled", "true")
@@ -189,9 +206,6 @@ spark = (
 
     .getOrCreate()
 )
-
-# Skewed dims make auto-broadcast heuristics unreliable here.
-spark.conf.set("spark.sql.autoBroadcastJoinThreshold", -1)
 
 # Spark UI
 print("SPARK UI:\n")
