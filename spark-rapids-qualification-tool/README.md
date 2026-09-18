@@ -143,3 +143,38 @@ After completing this workflow, you will have:
 - Measured the performance improvements achieved by enabling Spark RAPIDS
 
 This repository provides a practical introduction to evaluating and benchmarking Spark GPU acceleration using NVIDIA Spark RAPIDS.
+
+---
+
+# GPU Tuning Log (250M transactions, T4)
+
+Baseline (before any tuning): **CPU ≈ 300s, GPU ≈ 290s** — GPU was barely winning, indicating shuffle-bound behavior rather than a compute bottleneck.
+
+Each attempt below changes **only** SparkSession config on `04_etl_gpu.py`. ETL logic, data, and cluster shape are unchanged so wall-clocks stay comparable.
+
+| # | Config change | From → To | Why | GPU wall-clock (ETL) | Δ vs baseline | Commit |
+|---|---|---|---|---|---|---|
+| 0 | *baseline* | — | Config as-shipped in `t4 use case` commit | ~290s | — | `ceb336a` |
+| 1 | `spark.sql.autoBroadcastJoinThreshold` | `-1` → `512m` | Broadcasts customers/merchants/branches/calendar; eliminates 4 of 5 join shuffles. account_dim (~1 GB) stays as shuffle-hash join. |  |  | `68d6c37` |
+| 2 | `spark.sql.files.maxPartitionBytes` | `4g` → `1g` | 4 GB per input partition under-parallelizes the initial fact scan. 1 GB gives ~30–60 read partitions across 8 executors × 8 cores. |  |  |  |
+| 3 | `spark.rapids.sql.concurrentGpuTasks` | `2` → `3` | Standard T4 sweet spot at 12g executor + 4g pinned. Improves GPU utilization on the withColumn-heavy stage. |  |  |  |
+| 4 | `spark.rapids.memory.pinnedPool.size` | `2g` → `4g` | Faster host↔device transfers. Comes out of the 8g overhead, so no container change. |  |  |  |
+| 5 | `spark.task.resource.gpu.amount` | `0.125` → `0.25` | 8 task slots per executor competing for a GPU that only runs 3 concurrent tasks creates scheduler churn. 4 slots aligns better. |  |  |  |
+| 6 | *(new)* `spark.rapids.sql.reader.multithreaded.combine.sizeBytes` | (unset) → `32m` | Combines small parquet row groups on the fact read. Small but free win. |  |  |  |
+
+**How to fill this in:** run `04_etl_gpu.py` after each change, take the printed `GPU wall-clock (ETL)` line, and drop it in the row. `Δ vs baseline` = baseline − current (positive = faster).
+
+## Additional tunings to try after the six above
+
+Kept separate because each has a caveat — apply only if the first six leave headroom on the table.
+
+| Config change | From → To | Caveat |
+|---|---|---|
+| `spark.rapids.sql.hasNans` | (default `true`) → `false` | Speeds up float aggregations. Safe only if the data has no NaN — our synthetic generators don't produce any, so this is safe here. |
+| `spark.executor.memoryOverhead` + `spark.executor.memory` rebalance | `8g` + `12g` → `6g` + `14g` | Moves 2 GB back into the JVM heap for shuffle spill headroom. Only worth it if we see disk spill in the Spark UI. |
+| `spark.rapids.sql.batchSizeBytes` | `1g` → `512m` | If GPU OOMs or spills appear at concurrentGpuTasks=3, halve the batch size to trade throughput for headroom. |
+| `spark.rapids.filecache.enabled` | `false` → `true` | Only helps if the fact table is scanned more than once. Currently it isn't — leave off unless the ETL evolves. |
+| Drop `spark.sql.adaptive.coalescePartitions.initialPartitionNum` and `minPartitionSize` | remove both | Both are no-ops today because the ETL uses explicit `.repartition(SHUFFLE_PARTITIONS, keys)`, which locks partition count past AQE. Cosmetic cleanup once broadcast joins remove the AQE-visible join shuffles. |
+| `spark.rapids.sql.explain` | (unset) → `NOT_ON_GPU` | Diagnostic, not a tuning. Set once, read executor logs, confirm zero CPU fallbacks, then unset. |
+
+---
