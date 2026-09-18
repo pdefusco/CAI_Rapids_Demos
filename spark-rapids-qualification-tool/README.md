@@ -158,7 +158,7 @@ Each attempt below changes **only** SparkSession config. ETL logic, data, and cl
 |---|---|---|---|---|---|---|---|
 | 0 | *pre-tuning* | *baseline* | — | Config as-shipped in `t4 use case` commit | ~290s | — | `ceb336a` |
 | 1 | `04_etl_gpu_V1.py` | `spark.sql.autoBroadcastJoinThreshold` | `-1` → `512m` | Broadcasts customers/merchants/branches/calendar; eliminates 4 of 5 join shuffles. account_dim (~1 GB) stays as shuffle-hash join. | **151.8s** | **138.2s** | `68d6c37` |
-| 2 | `04_etl_gpu_V2.py` | `spark.sql.files.maxPartitionBytes` | `4g` → `1g` | 4 GB per input partition under-parallelizes the initial fact scan. 1 GB gives ~30–60 read partitions across 8 executors × 8 cores. |  |  |  |
+| 2 | `04_etl_gpu_V2.py` | `spark.sql.files.maxPartitionBytes` | `4g` → `1g` | 4 GB per input partition under-parallelizes the initial fact scan. 1 GB gives ~30–60 read partitions across 8 executors × 8 cores. | **128.2s** | **161.8s** |  |
 | 3 | `04_etl_gpu_V3.py` | `spark.rapids.sql.concurrentGpuTasks` | `2` → `3` | Standard T4 sweet spot at 12g executor + 4g pinned. Improves GPU utilization on the withColumn-heavy stage. |  |  |  |
 | 4 | `04_etl_gpu_V4.py` | `spark.rapids.memory.pinnedPool.size` | `2g` → `4g` | Faster host↔device transfers. Comes out of the 8g overhead, so no container change. |  |  |  |
 | 5 | `04_etl_gpu_V5.py` | `spark.task.resource.gpu.amount` | `0.125` → `0.25` | 8 task slots per executor competing for a GPU that only runs 3 concurrent tasks creates scheduler churn. 4 slots aligns better. |  |  |  |
