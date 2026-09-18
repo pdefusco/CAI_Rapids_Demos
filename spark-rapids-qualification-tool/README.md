@@ -54,6 +54,17 @@ These datasets provide enough scale to exercise Spark joins, aggregations, filte
 
 Classic star schema. `transactions` is the fact; the other five are dimensions the ETL joins onto it. Row counts are the values the generators write on a full run.
 
+| Table | Rows | Generator | Where the number lives |
+|---|--:|---|---|
+| `transactions` | 250,000,000 | [`01_generate_transactions_skewed.py`](01_generate_transactions_skewed.py) | `rows=250000000` (line 232) |
+| `accounts` | 4,000,000 | [`01_generate_accounts_skewed.py`](01_generate_accounts_skewed.py) | 2 rows per customer via `union` of `account_sequence=1` + `=2` (lines 37/42/44) |
+| `customers` | 2,000,000 | [`01_generate_customers_skewed.py`](01_generate_customers_skewed.py) | `rows=2000000` (line 109) |
+| `merchants` | 500,000 | [`01_generate_merchants_skewed.py`](01_generate_merchants_skewed.py) | `rows=500000` (line 120) |
+| `branches` | 5,000 | [`01_generate_branches_skewed.py`](01_generate_branches_skewed.py) | `rows=5000` (line 100) |
+| `calendar` | 731 | [`01_generate_calendar.py`](01_generate_calendar.py) | `start="2024-01-01"` → `end="2025-12-31"` inclusive, 366 (leap) + 365 (lines 73–74) |
+
+Total fact + dim rows: **~256.5M**, with 97.5% of the volume in `transactions`. This is what the CPU and GPU ETL runs are timed against.
+
 ```mermaid
 erDiagram
     TRANSACTIONS ||--o{ CUSTOMERS  : "customer_id"
