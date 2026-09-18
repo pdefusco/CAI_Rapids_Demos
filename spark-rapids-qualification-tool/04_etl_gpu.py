@@ -44,7 +44,7 @@ t0 = time.time()
 
 DATABASE = "DEMO_pauldefusco"
 
-TRANSACTION_TABLE = f"{DATABASE}.TRS_v26" # 1 B transactions, filtered below
+TRANSACTION_TABLE = f"{DATABASE}.TRS_250M" # 
 CUSTOMER_TABLE = f"{DATABASE}.CUSTOMERS_skewed"
 ACCOUNT_TABLE = f"{DATABASE}.ACCOUNTS_skewed"
 MERCHANT_TABLE = f"{DATABASE}.MERCHANTS_skewed"
