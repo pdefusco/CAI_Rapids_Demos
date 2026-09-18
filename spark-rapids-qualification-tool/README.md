@@ -266,6 +266,85 @@ This repository provides a practical introduction to evaluating and benchmarking
 
 ---
 
+# ETL Logic Walkthrough
+
+The CPU and GPU scripts (`02_etl_cpu.py` and `04_etl_gpu_Vx.py`) run the **same** transformation — only the SparkSession configs differ. Understanding the shape of that transformation is what explains why V1 and V2 delivered the entire ~2.3× speedup and V3–V5 did not.
+
+The pipeline is five stages, executed as two Spark DAGs (one per terminal write):
+
+## Stage 1 — Load and column-prune
+
+Six `spark.table()` reads, plus a filter on `transactions` (`transaction_id < 500,000,000`, ~500M rows out of the 250M-row fact table's ID range) and one `.select()` per dim to drop unused columns.
+
+**Cost:** I/O-bound on the fact table (~500M rows scanned from Parquet), essentially free for the dims. No shuffles. **This is what V2 tunes** — `spark.sql.files.maxPartitionBytes` 4g → 1g gave 4× more read partitions across the fact, so the 8 executors × 8 cores could parallelize the scan properly instead of a handful of tasks reading 4 GB chunks each.
+
+## Stage 2 — Five LEFT joins onto the fact
+
+```
+enriched = transactions
+  LEFT JOIN customers  ON t.customer_id     = c.customer_id
+  LEFT JOIN accounts   ON t.account_id      = a.account_id
+  LEFT JOIN merchants  ON t.merchant_id     = m.merchant_id
+  LEFT JOIN branches   ON t.branch_id       = b.branch_id
+  LEFT JOIN calendar   ON t.transaction_date = cal.calendar_date
+```
+
+**Cost:** this is the whole ball game on the baseline config. `LEFT` joins in Spark default to sort-merge or shuffle-hash join, which means **each of the five joins shuffles the fact table** — 500M rows redistributed across 1000 partitions, five times. With `_skewed` generators feeding hot keys into four of the five dims, the shuffles produce long-tail stragglers, and the wall-clock is dominated by the last few slow tasks per shuffle.
+
+**This is what V1 tunes** (the largest single win by far). Raising `spark.sql.autoBroadcastJoinThreshold` from `-1` (broadcasting disabled) to `512m` lets four of the five dims broadcast — `customers` (2M rows), `merchants` (500K), `branches` (5K), and `calendar` (731) all fit under the threshold and get replicated to every executor, converting their joins to **broadcast-hash joins with zero shuffle**. Only `accounts` (~1 GB, 4M rows) exceeds the threshold and stays as a shuffle-hash join. Net: **5 join shuffles → 1**, which is where the 290s → 152s cut came from.
+
+## Stage 3 — Per-row analytics via `withColumn`
+
+Twelve `.withColumn(...)` calls compute risk factors, exposures, weekend-risk, high-risk indicators, and a composite `analytical_score`. Every expression is a pure per-row calculation — `F.when(...)`, arithmetic, no cross-row references.
+
+**Cost:** column-wise compute over the 500M-row enriched fact. **No shuffles.** This is the stage that theoretically benefits most from GPU acceleration (SIMD-style column math is what RAPIDS is best at), but at ~500M rows it turns out not to be the bottleneck once the shuffles are handled — which is exactly why **V3 (concurrentGpuTasks 2 → 3) was a no-op** and why the V3+V4+V5 group didn't pay off. There's no meaningful compute headroom to unlock here.
+
+## Stage 4 — Two grouped aggregations (fan-out)
+
+The enriched-and-scored dataset is materialized as the input to two independent aggregation branches:
+
+**Branch A — `customer_month`:**
+```
+repartition(1000, customer_id, year, month, customer_segment)
+  → sortWithinPartitions(customer_id, year, month)
+  → groupBy(customer_id, customer_segment, income_band, risk_rating, year, month)
+  → agg(count, sum×5, avg, max, sum×3)   -- 10 aggregate expressions
+```
+
+**Branch B — `merchant_quarter`:**
+```
+repartition(1000, merchant_id, year, quarter)
+  → sortWithinPartitions(merchant_id, year, quarter)
+  → groupBy(merchant_id, txn_merchant_category, merchant_region, merchant_risk_level, merchant_size, year, quarter)
+  → agg(count, sum×5, avg×2, max)   -- 9 aggregate expressions
+```
+
+**Cost:** each branch triggers **one explicit shuffle** (the `.repartition(1000, keys)` locks the partition count and forces a hash-repartition regardless of AQE), then an in-partition sort, then a wide `groupBy` with 9–10 aggregate expressions. These two shuffles remain after V1 — they're not join shuffles the broadcast threshold can eliminate. This is why V1 didn't drop the wall-clock past ~152s: the two agg shuffles set a floor.
+
+**Note on AQE.** The two `spark.sql.adaptive.coalescePartitions.*` configs in the SparkSession builder are technically no-ops in this pipeline because the explicit `.repartition(1000, keys)` locks the partition count past AQE's coalesce logic. That's why the "Additional tunings" section lists dropping them as cosmetic cleanup, not a performance change.
+
+## Stage 5 — Two terminal `saveAsTable` writes
+
+Each branch writes to its own output table. Because the branches share no cached intermediate (there's no `.cache()` on `analytical_transactions`), **each write triggers a full DAG execution from the source Parquet up through its own aggregation**. That's the reason wall-clocks scale roughly linearly with the number of branch writes.
+
+The full v9 pipeline (kept in `archive/02_etl_v9.py`) has six branches and re-joins their outputs back to the fact — that shape is 24+ shuffle boundaries and is what motivated the simplified `_v9_simple` demo pipeline used here.
+
+## Where the time actually goes
+
+Rough decomposition of the ~290s baseline GPU wall-clock:
+
+| Stage | Approx share of baseline | What changes with tuning |
+|---|--:|---|
+| Fact-table Parquet scan | ~10% | V2 improves parallelism → ~5% |
+| 5 join shuffles (skewed keys) | **~55%** | V1 collapses to 1 shuffle → ~10% |
+| withColumn analytics | ~15% | Unchanged (GPU compute isn't the bottleneck) |
+| 2 agg-branch shuffles | ~15% | Unchanged |
+| 2 saveAsTable writes | ~5% | Unchanged |
+
+That's why V1 alone got us from 290s to 152s (removing 4 of 5 join shuffles), V2 got us from 152s to 128s (better read parallelism), and V3–V5 (GPU scheduling knobs) had no meaningful surface to attack — the remaining time is dominated by two agg shuffles and two writes, neither of which is a GPU-compute problem.
+
+---
+
 # GPU Tuning Log (250M transactions, T4)
 
 Baseline (before any tuning): **CPU ≈ 300s, GPU ≈ 290s** — GPU was barely winning, indicating shuffle-bound behavior rather than a compute bottleneck.
