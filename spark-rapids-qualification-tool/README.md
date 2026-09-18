@@ -50,6 +50,115 @@ Typical datasets include:
 
 These datasets provide enough scale to exercise Spark joins, aggregations, filters, and shuffle operations.
 
+### Schema
+
+Classic star schema. `transactions` is the fact; the other five are dimensions the ETL joins onto it. Row counts are the values the generators write on a full run.
+
+```mermaid
+erDiagram
+    TRANSACTIONS ||--o{ CUSTOMERS  : "customer_id"
+    TRANSACTIONS ||--o{ ACCOUNTS   : "account_id"
+    TRANSACTIONS ||--o{ MERCHANTS  : "merchant_id"
+    TRANSACTIONS ||--o{ BRANCHES   : "branch_id"
+    TRANSACTIONS ||--o{ CALENDAR   : "transaction_date = calendar_date"
+    ACCOUNTS     ||--o{ CUSTOMERS  : "customer_id"
+    ACCOUNTS     ||--o{ BRANCHES   : "branch_id"
+
+    TRANSACTIONS {
+        bigint  transaction_id PK
+        bigint  customer_id FK
+        bigint  account_id FK
+        bigint  merchant_id FK
+        bigint  branch_id FK
+        date    transaction_date FK
+        timestamp transaction_timestamp
+        string  merchant_category
+        double  transaction_amount
+        string  payment_channel
+        string  payment_type
+        string  device_type
+        int     fraud_flag
+        double  latitude
+        double  longitude
+        int     rows "250,000,000"
+    }
+
+    CUSTOMERS {
+        bigint  customer_id PK
+        int     age
+        int     credit_score
+        string  state
+        string  city
+        string  income_band
+        double  estimated_income
+        string  customer_segment
+        int     tenure_years
+        string  risk_rating
+        int     rows "2,000,000"
+    }
+
+    ACCOUNTS {
+        bigint  account_id PK
+        bigint  customer_id FK
+        bigint  branch_id FK
+        string  account_type
+        string  currency
+        string  account_status
+        int     opened_year
+        double  current_balance
+        double  credit_limit
+        double  interest_rate
+        int     rows "4,000,000"
+    }
+
+    MERCHANTS {
+        bigint  merchant_id PK
+        string  state
+        string  region
+        string  merchant_category
+        string  merchant_name
+        string  risk_level
+        double  annual_revenue
+        string  merchant_size
+        int     opened_year
+        boolean active
+        int     rows "500,000"
+    }
+
+    BRANCHES {
+        bigint  branch_id PK
+        string  branch_name
+        string  state
+        string  region
+        string  branch_type
+        int     employee_count
+        double  assets_under_management
+        double  annual_operating_cost
+        int     opened_year
+        bigint  manager_id
+        string  status
+        int     rows "5,000"
+    }
+
+    CALENDAR {
+        date    calendar_date PK
+        int     date_key
+        int     year
+        int     quarter
+        int     month
+        string  month_name
+        int     week_of_year
+        int     day_of_month
+        int     day_of_week
+        string  day_name
+        boolean is_weekend
+        boolean is_month_end
+        int     rows "731"
+    }
+```
+
+**Skew note.** The `_skewed` generators inject hot keys into the four large dimensions (customers/accounts/merchants/branches) so a small number of dim rows attract a disproportionate share of the fact rows. This is what makes `spark.sql.autoBroadcastJoinThreshold` (V1) so much more impactful than it would be on evenly-distributed data — sort-merge or shuffle-hash joins on skewed keys create long-tail stragglers, and broadcasting the small dims removes them entirely.
+
 ---
 
 ## Step 2 — Execute the ETL Workloads
